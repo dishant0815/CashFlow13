@@ -25,7 +25,7 @@ import {
   parseISO,
   toISO,
   addDays,
-} from "../lib/forecast.ts";
+} from "../lib/forecast";
 import type {
   CategorizedTransaction,
   WeekSnapshot,
