@@ -1,0 +1,80 @@
+{
+  "description": "Five hand-crafted cases. Each defines a deterministic stream of recurring transactions (history) plus the explicit cadence dictionary used to derive ground-truth weekly balances. The eval runner builds the projection two ways — (1) via the production lib/forecast.ts which has to *infer* cadence from date gaps, and (2) via the ground-truth dictionary — then reports per-week MAE, max error, and % of weeks within $200 of ground truth.",
+  "cases": [
+    {
+      "id": "case-01-rent-and-retainer",
+      "label": "Rent + monthly retainer (12 months)",
+      "today": "2026-04-26",
+      "starting_balance": 10000,
+      "threshold_dollars": 1000,
+      "ground_truth_streams": [
+        { "description": "RETAINER ACME", "amount": 5000, "cadence_days": 30, "first_date": "2025-04-30" },
+        { "description": "RENT WESTLAKE", "amount": -1000, "cadence_days": 30, "first_date": "2025-04-30" }
+      ]
+    },
+    {
+      "id": "case-02-biweekly-payroll",
+      "label": "Biweekly payroll only",
+      "today": "2026-04-26",
+      "starting_balance": 50000,
+      "threshold_dollars": 5000,
+      "ground_truth_streams": [
+        { "description": "GUSTO PAYROLL BIWEEKLY", "amount": -8000, "cadence_days": 14, "first_date": "2025-05-02" }
+      ]
+    },
+    {
+      "id": "case-03-quarterly-tax-plus-retainer",
+      "label": "Quarterly tax + monthly retainer",
+      "today": "2026-04-26",
+      "starting_balance": 20000,
+      "threshold_dollars": 2500,
+      "ground_truth_streams": [
+        { "description": "MEGA RETAINER", "amount": 12000, "cadence_days": 30, "first_date": "2025-05-01" },
+        { "description": "IRS QUARTERLY", "amount": -7500, "cadence_days": 91, "first_date": "2025-06-15" },
+        { "description": "RENT", "amount": -3500, "cadence_days": 30, "first_date": "2025-05-01" }
+      ]
+    },
+    {
+      "id": "case-04-multi-stream",
+      "label": "Multi-stream: rent + payroll + sub + retainer",
+      "today": "2026-04-26",
+      "starting_balance": 15000,
+      "threshold_dollars": 3000,
+      "ground_truth_streams": [
+        { "description": "BIG RETAINER", "amount": 18000, "cadence_days": 30, "first_date": "2025-05-01" },
+        { "description": "GUSTO PAYROLL", "amount": -7000, "cadence_days": 14, "first_date": "2025-05-08" },
+        { "description": "RENT", "amount": -4000, "cadence_days": 30, "first_date": "2025-05-01" },
+        { "description": "AWS BILL", "amount": -650, "cadence_days": 30, "first_date": "2025-05-08" }
+      ]
+    },
+    {
+      "id": "case-05-mixed-cadences",
+      "label": "Mixed cadences (weekly stripe + biweekly payroll + monthly bills + quarterly tax)",
+      "today": "2026-04-26",
+      "starting_balance": 25000,
+      "threshold_dollars": 5000,
+      "ground_truth_streams": [
+        { "description": "STRIPE PAYOUT", "amount": 2200, "cadence_days": 7, "first_date": "2025-04-30" },
+        { "description": "GUSTO PAYROLL", "amount": -9500, "cadence_days": 14, "first_date": "2025-05-02" },
+        { "description": "MONTHLY RETAINER ALPHA", "amount": 14000, "cadence_days": 30, "first_date": "2025-05-01" },
+        { "description": "RENT", "amount": -5500, "cadence_days": 30, "first_date": "2025-05-01" },
+        { "description": "ANTHEM HEALTH", "amount": -3500, "cadence_days": 30, "first_date": "2025-05-02" },
+        { "description": "IRS QUARTERLY", "amount": -8500, "cadence_days": 91, "first_date": "2025-06-15" }
+      ]
+    },
+    {
+      "id": "case-06-calendar-anchored-tax-HARD",
+      "label": "Calendar-anchored IRS dates (Apr 15 / Jun 15 / Sep 15 / Jan 15) — known weakness",
+      "note": "This case intentionally exposes the limitation called out in CASE_STUDY: cadence is inferred as median gap (~91d) but the real obligation is calendar-anchored to the 15th of Apr/Jun/Sep/Jan. The engine projects the next IRS payment 91 days after Apr 15 (~Jul 15), but the real next payment is Jun 15. Two weeks of the forecast horizon are off by the full $8,500 tax amount.",
+      "today": "2026-04-26",
+      "starting_balance": 25000,
+      "threshold_dollars": 5000,
+      "ground_truth_streams": [
+        { "description": "MONTHLY RETAINER", "amount": 14000, "cadence_days": 30, "first_date": "2025-05-01" },
+        { "description": "RENT", "amount": -4500, "cadence_days": 30, "first_date": "2025-05-01" },
+        { "description": "GUSTO PAYROLL", "amount": -7000, "cadence_days": 14, "first_date": "2025-05-02" },
+        { "description": "IRS QUARTERLY (calendar)", "amount": -8500, "cadence_days_irregular": [61, 92, 121, 91], "first_date": "2025-06-15", "explicit_dates": ["2025-06-15", "2025-09-15", "2026-01-15", "2026-04-15"] }
+      ]
+    }
+  ]
+}

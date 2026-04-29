@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+build/
+
+# all env files EXCEPT the example template
+.env*
+!.env.example
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# typescript / build artifacts
+*.tsbuildinfo
+next-env.d.ts
+
+# secrets, certs, vercel
+*.pem
+.vercel

@@ -1,0 +1,3372 @@
+{
+  "meta": {
+    "id": "tax-crisis",
+    "label": "Tax Crisis",
+    "description": "Mariner Builders — small construction firm. Healthy ops cash, but a massive $42K Q1 federal true-up lands mid-forecast and hollows out the runway.",
+    "business_name": "Mariner Builders LLC",
+    "bank_account_mask": "*** 6034 (Wells Fargo Business)",
+    "starting_balance": 22400,
+    "today": "2026-04-26",
+    "threshold_dollars": 10000,
+    "generated_at": "2026-04-28T13:40:37.171Z"
+  },
+  "transactions": [
+    {
+      "id": "txn_tax-crisis_00001",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00001",
+      "date": "2025-05-01",
+      "amount": -5400,
+      "description": "INDUSTRIAL PARK YARD RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_tax-crisis_00002",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00002",
+      "date": "2025-05-01",
+      "amount": 4204.77,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00003",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00003",
+      "date": "2025-05-02",
+      "amount": -3900,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00004",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00004",
+      "date": "2025-05-05",
+      "amount": -3650,
+      "description": "EQUIPMENT FINANCING PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00005",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00005",
+      "date": "2025-05-06",
+      "amount": -780,
+      "description": "VEHICLE LEASE FORD F-250",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00006",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00006",
+      "date": "2025-05-08",
+      "amount": 18000.12,
+      "description": "HARBOR DEVELOPMENT MILESTONE",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00007",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00007",
+      "date": "2025-05-08",
+      "amount": 4195.93,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00008",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00008",
+      "date": "2025-05-09",
+      "amount": -420,
+      "description": "VERIZON BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00009",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00009",
+      "date": "2025-05-09",
+      "amount": -14800.21,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00010",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00010",
+      "date": "2025-05-11",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00011",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00011",
+      "date": "2025-05-14",
+      "amount": -610,
+      "description": "HISCOX GENERAL LIABILITY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00012",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00012",
+      "date": "2025-05-15",
+      "amount": 4195.54,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00013",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00013",
+      "date": "2025-05-19",
+      "amount": -380,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00014",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00014",
+      "date": "2025-05-22",
+      "amount": 14500.03,
+      "description": "PIER 9 PROGRESS DRAW",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00015",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00015",
+      "date": "2025-05-22",
+      "amount": 4203.45,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00016",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00016",
+      "date": "2025-05-23",
+      "amount": -14800.23,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00017",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00017",
+      "date": "2025-05-25",
+      "amount": -1240,
+      "description": "FUEL CARD WEX",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00018",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00018",
+      "date": "2025-05-29",
+      "amount": 4200.75,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00019",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00019",
+      "date": "2025-06-01",
+      "amount": -5400,
+      "description": "INDUSTRIAL PARK YARD RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_tax-crisis_00020",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00020",
+      "date": "2025-06-01",
+      "amount": -1200,
+      "description": "STATE FRANCHISE TAX",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_tax-crisis_00021",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00021",
+      "date": "2025-06-02",
+      "amount": -3900,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00022",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00022",
+      "date": "2025-06-05",
+      "amount": -3650,
+      "description": "EQUIPMENT FINANCING PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00023",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00023",
+      "date": "2025-06-05",
+      "amount": 4195.64,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00024",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00024",
+      "date": "2025-06-06",
+      "amount": -780,
+      "description": "VEHICLE LEASE FORD F-250",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00025",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00025",
+      "date": "2025-06-06",
+      "amount": -14800.03,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00026",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00026",
+      "date": "2025-06-08",
+      "amount": 18000.16,
+      "description": "HARBOR DEVELOPMENT MILESTONE",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00027",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00027",
+      "date": "2025-06-09",
+      "amount": -420,
+      "description": "VERIZON BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00028",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00028",
+      "date": "2025-06-11",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00029",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00029",
+      "date": "2025-06-12",
+      "amount": 4197.12,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00030",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00030",
+      "date": "2025-06-14",
+      "amount": -610,
+      "description": "HISCOX GENERAL LIABILITY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00031",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00031",
+      "date": "2025-06-15",
+      "amount": -42000,
+      "description": "IRS USATAXPYMT EST Q",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_tax-crisis_00032",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00032",
+      "date": "2025-06-19",
+      "amount": -380,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00033",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00033",
+      "date": "2025-06-19",
+      "amount": 4204.25,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00034",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00034",
+      "date": "2025-06-20",
+      "amount": -14800.3,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00035",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00035",
+      "date": "2025-06-22",
+      "amount": 14499.97,
+      "description": "PIER 9 PROGRESS DRAW",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00036",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00036",
+      "date": "2025-06-25",
+      "amount": -1240,
+      "description": "FUEL CARD WEX",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00037",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00037",
+      "date": "2025-06-26",
+      "amount": 4198.97,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00038",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00038",
+      "date": "2025-07-01",
+      "amount": -5400,
+      "description": "INDUSTRIAL PARK YARD RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_tax-crisis_00039",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00039",
+      "date": "2025-07-02",
+      "amount": -3900,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00040",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00040",
+      "date": "2025-07-03",
+      "amount": 4200.14,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00041",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00041",
+      "date": "2025-07-04",
+      "amount": -14799.89,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00042",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00042",
+      "date": "2025-07-05",
+      "amount": -3650,
+      "description": "EQUIPMENT FINANCING PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00043",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00043",
+      "date": "2025-07-06",
+      "amount": -780,
+      "description": "VEHICLE LEASE FORD F-250",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00044",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00044",
+      "date": "2025-07-08",
+      "amount": 18000.14,
+      "description": "HARBOR DEVELOPMENT MILESTONE",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00045",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00045",
+      "date": "2025-07-09",
+      "amount": -420,
+      "description": "VERIZON BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00046",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00046",
+      "date": "2025-07-10",
+      "amount": 4197.91,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00047",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00047",
+      "date": "2025-07-11",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00048",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00048",
+      "date": "2025-07-14",
+      "amount": -610,
+      "description": "HISCOX GENERAL LIABILITY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00049",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00049",
+      "date": "2025-07-17",
+      "amount": 4194.71,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00050",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00050",
+      "date": "2025-07-18",
+      "amount": -14800.28,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00051",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00051",
+      "date": "2025-07-18",
+      "amount": 28500,
+      "description": "PRIME CONTRACTOR PAYMENT",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00052",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00052",
+      "date": "2025-07-19",
+      "amount": -380,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00053",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00053",
+      "date": "2025-07-22",
+      "amount": 14499.92,
+      "description": "PIER 9 PROGRESS DRAW",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00054",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00054",
+      "date": "2025-07-24",
+      "amount": 4200.23,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00055",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00055",
+      "date": "2025-07-25",
+      "amount": -1240,
+      "description": "FUEL CARD WEX",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00056",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00056",
+      "date": "2025-07-31",
+      "amount": 4199.19,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00057",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00057",
+      "date": "2025-08-01",
+      "amount": -5400,
+      "description": "INDUSTRIAL PARK YARD RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_tax-crisis_00058",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00058",
+      "date": "2025-08-01",
+      "amount": -14799.82,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00059",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00059",
+      "date": "2025-08-02",
+      "amount": -3900,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00060",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00060",
+      "date": "2025-08-05",
+      "amount": -3650,
+      "description": "EQUIPMENT FINANCING PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00061",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00061",
+      "date": "2025-08-06",
+      "amount": -780,
+      "description": "VEHICLE LEASE FORD F-250",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00062",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00062",
+      "date": "2025-08-07",
+      "amount": 4204.51,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00063",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00063",
+      "date": "2025-08-08",
+      "amount": 18000.05,
+      "description": "HARBOR DEVELOPMENT MILESTONE",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00064",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00064",
+      "date": "2025-08-09",
+      "amount": -420,
+      "description": "VERIZON BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00065",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00065",
+      "date": "2025-08-11",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00066",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00066",
+      "date": "2025-08-12",
+      "amount": -9400,
+      "description": "WORKERS COMP ANNUAL PREMIUM",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00067",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00067",
+      "date": "2025-08-14",
+      "amount": -610,
+      "description": "HISCOX GENERAL LIABILITY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00068",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00068",
+      "date": "2025-08-14",
+      "amount": 4205.83,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00069",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00069",
+      "date": "2025-08-15",
+      "amount": -14799.85,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00070",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00070",
+      "date": "2025-08-19",
+      "amount": -380,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00071",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00071",
+      "date": "2025-08-21",
+      "amount": 4195.78,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00072",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00072",
+      "date": "2025-08-22",
+      "amount": 14499.94,
+      "description": "PIER 9 PROGRESS DRAW",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00073",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00073",
+      "date": "2025-08-25",
+      "amount": -1240,
+      "description": "FUEL CARD WEX",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00074",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00074",
+      "date": "2025-08-28",
+      "amount": 4196.54,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00075",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00075",
+      "date": "2025-08-29",
+      "amount": -14800.23,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00076",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00076",
+      "date": "2025-09-01",
+      "amount": -5400,
+      "description": "INDUSTRIAL PARK YARD RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_tax-crisis_00077",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00077",
+      "date": "2025-09-01",
+      "amount": -1200,
+      "description": "STATE FRANCHISE TAX",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_tax-crisis_00078",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00078",
+      "date": "2025-09-02",
+      "amount": -3900,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00079",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00079",
+      "date": "2025-09-04",
+      "amount": 4203.32,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00080",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00080",
+      "date": "2025-09-05",
+      "amount": -3650,
+      "description": "EQUIPMENT FINANCING PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00081",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00081",
+      "date": "2025-09-06",
+      "amount": -780,
+      "description": "VEHICLE LEASE FORD F-250",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00082",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00082",
+      "date": "2025-09-08",
+      "amount": 17999.92,
+      "description": "HARBOR DEVELOPMENT MILESTONE",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00083",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00083",
+      "date": "2025-09-09",
+      "amount": -420,
+      "description": "VERIZON BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00084",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00084",
+      "date": "2025-09-11",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00085",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00085",
+      "date": "2025-09-11",
+      "amount": 4202.65,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00086",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00086",
+      "date": "2025-09-12",
+      "amount": -14799.7,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00087",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00087",
+      "date": "2025-09-14",
+      "amount": -610,
+      "description": "HISCOX GENERAL LIABILITY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00088",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00088",
+      "date": "2025-09-15",
+      "amount": -42000,
+      "description": "IRS USATAXPYMT EST Q",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_tax-crisis_00089",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00089",
+      "date": "2025-09-18",
+      "amount": 4201.41,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00090",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00090",
+      "date": "2025-09-19",
+      "amount": -380,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00091",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00091",
+      "date": "2025-09-22",
+      "amount": 14499.9,
+      "description": "PIER 9 PROGRESS DRAW",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00092",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00092",
+      "date": "2025-09-25",
+      "amount": -1240,
+      "description": "FUEL CARD WEX",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00093",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00093",
+      "date": "2025-09-25",
+      "amount": 4198.98,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00094",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00094",
+      "date": "2025-09-26",
+      "amount": -14799.81,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00095",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00095",
+      "date": "2025-09-29",
+      "amount": -14600,
+      "description": "STEEL ORDER LEHMANN METALS",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00096",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00096",
+      "date": "2025-10-01",
+      "amount": -5400,
+      "description": "INDUSTRIAL PARK YARD RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_tax-crisis_00097",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00097",
+      "date": "2025-10-02",
+      "amount": -3900,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00098",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00098",
+      "date": "2025-10-02",
+      "amount": 4206.01,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00099",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00099",
+      "date": "2025-10-05",
+      "amount": -3650,
+      "description": "EQUIPMENT FINANCING PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00100",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00100",
+      "date": "2025-10-06",
+      "amount": -780,
+      "description": "VEHICLE LEASE FORD F-250",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00101",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00101",
+      "date": "2025-10-08",
+      "amount": 17999.9,
+      "description": "HARBOR DEVELOPMENT MILESTONE",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00102",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00102",
+      "date": "2025-10-09",
+      "amount": -420,
+      "description": "VERIZON BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00103",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00103",
+      "date": "2025-10-09",
+      "amount": 4198.17,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00104",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00104",
+      "date": "2025-10-10",
+      "amount": -14799.79,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00105",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00105",
+      "date": "2025-10-11",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00106",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00106",
+      "date": "2025-10-14",
+      "amount": -610,
+      "description": "HISCOX GENERAL LIABILITY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00107",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00107",
+      "date": "2025-10-16",
+      "amount": 4205.16,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00108",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00108",
+      "date": "2025-10-19",
+      "amount": -380,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00109",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00109",
+      "date": "2025-10-22",
+      "amount": 14500.01,
+      "description": "PIER 9 PROGRESS DRAW",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00110",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00110",
+      "date": "2025-10-23",
+      "amount": 4200.03,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00111",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00111",
+      "date": "2025-10-24",
+      "amount": -14799.77,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00112",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00112",
+      "date": "2025-10-25",
+      "amount": -1240,
+      "description": "FUEL CARD WEX",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00113",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00113",
+      "date": "2025-10-30",
+      "amount": 4201.58,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00114",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00114",
+      "date": "2025-11-01",
+      "amount": -5400,
+      "description": "INDUSTRIAL PARK YARD RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_tax-crisis_00115",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00115",
+      "date": "2025-11-02",
+      "amount": -3900,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00116",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00116",
+      "date": "2025-11-04",
+      "amount": 41000,
+      "description": "BAYSIDE OFFICE BUILD INV-1102",
+      "category": "customer_payment",
+      "is_recurring": false,
+      "confidence": 0.86
+    },
+    {
+      "id": "txn_tax-crisis_00117",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00117",
+      "date": "2025-11-05",
+      "amount": -3650,
+      "description": "EQUIPMENT FINANCING PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00118",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00118",
+      "date": "2025-11-06",
+      "amount": -780,
+      "description": "VEHICLE LEASE FORD F-250",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00119",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00119",
+      "date": "2025-11-06",
+      "amount": 4196.6,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00120",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00120",
+      "date": "2025-11-07",
+      "amount": -14800.11,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00121",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00121",
+      "date": "2025-11-08",
+      "amount": 17999.81,
+      "description": "HARBOR DEVELOPMENT MILESTONE",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00122",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00122",
+      "date": "2025-11-09",
+      "amount": -420,
+      "description": "VERIZON BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00123",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00123",
+      "date": "2025-11-11",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00124",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00124",
+      "date": "2025-11-13",
+      "amount": 4204.53,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00125",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00125",
+      "date": "2025-11-14",
+      "amount": -610,
+      "description": "HISCOX GENERAL LIABILITY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00126",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00126",
+      "date": "2025-11-19",
+      "amount": -380,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00127",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00127",
+      "date": "2025-11-20",
+      "amount": 4200.18,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00128",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00128",
+      "date": "2025-11-21",
+      "amount": -14799.77,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00129",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00129",
+      "date": "2025-11-22",
+      "amount": 14500.14,
+      "description": "PIER 9 PROGRESS DRAW",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00130",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00130",
+      "date": "2025-11-25",
+      "amount": -1240,
+      "description": "FUEL CARD WEX",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00131",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00131",
+      "date": "2025-11-27",
+      "amount": 4199.69,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00132",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00132",
+      "date": "2025-12-01",
+      "amount": -5400,
+      "description": "INDUSTRIAL PARK YARD RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_tax-crisis_00133",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00133",
+      "date": "2025-12-01",
+      "amount": -1200,
+      "description": "STATE FRANCHISE TAX",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_tax-crisis_00134",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00134",
+      "date": "2025-12-02",
+      "amount": -3900,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00135",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00135",
+      "date": "2025-12-04",
+      "amount": 4202.36,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00136",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00136",
+      "date": "2025-12-05",
+      "amount": -3650,
+      "description": "EQUIPMENT FINANCING PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00137",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00137",
+      "date": "2025-12-05",
+      "amount": -14799.85,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00138",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00138",
+      "date": "2025-12-06",
+      "amount": -780,
+      "description": "VEHICLE LEASE FORD F-250",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00139",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00139",
+      "date": "2025-12-08",
+      "amount": 17999.93,
+      "description": "HARBOR DEVELOPMENT MILESTONE",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00140",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00140",
+      "date": "2025-12-09",
+      "amount": -420,
+      "description": "VERIZON BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00141",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00141",
+      "date": "2025-12-11",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00142",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00142",
+      "date": "2025-12-11",
+      "amount": 4197.55,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00143",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00143",
+      "date": "2025-12-14",
+      "amount": -610,
+      "description": "HISCOX GENERAL LIABILITY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00144",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00144",
+      "date": "2025-12-18",
+      "amount": 4204.6,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00145",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00145",
+      "date": "2025-12-19",
+      "amount": -380,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00146",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00146",
+      "date": "2025-12-19",
+      "amount": -14800.01,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00147",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00147",
+      "date": "2025-12-22",
+      "amount": 14499.98,
+      "description": "PIER 9 PROGRESS DRAW",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00148",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00148",
+      "date": "2025-12-25",
+      "amount": -1240,
+      "description": "FUEL CARD WEX",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00149",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00149",
+      "date": "2025-12-25",
+      "amount": 4193.74,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00150",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00150",
+      "date": "2026-01-01",
+      "amount": -5400,
+      "description": "INDUSTRIAL PARK YARD RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_tax-crisis_00151",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00151",
+      "date": "2026-01-01",
+      "amount": 4198.22,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00152",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00152",
+      "date": "2026-01-02",
+      "amount": -3900,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00153",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00153",
+      "date": "2026-01-02",
+      "amount": -14800.13,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00154",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00154",
+      "date": "2026-01-05",
+      "amount": -3650,
+      "description": "EQUIPMENT FINANCING PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00155",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00155",
+      "date": "2026-01-06",
+      "amount": -780,
+      "description": "VEHICLE LEASE FORD F-250",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00156",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00156",
+      "date": "2026-01-08",
+      "amount": 18000.13,
+      "description": "HARBOR DEVELOPMENT MILESTONE",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00157",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00157",
+      "date": "2026-01-08",
+      "amount": 4194.37,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00158",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00158",
+      "date": "2026-01-09",
+      "amount": -420,
+      "description": "VERIZON BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00159",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00159",
+      "date": "2026-01-11",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00160",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00160",
+      "date": "2026-01-14",
+      "amount": -610,
+      "description": "HISCOX GENERAL LIABILITY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00161",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00161",
+      "date": "2026-01-15",
+      "amount": 4196.37,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00162",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00162",
+      "date": "2026-01-15",
+      "amount": -42000,
+      "description": "IRS USATAXPYMT EST Q",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_tax-crisis_00163",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00163",
+      "date": "2026-01-16",
+      "amount": -14799.76,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00164",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00164",
+      "date": "2026-01-19",
+      "amount": -380,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00165",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00165",
+      "date": "2026-01-20",
+      "amount": -8300,
+      "description": "CONCRETE SUPPLIER ALPINE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_tax-crisis_00166",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00166",
+      "date": "2026-01-22",
+      "amount": 14500.04,
+      "description": "PIER 9 PROGRESS DRAW",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00167",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00167",
+      "date": "2026-01-22",
+      "amount": 4196.32,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00168",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00168",
+      "date": "2026-01-25",
+      "amount": -1240,
+      "description": "FUEL CARD WEX",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00169",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00169",
+      "date": "2026-01-29",
+      "amount": 4193.75,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00170",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00170",
+      "date": "2026-01-30",
+      "amount": -14799.87,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00171",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00171",
+      "date": "2026-02-01",
+      "amount": -5400,
+      "description": "INDUSTRIAL PARK YARD RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_tax-crisis_00172",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00172",
+      "date": "2026-02-02",
+      "amount": -3900,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00173",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00173",
+      "date": "2026-02-05",
+      "amount": -3650,
+      "description": "EQUIPMENT FINANCING PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00174",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00174",
+      "date": "2026-02-05",
+      "amount": 4205.66,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00175",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00175",
+      "date": "2026-02-06",
+      "amount": -780,
+      "description": "VEHICLE LEASE FORD F-250",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00176",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00176",
+      "date": "2026-02-08",
+      "amount": 17999.99,
+      "description": "HARBOR DEVELOPMENT MILESTONE",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00177",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00177",
+      "date": "2026-02-09",
+      "amount": -420,
+      "description": "VERIZON BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00178",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00178",
+      "date": "2026-02-11",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00179",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00179",
+      "date": "2026-02-12",
+      "amount": 4199.44,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00180",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00180",
+      "date": "2026-02-12",
+      "amount": 31500,
+      "description": "PRIME CONTRACTOR PAYMENT",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00181",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00181",
+      "date": "2026-02-13",
+      "amount": -14799.93,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00182",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00182",
+      "date": "2026-02-14",
+      "amount": -610,
+      "description": "HISCOX GENERAL LIABILITY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00183",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00183",
+      "date": "2026-02-19",
+      "amount": -380,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00184",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00184",
+      "date": "2026-02-19",
+      "amount": 4203.79,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00185",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00185",
+      "date": "2026-02-22",
+      "amount": 14500.18,
+      "description": "PIER 9 PROGRESS DRAW",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00186",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00186",
+      "date": "2026-02-25",
+      "amount": -1240,
+      "description": "FUEL CARD WEX",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00187",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00187",
+      "date": "2026-02-26",
+      "amount": 4200.41,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00188",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00188",
+      "date": "2026-02-27",
+      "amount": -14800.21,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00189",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00189",
+      "date": "2026-03-01",
+      "amount": -5400,
+      "description": "INDUSTRIAL PARK YARD RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_tax-crisis_00190",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00190",
+      "date": "2026-03-01",
+      "amount": -1200,
+      "description": "STATE FRANCHISE TAX",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_tax-crisis_00191",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00191",
+      "date": "2026-03-02",
+      "amount": -3900,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00192",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00192",
+      "date": "2026-03-05",
+      "amount": -3650,
+      "description": "EQUIPMENT FINANCING PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00193",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00193",
+      "date": "2026-03-05",
+      "amount": 4200.33,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00194",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00194",
+      "date": "2026-03-06",
+      "amount": -780,
+      "description": "VEHICLE LEASE FORD F-250",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00195",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00195",
+      "date": "2026-03-08",
+      "amount": 17999.9,
+      "description": "HARBOR DEVELOPMENT MILESTONE",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00196",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00196",
+      "date": "2026-03-09",
+      "amount": -420,
+      "description": "VERIZON BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00197",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00197",
+      "date": "2026-03-11",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00198",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00198",
+      "date": "2026-03-12",
+      "amount": 4201.74,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00199",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00199",
+      "date": "2026-03-13",
+      "amount": -14800.03,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00200",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00200",
+      "date": "2026-03-14",
+      "amount": -610,
+      "description": "HISCOX GENERAL LIABILITY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00201",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00201",
+      "date": "2026-03-19",
+      "amount": -380,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00202",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00202",
+      "date": "2026-03-19",
+      "amount": 4204.21,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00203",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00203",
+      "date": "2026-03-22",
+      "amount": 14500.02,
+      "description": "PIER 9 PROGRESS DRAW",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00204",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00204",
+      "date": "2026-03-25",
+      "amount": -1240,
+      "description": "FUEL CARD WEX",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00205",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00205",
+      "date": "2026-03-26",
+      "amount": 4202.23,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00206",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00206",
+      "date": "2026-03-27",
+      "amount": -14800.24,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00207",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00207",
+      "date": "2026-04-01",
+      "amount": -5400,
+      "description": "INDUSTRIAL PARK YARD RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_tax-crisis_00208",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00208",
+      "date": "2026-04-02",
+      "amount": -3900,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00209",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00209",
+      "date": "2026-04-02",
+      "amount": 4206.17,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00210",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00210",
+      "date": "2026-04-05",
+      "amount": -3650,
+      "description": "EQUIPMENT FINANCING PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00211",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00211",
+      "date": "2026-04-06",
+      "amount": -780,
+      "description": "VEHICLE LEASE FORD F-250",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_tax-crisis_00212",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00212",
+      "date": "2026-04-08",
+      "amount": 17999.9,
+      "description": "HARBOR DEVELOPMENT MILESTONE",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00213",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00213",
+      "date": "2026-04-09",
+      "amount": -420,
+      "description": "VERIZON BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00214",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00214",
+      "date": "2026-04-09",
+      "amount": 4196.9,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00215",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00215",
+      "date": "2026-04-10",
+      "amount": -14799.87,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00216",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00216",
+      "date": "2026-04-11",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_tax-crisis_00217",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00217",
+      "date": "2026-04-14",
+      "amount": -610,
+      "description": "HISCOX GENERAL LIABILITY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00218",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00218",
+      "date": "2026-04-15",
+      "amount": -42000,
+      "description": "IRS USATAXPYMT EST Q",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_tax-crisis_00219",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00219",
+      "date": "2026-04-16",
+      "amount": 4197.47,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00220",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00220",
+      "date": "2026-04-19",
+      "amount": -380,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_tax-crisis_00221",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00221",
+      "date": "2026-04-22",
+      "amount": 14500.04,
+      "description": "PIER 9 PROGRESS DRAW",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00222",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00222",
+      "date": "2026-04-23",
+      "amount": 4195.22,
+      "description": "PROGRESS DRAW WEEKLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_tax-crisis_00223",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00223",
+      "date": "2026-04-24",
+      "amount": -14800.11,
+      "description": "GUSTO PAYROLL CREW",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_tax-crisis_00224",
+      "plaid_transaction_id": "plaid_txn_tax-crisis_00224",
+      "date": "2026-04-25",
+      "amount": -1240,
+      "description": "FUEL CARD WEX",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    }
+  ],
+  "forecast": {
+    "generated_at": "2026-04-28T13:40:37.171Z",
+    "business_name": "Mariner Builders LLC",
+    "starting_balance": 22400,
+    "threshold_dollars": 10000,
+    "scenarios": {
+      "optimistic": {
+        "scenario": "optimistic",
+        "starting_balance": 22400,
+        "weeks": [
+          {
+            "week_index": 1,
+            "week_start": "2026-04-27",
+            "week_end": "2026-05-03",
+            "inflow_total": 4620.01,
+            "outflow_total": 8835,
+            "projected_balance": 18185.01,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "INDUSTRIAL PARK YARD RENT",
+                "amount": -5130
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -3705
+              }
+            ]
+          },
+          {
+            "week_index": 2,
+            "week_start": "2026-05-04",
+            "week_end": "2026-05-10",
+            "inflow_total": 24420.01,
+            "outflow_total": 17926.49,
+            "projected_balance": 24678.53,
+            "top_inflows": [
+              {
+                "description": "HARBOR DEVELOPMENT MILESTONE",
+                "amount": 19800
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -14059.99
+              },
+              {
+                "description": "EQUIPMENT FINANCING PMT",
+                "amount": -3467.5
+              },
+              {
+                "description": "VERIZON BUSINESS WIRELESS",
+                "amount": -399
+              }
+            ]
+          },
+          {
+            "week_index": 3,
+            "week_start": "2026-05-11",
+            "week_end": "2026-05-17",
+            "inflow_total": 4620.01,
+            "outflow_total": 665,
+            "projected_balance": 28633.54,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "HISCOX GENERAL LIABILITY",
+                "amount": -579.5
+              },
+              {
+                "description": "QUICKBOOKS ONLINE PLUS",
+                "amount": -85.5
+              }
+            ]
+          },
+          {
+            "week_index": 4,
+            "week_start": "2026-05-18",
+            "week_end": "2026-05-24",
+            "inflow_total": 20570.02,
+            "outflow_total": 14420.99,
+            "projected_balance": 34782.57,
+            "top_inflows": [
+              {
+                "description": "PIER 9 PROGRESS DRAW",
+                "amount": 15950.01
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -14059.99
+              },
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -361
+              }
+            ]
+          },
+          {
+            "week_index": 5,
+            "week_start": "2026-05-25",
+            "week_end": "2026-05-31",
+            "inflow_total": 4620.01,
+            "outflow_total": 6270,
+            "projected_balance": 33132.58,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "INDUSTRIAL PARK YARD RENT",
+                "amount": -5130
+              },
+              {
+                "description": "STATE FRANCHISE TAX",
+                "amount": -1140
+              }
+            ]
+          },
+          {
+            "week_index": 6,
+            "week_start": "2026-06-01",
+            "week_end": "2026-06-07",
+            "inflow_total": 24420.01,
+            "outflow_total": 21232.49,
+            "projected_balance": 36320.1,
+            "top_inflows": [
+              {
+                "description": "HARBOR DEVELOPMENT MILESTONE",
+                "amount": 19800
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -14059.99
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -3705
+              },
+              {
+                "description": "EQUIPMENT FINANCING PMT",
+                "amount": -3467.5
+              }
+            ]
+          },
+          {
+            "week_index": 7,
+            "week_start": "2026-06-08",
+            "week_end": "2026-06-14",
+            "inflow_total": 4620.01,
+            "outflow_total": 1064,
+            "projected_balance": 39876.11,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "HISCOX GENERAL LIABILITY",
+                "amount": -579.5
+              },
+              {
+                "description": "VERIZON BUSINESS WIRELESS",
+                "amount": -399
+              },
+              {
+                "description": "QUICKBOOKS ONLINE PLUS",
+                "amount": -85.5
+              }
+            ]
+          },
+          {
+            "week_index": 8,
+            "week_start": "2026-06-15",
+            "week_end": "2026-06-21",
+            "inflow_total": 20570.02,
+            "outflow_total": 14420.99,
+            "projected_balance": 46025.14,
+            "top_inflows": [
+              {
+                "description": "PIER 9 PROGRESS DRAW",
+                "amount": 15950.01
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -14059.99
+              },
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -361
+              }
+            ]
+          },
+          {
+            "week_index": 9,
+            "week_start": "2026-06-22",
+            "week_end": "2026-06-28",
+            "inflow_total": 4620.01,
+            "outflow_total": 0,
+            "projected_balance": 50645.15,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": []
+          },
+          {
+            "week_index": 10,
+            "week_start": "2026-06-29",
+            "week_end": "2026-07-05",
+            "inflow_total": 4620.01,
+            "outflow_total": 26362.49,
+            "projected_balance": 28902.67,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -14059.99
+              },
+              {
+                "description": "INDUSTRIAL PARK YARD RENT",
+                "amount": -5130
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -3705
+              },
+              {
+                "description": "EQUIPMENT FINANCING PMT",
+                "amount": -3467.5
+              }
+            ]
+          },
+          {
+            "week_index": 11,
+            "week_start": "2026-07-06",
+            "week_end": "2026-07-12",
+            "inflow_total": 24420.01,
+            "outflow_total": 484.5,
+            "projected_balance": 52838.18,
+            "top_inflows": [
+              {
+                "description": "HARBOR DEVELOPMENT MILESTONE",
+                "amount": 19800
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "VERIZON BUSINESS WIRELESS",
+                "amount": -399
+              },
+              {
+                "description": "QUICKBOOKS ONLINE PLUS",
+                "amount": -85.5
+              }
+            ]
+          },
+          {
+            "week_index": 12,
+            "week_start": "2026-07-13",
+            "week_end": "2026-07-19",
+            "inflow_total": 4620.01,
+            "outflow_total": 54900.49,
+            "projected_balance": 2557.7,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "IRS USATAXPYMT EST Q",
+                "amount": -39900
+              },
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -14059.99
+              },
+              {
+                "description": "HISCOX GENERAL LIABILITY",
+                "amount": -579.5
+              },
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -361
+              }
+            ]
+          },
+          {
+            "week_index": 13,
+            "week_start": "2026-07-20",
+            "week_end": "2026-07-26",
+            "inflow_total": 20570.02,
+            "outflow_total": 0,
+            "projected_balance": 23127.72,
+            "top_inflows": [
+              {
+                "description": "PIER 9 PROGRESS DRAW",
+                "amount": 15950.01
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4620.01
+              }
+            ],
+            "top_outflows": []
+          }
+        ]
+      },
+      "base": {
+        "scenario": "base",
+        "starting_balance": 22400,
+        "weeks": [
+          {
+            "week_index": 1,
+            "week_start": "2026-04-27",
+            "week_end": "2026-05-03",
+            "inflow_total": 4200.01,
+            "outflow_total": 9300,
+            "projected_balance": 17300.01,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "INDUSTRIAL PARK YARD RENT",
+                "amount": -5400
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -3900
+              }
+            ]
+          },
+          {
+            "week_index": 2,
+            "week_start": "2026-05-04",
+            "week_end": "2026-05-10",
+            "inflow_total": 22200.01,
+            "outflow_total": 18869.99,
+            "projected_balance": 20630.03,
+            "top_inflows": [
+              {
+                "description": "HARBOR DEVELOPMENT MILESTONE",
+                "amount": 18000
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -14799.99
+              },
+              {
+                "description": "EQUIPMENT FINANCING PMT",
+                "amount": -3650
+              },
+              {
+                "description": "VERIZON BUSINESS WIRELESS",
+                "amount": -420
+              }
+            ]
+          },
+          {
+            "week_index": 3,
+            "week_start": "2026-05-11",
+            "week_end": "2026-05-17",
+            "inflow_total": 4200.01,
+            "outflow_total": 700,
+            "projected_balance": 24130.04,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "HISCOX GENERAL LIABILITY",
+                "amount": -610
+              },
+              {
+                "description": "QUICKBOOKS ONLINE PLUS",
+                "amount": -90
+              }
+            ]
+          },
+          {
+            "week_index": 4,
+            "week_start": "2026-05-18",
+            "week_end": "2026-05-24",
+            "inflow_total": 18700.02,
+            "outflow_total": 15179.99,
+            "projected_balance": 27650.07,
+            "top_inflows": [
+              {
+                "description": "PIER 9 PROGRESS DRAW",
+                "amount": 14500.01
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -14799.99
+              },
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -380
+              }
+            ]
+          },
+          {
+            "week_index": 5,
+            "week_start": "2026-05-25",
+            "week_end": "2026-05-31",
+            "inflow_total": 4200.01,
+            "outflow_total": 6600,
+            "projected_balance": 25250.08,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "INDUSTRIAL PARK YARD RENT",
+                "amount": -5400
+              },
+              {
+                "description": "STATE FRANCHISE TAX",
+                "amount": -1200
+              }
+            ]
+          },
+          {
+            "week_index": 6,
+            "week_start": "2026-06-01",
+            "week_end": "2026-06-07",
+            "inflow_total": 22200.01,
+            "outflow_total": 22349.99,
+            "projected_balance": 25100.1,
+            "top_inflows": [
+              {
+                "description": "HARBOR DEVELOPMENT MILESTONE",
+                "amount": 18000
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -14799.99
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -3900
+              },
+              {
+                "description": "EQUIPMENT FINANCING PMT",
+                "amount": -3650
+              }
+            ]
+          },
+          {
+            "week_index": 7,
+            "week_start": "2026-06-08",
+            "week_end": "2026-06-14",
+            "inflow_total": 4200.01,
+            "outflow_total": 1120,
+            "projected_balance": 28180.11,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "HISCOX GENERAL LIABILITY",
+                "amount": -610
+              },
+              {
+                "description": "VERIZON BUSINESS WIRELESS",
+                "amount": -420
+              },
+              {
+                "description": "QUICKBOOKS ONLINE PLUS",
+                "amount": -90
+              }
+            ]
+          },
+          {
+            "week_index": 8,
+            "week_start": "2026-06-15",
+            "week_end": "2026-06-21",
+            "inflow_total": 18700.02,
+            "outflow_total": 15179.99,
+            "projected_balance": 31700.14,
+            "top_inflows": [
+              {
+                "description": "PIER 9 PROGRESS DRAW",
+                "amount": 14500.01
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -14799.99
+              },
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -380
+              }
+            ]
+          },
+          {
+            "week_index": 9,
+            "week_start": "2026-06-22",
+            "week_end": "2026-06-28",
+            "inflow_total": 4200.01,
+            "outflow_total": 0,
+            "projected_balance": 35900.15,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": []
+          },
+          {
+            "week_index": 10,
+            "week_start": "2026-06-29",
+            "week_end": "2026-07-05",
+            "inflow_total": 4200.01,
+            "outflow_total": 27749.99,
+            "projected_balance": 12350.17,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -14799.99
+              },
+              {
+                "description": "INDUSTRIAL PARK YARD RENT",
+                "amount": -5400
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -3900
+              },
+              {
+                "description": "EQUIPMENT FINANCING PMT",
+                "amount": -3650
+              }
+            ]
+          },
+          {
+            "week_index": 11,
+            "week_start": "2026-07-06",
+            "week_end": "2026-07-12",
+            "inflow_total": 22200.01,
+            "outflow_total": 510,
+            "projected_balance": 34040.18,
+            "top_inflows": [
+              {
+                "description": "HARBOR DEVELOPMENT MILESTONE",
+                "amount": 18000
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "VERIZON BUSINESS WIRELESS",
+                "amount": -420
+              },
+              {
+                "description": "QUICKBOOKS ONLINE PLUS",
+                "amount": -90
+              }
+            ]
+          },
+          {
+            "week_index": 12,
+            "week_start": "2026-07-13",
+            "week_end": "2026-07-19",
+            "inflow_total": 4200.01,
+            "outflow_total": 57789.99,
+            "projected_balance": -19549.8,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "IRS USATAXPYMT EST Q",
+                "amount": -42000
+              },
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -14799.99
+              },
+              {
+                "description": "HISCOX GENERAL LIABILITY",
+                "amount": -610
+              },
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -380
+              }
+            ]
+          },
+          {
+            "week_index": 13,
+            "week_start": "2026-07-20",
+            "week_end": "2026-07-26",
+            "inflow_total": 18700.02,
+            "outflow_total": 0,
+            "projected_balance": -849.78,
+            "top_inflows": [
+              {
+                "description": "PIER 9 PROGRESS DRAW",
+                "amount": 14500.01
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 4200.01
+              }
+            ],
+            "top_outflows": []
+          }
+        ]
+      },
+      "pessimistic": {
+        "scenario": "pessimistic",
+        "starting_balance": 22400,
+        "weeks": [
+          {
+            "week_index": 1,
+            "week_start": "2026-04-27",
+            "week_end": "2026-05-03",
+            "inflow_total": 3780.01,
+            "outflow_total": 10230,
+            "projected_balance": 15950.01,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "INDUSTRIAL PARK YARD RENT",
+                "amount": -5940
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -4290
+              }
+            ]
+          },
+          {
+            "week_index": 2,
+            "week_start": "2026-05-04",
+            "week_end": "2026-05-10",
+            "inflow_total": 19980.01,
+            "outflow_total": 20756.99,
+            "projected_balance": 15173.03,
+            "top_inflows": [
+              {
+                "description": "HARBOR DEVELOPMENT MILESTONE",
+                "amount": 16200
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -16279.99
+              },
+              {
+                "description": "EQUIPMENT FINANCING PMT",
+                "amount": -4015
+              },
+              {
+                "description": "VERIZON BUSINESS WIRELESS",
+                "amount": -462
+              }
+            ]
+          },
+          {
+            "week_index": 3,
+            "week_start": "2026-05-11",
+            "week_end": "2026-05-17",
+            "inflow_total": 3780.01,
+            "outflow_total": 770,
+            "projected_balance": 18183.04,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "HISCOX GENERAL LIABILITY",
+                "amount": -671
+              },
+              {
+                "description": "QUICKBOOKS ONLINE PLUS",
+                "amount": -99
+              }
+            ]
+          },
+          {
+            "week_index": 4,
+            "week_start": "2026-05-18",
+            "week_end": "2026-05-24",
+            "inflow_total": 16830.02,
+            "outflow_total": 16697.99,
+            "projected_balance": 18315.07,
+            "top_inflows": [
+              {
+                "description": "PIER 9 PROGRESS DRAW",
+                "amount": 13050.01
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -16279.99
+              },
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -418
+              }
+            ]
+          },
+          {
+            "week_index": 5,
+            "week_start": "2026-05-25",
+            "week_end": "2026-05-31",
+            "inflow_total": 3780.01,
+            "outflow_total": 7260,
+            "projected_balance": 14835.08,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "INDUSTRIAL PARK YARD RENT",
+                "amount": -5940
+              },
+              {
+                "description": "STATE FRANCHISE TAX",
+                "amount": -1320
+              }
+            ]
+          },
+          {
+            "week_index": 6,
+            "week_start": "2026-06-01",
+            "week_end": "2026-06-07",
+            "inflow_total": 19980.01,
+            "outflow_total": 24584.99,
+            "projected_balance": 10230.1,
+            "top_inflows": [
+              {
+                "description": "HARBOR DEVELOPMENT MILESTONE",
+                "amount": 16200
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -16279.99
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -4290
+              },
+              {
+                "description": "EQUIPMENT FINANCING PMT",
+                "amount": -4015
+              }
+            ]
+          },
+          {
+            "week_index": 7,
+            "week_start": "2026-06-08",
+            "week_end": "2026-06-14",
+            "inflow_total": 3780.01,
+            "outflow_total": 1232,
+            "projected_balance": 12778.11,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "HISCOX GENERAL LIABILITY",
+                "amount": -671
+              },
+              {
+                "description": "VERIZON BUSINESS WIRELESS",
+                "amount": -462
+              },
+              {
+                "description": "QUICKBOOKS ONLINE PLUS",
+                "amount": -99
+              }
+            ]
+          },
+          {
+            "week_index": 8,
+            "week_start": "2026-06-15",
+            "week_end": "2026-06-21",
+            "inflow_total": 16830.02,
+            "outflow_total": 16697.99,
+            "projected_balance": 12910.14,
+            "top_inflows": [
+              {
+                "description": "PIER 9 PROGRESS DRAW",
+                "amount": 13050.01
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -16279.99
+              },
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -418
+              }
+            ]
+          },
+          {
+            "week_index": 9,
+            "week_start": "2026-06-22",
+            "week_end": "2026-06-28",
+            "inflow_total": 3780.01,
+            "outflow_total": 0,
+            "projected_balance": 16690.15,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": []
+          },
+          {
+            "week_index": 10,
+            "week_start": "2026-06-29",
+            "week_end": "2026-07-05",
+            "inflow_total": 3780.01,
+            "outflow_total": 30524.99,
+            "projected_balance": -10054.83,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -16279.99
+              },
+              {
+                "description": "INDUSTRIAL PARK YARD RENT",
+                "amount": -5940
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -4290
+              },
+              {
+                "description": "EQUIPMENT FINANCING PMT",
+                "amount": -4015
+              }
+            ]
+          },
+          {
+            "week_index": 11,
+            "week_start": "2026-07-06",
+            "week_end": "2026-07-12",
+            "inflow_total": 19980.01,
+            "outflow_total": 561,
+            "projected_balance": 9364.18,
+            "top_inflows": [
+              {
+                "description": "HARBOR DEVELOPMENT MILESTONE",
+                "amount": 16200
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "VERIZON BUSINESS WIRELESS",
+                "amount": -462
+              },
+              {
+                "description": "QUICKBOOKS ONLINE PLUS",
+                "amount": -99
+              }
+            ]
+          },
+          {
+            "week_index": 12,
+            "week_start": "2026-07-13",
+            "week_end": "2026-07-19",
+            "inflow_total": 3780.01,
+            "outflow_total": 63568.99,
+            "projected_balance": -50424.8,
+            "top_inflows": [
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "IRS USATAXPYMT EST Q",
+                "amount": -46200
+              },
+              {
+                "description": "GUSTO PAYROLL CREW",
+                "amount": -16279.99
+              },
+              {
+                "description": "HISCOX GENERAL LIABILITY",
+                "amount": -671
+              },
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -418
+              }
+            ]
+          },
+          {
+            "week_index": 13,
+            "week_start": "2026-07-20",
+            "week_end": "2026-07-26",
+            "inflow_total": 16830.02,
+            "outflow_total": 0,
+            "projected_balance": -33594.78,
+            "top_inflows": [
+              {
+                "description": "PIER 9 PROGRESS DRAW",
+                "amount": 13050.01
+              },
+              {
+                "description": "PROGRESS DRAW WEEKLY",
+                "amount": 3780.01
+              }
+            ],
+            "top_outflows": []
+          }
+        ]
+      }
+    },
+    "at_risk_weeks": [
+      {
+        "week_index": 12,
+        "week_start": "2026-07-13",
+        "week_end": "2026-07-19",
+        "projected_balance": -19549.8,
+        "shortfall": 29549.8,
+        "drivers": [
+          {
+            "transaction_id": "txn_tax-crisis_00218",
+            "description": "IRS USATAXPYMT EST Q",
+            "amount": -42000,
+            "category": "tax"
+          },
+          {
+            "transaction_id": "txn_tax-crisis_00223",
+            "description": "GUSTO PAYROLL CREW",
+            "amount": -14799.99,
+            "category": "payroll"
+          },
+          {
+            "transaction_id": "txn_tax-crisis_00217",
+            "description": "HISCOX GENERAL LIABILITY",
+            "amount": -610,
+            "category": "subscriptions"
+          }
+        ]
+      },
+      {
+        "week_index": 13,
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "projected_balance": -849.78,
+        "shortfall": 10849.78,
+        "drivers": []
+      }
+    ]
+  },
+  "explanations": [
+    {
+      "week_index": 12,
+      "explanation": "By the week of July 13, your projected balance falls to about $19,550 — about $29,550 below your $10,000 floor. The biggest hits this week are IRS USATAXPYMT EST Q (~$42,000), GUSTO PAYROLL CREW (~$14,800), HISCOX GENERAL LIABILITY (~$610). One concrete lever: carve the federal tax payment into a separate sub-account at the start of each quarter so it isn't competing with operating cash.",
+      "cited_transaction_ids": [
+        "txn_tax-crisis_00218",
+        "txn_tax-crisis_00223",
+        "txn_tax-crisis_00217"
+      ]
+    },
+    {
+      "week_index": 13,
+      "explanation": "By the week of July 20, your projected balance falls to about $850 — about $10,850 below your $10,000 floor. The biggest hits this week are . One concrete lever: review this week's outflows in detail — the biggest items are listed below.",
+      "cited_transaction_ids": []
+    }
+  ]
+}

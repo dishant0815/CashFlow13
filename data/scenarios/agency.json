@@ -1,0 +1,4929 @@
+{
+  "meta": {
+    "id": "agency",
+    "label": "Agency",
+    "description": "Brightline Studio — 12-person creative agency. Lumpy retainer flow with biweekly payroll and a tight first-of-month convergence.",
+    "business_name": "Brightline Studio LLC",
+    "bank_account_mask": "*** 4412 (Chase Business Checking)",
+    "starting_balance": 7550,
+    "today": "2026-04-26",
+    "threshold_dollars": 5000,
+    "generated_at": "2026-04-28T13:40:37.156Z"
+  },
+  "transactions": [
+    {
+      "id": "txn_agency_00001",
+      "plaid_transaction_id": "plaid_txn_agency_00001",
+      "date": "2025-04-29",
+      "amount": 2602.05,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00002",
+      "plaid_transaction_id": "plaid_txn_agency_00002",
+      "date": "2025-05-01",
+      "amount": 27999.99,
+      "description": "ATLAS PARTNERS RETAINER MONTHLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00003",
+      "plaid_transaction_id": "plaid_txn_agency_00003",
+      "date": "2025-05-01",
+      "amount": -6500,
+      "description": "WESTLAKE PROPERTIES RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_agency_00004",
+      "plaid_transaction_id": "plaid_txn_agency_00004",
+      "date": "2025-05-02",
+      "amount": -4800,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00005",
+      "plaid_transaction_id": "plaid_txn_agency_00005",
+      "date": "2025-05-02",
+      "amount": -22399.92,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00006",
+      "plaid_transaction_id": "plaid_txn_agency_00006",
+      "date": "2025-05-03",
+      "amount": -385,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00007",
+      "plaid_transaction_id": "plaid_txn_agency_00007",
+      "date": "2025-05-04",
+      "amount": -2150,
+      "description": "CHASE SBL LOAN PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00008",
+      "plaid_transaction_id": "plaid_txn_agency_00008",
+      "date": "2025-05-05",
+      "amount": 17999.93,
+      "description": "NEXUS BRANDS RETAINER ACH",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00009",
+      "plaid_transaction_id": "plaid_txn_agency_00009",
+      "date": "2025-05-06",
+      "amount": 2601.02,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00010",
+      "plaid_transaction_id": "plaid_txn_agency_00010",
+      "date": "2025-05-07",
+      "amount": -890,
+      "description": "HUBSPOT MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00011",
+      "plaid_transaction_id": "plaid_txn_agency_00011",
+      "date": "2025-05-08",
+      "amount": -620,
+      "description": "AWS MONTHLY USAGE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00012",
+      "plaid_transaction_id": "plaid_txn_agency_00012",
+      "date": "2025-05-09",
+      "amount": -480,
+      "description": "FIGMA TEAM SUBSCRIPTION",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00013",
+      "plaid_transaction_id": "plaid_txn_agency_00013",
+      "date": "2025-05-10",
+      "amount": 14000.05,
+      "description": "MERIDIAN HEALTH MKTG RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00014",
+      "plaid_transaction_id": "plaid_txn_agency_00014",
+      "date": "2025-05-11",
+      "amount": -149,
+      "description": "ZOOM US PRO",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00015",
+      "plaid_transaction_id": "plaid_txn_agency_00015",
+      "date": "2025-05-12",
+      "amount": -312,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00016",
+      "plaid_transaction_id": "plaid_txn_agency_00016",
+      "date": "2025-05-13",
+      "amount": -189,
+      "description": "VERIZON BUSINESS FIBER",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00017",
+      "plaid_transaction_id": "plaid_txn_agency_00017",
+      "date": "2025-05-13",
+      "amount": 2598.52,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00018",
+      "plaid_transaction_id": "plaid_txn_agency_00018",
+      "date": "2025-05-14",
+      "amount": -228,
+      "description": "SLACK MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00019",
+      "plaid_transaction_id": "plaid_txn_agency_00019",
+      "date": "2025-05-15",
+      "amount": 9500.09,
+      "description": "CEDAR HARBOR LAW MO RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00020",
+      "plaid_transaction_id": "plaid_txn_agency_00020",
+      "date": "2025-05-15",
+      "amount": -144,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00021",
+      "plaid_transaction_id": "plaid_txn_agency_00021",
+      "date": "2025-05-15",
+      "amount": -1500,
+      "description": "FIDELITY 401K CONTRIB",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.88
+    },
+    {
+      "id": "txn_agency_00022",
+      "plaid_transaction_id": "plaid_txn_agency_00022",
+      "date": "2025-05-16",
+      "amount": -22399.95,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00023",
+      "plaid_transaction_id": "plaid_txn_agency_00023",
+      "date": "2025-05-18",
+      "amount": -96,
+      "description": "NOTION TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00024",
+      "plaid_transaction_id": "plaid_txn_agency_00024",
+      "date": "2025-05-20",
+      "amount": -420,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00025",
+      "plaid_transaction_id": "plaid_txn_agency_00025",
+      "date": "2025-05-20",
+      "amount": 2596.83,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00026",
+      "plaid_transaction_id": "plaid_txn_agency_00026",
+      "date": "2025-05-22",
+      "amount": -260,
+      "description": "LINEAR APP TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00027",
+      "plaid_transaction_id": "plaid_txn_agency_00027",
+      "date": "2025-05-25",
+      "amount": -75,
+      "description": "GITHUB TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00028",
+      "plaid_transaction_id": "plaid_txn_agency_00028",
+      "date": "2025-05-27",
+      "amount": 2600.58,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00029",
+      "plaid_transaction_id": "plaid_txn_agency_00029",
+      "date": "2025-05-30",
+      "amount": -22399.85,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00030",
+      "plaid_transaction_id": "plaid_txn_agency_00030",
+      "date": "2025-06-01",
+      "amount": 27999.82,
+      "description": "ATLAS PARTNERS RETAINER MONTHLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00031",
+      "plaid_transaction_id": "plaid_txn_agency_00031",
+      "date": "2025-06-01",
+      "amount": -6500,
+      "description": "WESTLAKE PROPERTIES RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_agency_00032",
+      "plaid_transaction_id": "plaid_txn_agency_00032",
+      "date": "2025-06-01",
+      "amount": -4200,
+      "description": "NYS SALES TAX QTR",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_agency_00033",
+      "plaid_transaction_id": "plaid_txn_agency_00033",
+      "date": "2025-06-02",
+      "amount": -4800,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00034",
+      "plaid_transaction_id": "plaid_txn_agency_00034",
+      "date": "2025-06-03",
+      "amount": -385,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00035",
+      "plaid_transaction_id": "plaid_txn_agency_00035",
+      "date": "2025-06-03",
+      "amount": 2599.31,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00036",
+      "plaid_transaction_id": "plaid_txn_agency_00036",
+      "date": "2025-06-03",
+      "amount": -7800,
+      "description": "ZURICH GENERAL LIAB ANNUAL",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00037",
+      "plaid_transaction_id": "plaid_txn_agency_00037",
+      "date": "2025-06-04",
+      "amount": -2150,
+      "description": "CHASE SBL LOAN PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00038",
+      "plaid_transaction_id": "plaid_txn_agency_00038",
+      "date": "2025-06-05",
+      "amount": 18000.03,
+      "description": "NEXUS BRANDS RETAINER ACH",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00039",
+      "plaid_transaction_id": "plaid_txn_agency_00039",
+      "date": "2025-06-05",
+      "amount": -5640,
+      "description": "ADOBE CC ANNUAL CONTRACT QTR",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00040",
+      "plaid_transaction_id": "plaid_txn_agency_00040",
+      "date": "2025-06-07",
+      "amount": -890,
+      "description": "HUBSPOT MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00041",
+      "plaid_transaction_id": "plaid_txn_agency_00041",
+      "date": "2025-06-08",
+      "amount": -620,
+      "description": "AWS MONTHLY USAGE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00042",
+      "plaid_transaction_id": "plaid_txn_agency_00042",
+      "date": "2025-06-09",
+      "amount": -480,
+      "description": "FIGMA TEAM SUBSCRIPTION",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00043",
+      "plaid_transaction_id": "plaid_txn_agency_00043",
+      "date": "2025-06-10",
+      "amount": 13999.99,
+      "description": "MERIDIAN HEALTH MKTG RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00044",
+      "plaid_transaction_id": "plaid_txn_agency_00044",
+      "date": "2025-06-10",
+      "amount": 2600.93,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00045",
+      "plaid_transaction_id": "plaid_txn_agency_00045",
+      "date": "2025-06-11",
+      "amount": -149,
+      "description": "ZOOM US PRO",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00046",
+      "plaid_transaction_id": "plaid_txn_agency_00046",
+      "date": "2025-06-12",
+      "amount": -312,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00047",
+      "plaid_transaction_id": "plaid_txn_agency_00047",
+      "date": "2025-06-12",
+      "amount": 22500,
+      "description": "RIVERSIDE MFG WEBSITE BUILD INV-2041",
+      "category": "customer_payment",
+      "is_recurring": false,
+      "confidence": 0.86
+    },
+    {
+      "id": "txn_agency_00048",
+      "plaid_transaction_id": "plaid_txn_agency_00048",
+      "date": "2025-06-13",
+      "amount": -189,
+      "description": "VERIZON BUSINESS FIBER",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00049",
+      "plaid_transaction_id": "plaid_txn_agency_00049",
+      "date": "2025-06-13",
+      "amount": -22399.81,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00050",
+      "plaid_transaction_id": "plaid_txn_agency_00050",
+      "date": "2025-06-14",
+      "amount": -228,
+      "description": "SLACK MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00051",
+      "plaid_transaction_id": "plaid_txn_agency_00051",
+      "date": "2025-06-15",
+      "amount": 9499.86,
+      "description": "CEDAR HARBOR LAW MO RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00052",
+      "plaid_transaction_id": "plaid_txn_agency_00052",
+      "date": "2025-06-15",
+      "amount": -144,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00053",
+      "plaid_transaction_id": "plaid_txn_agency_00053",
+      "date": "2025-06-15",
+      "amount": -1500,
+      "description": "FIDELITY 401K CONTRIB",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.88
+    },
+    {
+      "id": "txn_agency_00054",
+      "plaid_transaction_id": "plaid_txn_agency_00054",
+      "date": "2025-06-15",
+      "amount": -24500,
+      "description": "IRS USATAXPYMT EST Q",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_agency_00055",
+      "plaid_transaction_id": "plaid_txn_agency_00055",
+      "date": "2025-06-17",
+      "amount": 2598.19,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00056",
+      "plaid_transaction_id": "plaid_txn_agency_00056",
+      "date": "2025-06-18",
+      "amount": -96,
+      "description": "NOTION TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00057",
+      "plaid_transaction_id": "plaid_txn_agency_00057",
+      "date": "2025-06-20",
+      "amount": -420,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00058",
+      "plaid_transaction_id": "plaid_txn_agency_00058",
+      "date": "2025-06-22",
+      "amount": -260,
+      "description": "LINEAR APP TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00059",
+      "plaid_transaction_id": "plaid_txn_agency_00059",
+      "date": "2025-06-24",
+      "amount": 2596.72,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00060",
+      "plaid_transaction_id": "plaid_txn_agency_00060",
+      "date": "2025-06-25",
+      "amount": -75,
+      "description": "GITHUB TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00061",
+      "plaid_transaction_id": "plaid_txn_agency_00061",
+      "date": "2025-06-27",
+      "amount": -22399.99,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00062",
+      "plaid_transaction_id": "plaid_txn_agency_00062",
+      "date": "2025-07-01",
+      "amount": 27999.86,
+      "description": "ATLAS PARTNERS RETAINER MONTHLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00063",
+      "plaid_transaction_id": "plaid_txn_agency_00063",
+      "date": "2025-07-01",
+      "amount": -6500,
+      "description": "WESTLAKE PROPERTIES RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_agency_00064",
+      "plaid_transaction_id": "plaid_txn_agency_00064",
+      "date": "2025-07-01",
+      "amount": 2603.67,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00065",
+      "plaid_transaction_id": "plaid_txn_agency_00065",
+      "date": "2025-07-02",
+      "amount": -4800,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00066",
+      "plaid_transaction_id": "plaid_txn_agency_00066",
+      "date": "2025-07-03",
+      "amount": -385,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00067",
+      "plaid_transaction_id": "plaid_txn_agency_00067",
+      "date": "2025-07-04",
+      "amount": -2150,
+      "description": "CHASE SBL LOAN PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00068",
+      "plaid_transaction_id": "plaid_txn_agency_00068",
+      "date": "2025-07-05",
+      "amount": 18000.16,
+      "description": "NEXUS BRANDS RETAINER ACH",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00069",
+      "plaid_transaction_id": "plaid_txn_agency_00069",
+      "date": "2025-07-07",
+      "amount": -890,
+      "description": "HUBSPOT MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00070",
+      "plaid_transaction_id": "plaid_txn_agency_00070",
+      "date": "2025-07-08",
+      "amount": -620,
+      "description": "AWS MONTHLY USAGE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00071",
+      "plaid_transaction_id": "plaid_txn_agency_00071",
+      "date": "2025-07-08",
+      "amount": 2603.08,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00072",
+      "plaid_transaction_id": "plaid_txn_agency_00072",
+      "date": "2025-07-09",
+      "amount": -480,
+      "description": "FIGMA TEAM SUBSCRIPTION",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00073",
+      "plaid_transaction_id": "plaid_txn_agency_00073",
+      "date": "2025-07-10",
+      "amount": 14000.05,
+      "description": "MERIDIAN HEALTH MKTG RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00074",
+      "plaid_transaction_id": "plaid_txn_agency_00074",
+      "date": "2025-07-11",
+      "amount": -149,
+      "description": "ZOOM US PRO",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00075",
+      "plaid_transaction_id": "plaid_txn_agency_00075",
+      "date": "2025-07-11",
+      "amount": -22399.91,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00076",
+      "plaid_transaction_id": "plaid_txn_agency_00076",
+      "date": "2025-07-12",
+      "amount": -312,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00077",
+      "plaid_transaction_id": "plaid_txn_agency_00077",
+      "date": "2025-07-13",
+      "amount": -189,
+      "description": "VERIZON BUSINESS FIBER",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00078",
+      "plaid_transaction_id": "plaid_txn_agency_00078",
+      "date": "2025-07-14",
+      "amount": -228,
+      "description": "SLACK MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00079",
+      "plaid_transaction_id": "plaid_txn_agency_00079",
+      "date": "2025-07-15",
+      "amount": 9499.99,
+      "description": "CEDAR HARBOR LAW MO RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00080",
+      "plaid_transaction_id": "plaid_txn_agency_00080",
+      "date": "2025-07-15",
+      "amount": -144,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00081",
+      "plaid_transaction_id": "plaid_txn_agency_00081",
+      "date": "2025-07-15",
+      "amount": -1500,
+      "description": "FIDELITY 401K CONTRIB",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.88
+    },
+    {
+      "id": "txn_agency_00082",
+      "plaid_transaction_id": "plaid_txn_agency_00082",
+      "date": "2025-07-15",
+      "amount": 2600.49,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00083",
+      "plaid_transaction_id": "plaid_txn_agency_00083",
+      "date": "2025-07-18",
+      "amount": -96,
+      "description": "NOTION TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00084",
+      "plaid_transaction_id": "plaid_txn_agency_00084",
+      "date": "2025-07-20",
+      "amount": -420,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00085",
+      "plaid_transaction_id": "plaid_txn_agency_00085",
+      "date": "2025-07-22",
+      "amount": -260,
+      "description": "LINEAR APP TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00086",
+      "plaid_transaction_id": "plaid_txn_agency_00086",
+      "date": "2025-07-22",
+      "amount": 2600.47,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00087",
+      "plaid_transaction_id": "plaid_txn_agency_00087",
+      "date": "2025-07-25",
+      "amount": -75,
+      "description": "GITHUB TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00088",
+      "plaid_transaction_id": "plaid_txn_agency_00088",
+      "date": "2025-07-25",
+      "amount": -22400.26,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00089",
+      "plaid_transaction_id": "plaid_txn_agency_00089",
+      "date": "2025-07-29",
+      "amount": 2603.54,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00090",
+      "plaid_transaction_id": "plaid_txn_agency_00090",
+      "date": "2025-08-01",
+      "amount": 28000.05,
+      "description": "ATLAS PARTNERS RETAINER MONTHLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00091",
+      "plaid_transaction_id": "plaid_txn_agency_00091",
+      "date": "2025-08-01",
+      "amount": -6500,
+      "description": "WESTLAKE PROPERTIES RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_agency_00092",
+      "plaid_transaction_id": "plaid_txn_agency_00092",
+      "date": "2025-08-02",
+      "amount": -4800,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00093",
+      "plaid_transaction_id": "plaid_txn_agency_00093",
+      "date": "2025-08-03",
+      "amount": -385,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00094",
+      "plaid_transaction_id": "plaid_txn_agency_00094",
+      "date": "2025-08-04",
+      "amount": -2150,
+      "description": "CHASE SBL LOAN PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00095",
+      "plaid_transaction_id": "plaid_txn_agency_00095",
+      "date": "2025-08-05",
+      "amount": 18000.08,
+      "description": "NEXUS BRANDS RETAINER ACH",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00096",
+      "plaid_transaction_id": "plaid_txn_agency_00096",
+      "date": "2025-08-05",
+      "amount": 2600.88,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00097",
+      "plaid_transaction_id": "plaid_txn_agency_00097",
+      "date": "2025-08-07",
+      "amount": -890,
+      "description": "HUBSPOT MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00098",
+      "plaid_transaction_id": "plaid_txn_agency_00098",
+      "date": "2025-08-08",
+      "amount": -620,
+      "description": "AWS MONTHLY USAGE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00099",
+      "plaid_transaction_id": "plaid_txn_agency_00099",
+      "date": "2025-08-08",
+      "amount": -22399.75,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00100",
+      "plaid_transaction_id": "plaid_txn_agency_00100",
+      "date": "2025-08-09",
+      "amount": -480,
+      "description": "FIGMA TEAM SUBSCRIPTION",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00101",
+      "plaid_transaction_id": "plaid_txn_agency_00101",
+      "date": "2025-08-10",
+      "amount": 14000.07,
+      "description": "MERIDIAN HEALTH MKTG RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00102",
+      "plaid_transaction_id": "plaid_txn_agency_00102",
+      "date": "2025-08-11",
+      "amount": -149,
+      "description": "ZOOM US PRO",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00103",
+      "plaid_transaction_id": "plaid_txn_agency_00103",
+      "date": "2025-08-12",
+      "amount": -312,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00104",
+      "plaid_transaction_id": "plaid_txn_agency_00104",
+      "date": "2025-08-12",
+      "amount": 2600.1,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00105",
+      "plaid_transaction_id": "plaid_txn_agency_00105",
+      "date": "2025-08-13",
+      "amount": -189,
+      "description": "VERIZON BUSINESS FIBER",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00106",
+      "plaid_transaction_id": "plaid_txn_agency_00106",
+      "date": "2025-08-14",
+      "amount": -228,
+      "description": "SLACK MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00107",
+      "plaid_transaction_id": "plaid_txn_agency_00107",
+      "date": "2025-08-15",
+      "amount": 9500.13,
+      "description": "CEDAR HARBOR LAW MO RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00108",
+      "plaid_transaction_id": "plaid_txn_agency_00108",
+      "date": "2025-08-15",
+      "amount": -144,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00109",
+      "plaid_transaction_id": "plaid_txn_agency_00109",
+      "date": "2025-08-15",
+      "amount": -1500,
+      "description": "FIDELITY 401K CONTRIB",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.88
+    },
+    {
+      "id": "txn_agency_00110",
+      "plaid_transaction_id": "plaid_txn_agency_00110",
+      "date": "2025-08-18",
+      "amount": -96,
+      "description": "NOTION TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00111",
+      "plaid_transaction_id": "plaid_txn_agency_00111",
+      "date": "2025-08-19",
+      "amount": 2602.22,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00112",
+      "plaid_transaction_id": "plaid_txn_agency_00112",
+      "date": "2025-08-20",
+      "amount": -420,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00113",
+      "plaid_transaction_id": "plaid_txn_agency_00113",
+      "date": "2025-08-22",
+      "amount": -260,
+      "description": "LINEAR APP TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00114",
+      "plaid_transaction_id": "plaid_txn_agency_00114",
+      "date": "2025-08-22",
+      "amount": -22400.24,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00115",
+      "plaid_transaction_id": "plaid_txn_agency_00115",
+      "date": "2025-08-25",
+      "amount": -75,
+      "description": "GITHUB TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00116",
+      "plaid_transaction_id": "plaid_txn_agency_00116",
+      "date": "2025-08-26",
+      "amount": 2602.46,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00117",
+      "plaid_transaction_id": "plaid_txn_agency_00117",
+      "date": "2025-09-01",
+      "amount": 27999.9,
+      "description": "ATLAS PARTNERS RETAINER MONTHLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00118",
+      "plaid_transaction_id": "plaid_txn_agency_00118",
+      "date": "2025-09-01",
+      "amount": -6500,
+      "description": "WESTLAKE PROPERTIES RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_agency_00119",
+      "plaid_transaction_id": "plaid_txn_agency_00119",
+      "date": "2025-09-01",
+      "amount": -4200,
+      "description": "NYS SALES TAX QTR",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_agency_00120",
+      "plaid_transaction_id": "plaid_txn_agency_00120",
+      "date": "2025-09-02",
+      "amount": -4800,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00121",
+      "plaid_transaction_id": "plaid_txn_agency_00121",
+      "date": "2025-09-02",
+      "amount": 2597.77,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00122",
+      "plaid_transaction_id": "plaid_txn_agency_00122",
+      "date": "2025-09-03",
+      "amount": -385,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00123",
+      "plaid_transaction_id": "plaid_txn_agency_00123",
+      "date": "2025-09-04",
+      "amount": -2150,
+      "description": "CHASE SBL LOAN PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00124",
+      "plaid_transaction_id": "plaid_txn_agency_00124",
+      "date": "2025-09-05",
+      "amount": 18000.09,
+      "description": "NEXUS BRANDS RETAINER ACH",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00125",
+      "plaid_transaction_id": "plaid_txn_agency_00125",
+      "date": "2025-09-05",
+      "amount": -22400.12,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00126",
+      "plaid_transaction_id": "plaid_txn_agency_00126",
+      "date": "2025-09-05",
+      "amount": -5640,
+      "description": "ADOBE CC ANNUAL CONTRACT QTR",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00127",
+      "plaid_transaction_id": "plaid_txn_agency_00127",
+      "date": "2025-09-07",
+      "amount": -890,
+      "description": "HUBSPOT MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00128",
+      "plaid_transaction_id": "plaid_txn_agency_00128",
+      "date": "2025-09-08",
+      "amount": -620,
+      "description": "AWS MONTHLY USAGE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00129",
+      "plaid_transaction_id": "plaid_txn_agency_00129",
+      "date": "2025-09-08",
+      "amount": 35000,
+      "description": "VALOR CO PROJECT INVOICE INV-2107",
+      "category": "customer_payment",
+      "is_recurring": false,
+      "confidence": 0.86
+    },
+    {
+      "id": "txn_agency_00130",
+      "plaid_transaction_id": "plaid_txn_agency_00130",
+      "date": "2025-09-09",
+      "amount": -480,
+      "description": "FIGMA TEAM SUBSCRIPTION",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00131",
+      "plaid_transaction_id": "plaid_txn_agency_00131",
+      "date": "2025-09-09",
+      "amount": 2597.94,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00132",
+      "plaid_transaction_id": "plaid_txn_agency_00132",
+      "date": "2025-09-10",
+      "amount": 13999.81,
+      "description": "MERIDIAN HEALTH MKTG RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00133",
+      "plaid_transaction_id": "plaid_txn_agency_00133",
+      "date": "2025-09-11",
+      "amount": -149,
+      "description": "ZOOM US PRO",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00134",
+      "plaid_transaction_id": "plaid_txn_agency_00134",
+      "date": "2025-09-12",
+      "amount": -312,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00135",
+      "plaid_transaction_id": "plaid_txn_agency_00135",
+      "date": "2025-09-13",
+      "amount": -189,
+      "description": "VERIZON BUSINESS FIBER",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00136",
+      "plaid_transaction_id": "plaid_txn_agency_00136",
+      "date": "2025-09-14",
+      "amount": -228,
+      "description": "SLACK MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00137",
+      "plaid_transaction_id": "plaid_txn_agency_00137",
+      "date": "2025-09-15",
+      "amount": 9500,
+      "description": "CEDAR HARBOR LAW MO RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00138",
+      "plaid_transaction_id": "plaid_txn_agency_00138",
+      "date": "2025-09-15",
+      "amount": -144,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00139",
+      "plaid_transaction_id": "plaid_txn_agency_00139",
+      "date": "2025-09-15",
+      "amount": -1500,
+      "description": "FIDELITY 401K CONTRIB",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.88
+    },
+    {
+      "id": "txn_agency_00140",
+      "plaid_transaction_id": "plaid_txn_agency_00140",
+      "date": "2025-09-15",
+      "amount": -24500,
+      "description": "IRS USATAXPYMT EST Q",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_agency_00141",
+      "plaid_transaction_id": "plaid_txn_agency_00141",
+      "date": "2025-09-16",
+      "amount": 2601.03,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00142",
+      "plaid_transaction_id": "plaid_txn_agency_00142",
+      "date": "2025-09-18",
+      "amount": -96,
+      "description": "NOTION TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00143",
+      "plaid_transaction_id": "plaid_txn_agency_00143",
+      "date": "2025-09-19",
+      "amount": -22400.18,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00144",
+      "plaid_transaction_id": "plaid_txn_agency_00144",
+      "date": "2025-09-20",
+      "amount": -420,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00145",
+      "plaid_transaction_id": "plaid_txn_agency_00145",
+      "date": "2025-09-22",
+      "amount": -260,
+      "description": "LINEAR APP TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00146",
+      "plaid_transaction_id": "plaid_txn_agency_00146",
+      "date": "2025-09-23",
+      "amount": 2598.97,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00147",
+      "plaid_transaction_id": "plaid_txn_agency_00147",
+      "date": "2025-09-25",
+      "amount": -75,
+      "description": "GITHUB TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00148",
+      "plaid_transaction_id": "plaid_txn_agency_00148",
+      "date": "2025-09-30",
+      "amount": 2597.01,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00149",
+      "plaid_transaction_id": "plaid_txn_agency_00149",
+      "date": "2025-10-01",
+      "amount": 28000.07,
+      "description": "ATLAS PARTNERS RETAINER MONTHLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00150",
+      "plaid_transaction_id": "plaid_txn_agency_00150",
+      "date": "2025-10-01",
+      "amount": -6500,
+      "description": "WESTLAKE PROPERTIES RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_agency_00151",
+      "plaid_transaction_id": "plaid_txn_agency_00151",
+      "date": "2025-10-02",
+      "amount": -4800,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00152",
+      "plaid_transaction_id": "plaid_txn_agency_00152",
+      "date": "2025-10-03",
+      "amount": -385,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00153",
+      "plaid_transaction_id": "plaid_txn_agency_00153",
+      "date": "2025-10-03",
+      "amount": -22400.05,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00154",
+      "plaid_transaction_id": "plaid_txn_agency_00154",
+      "date": "2025-10-04",
+      "amount": -2150,
+      "description": "CHASE SBL LOAN PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00155",
+      "plaid_transaction_id": "plaid_txn_agency_00155",
+      "date": "2025-10-05",
+      "amount": 18000.17,
+      "description": "NEXUS BRANDS RETAINER ACH",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00156",
+      "plaid_transaction_id": "plaid_txn_agency_00156",
+      "date": "2025-10-07",
+      "amount": -890,
+      "description": "HUBSPOT MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00157",
+      "plaid_transaction_id": "plaid_txn_agency_00157",
+      "date": "2025-10-07",
+      "amount": 2599.44,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00158",
+      "plaid_transaction_id": "plaid_txn_agency_00158",
+      "date": "2025-10-08",
+      "amount": -620,
+      "description": "AWS MONTHLY USAGE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00159",
+      "plaid_transaction_id": "plaid_txn_agency_00159",
+      "date": "2025-10-09",
+      "amount": -480,
+      "description": "FIGMA TEAM SUBSCRIPTION",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00160",
+      "plaid_transaction_id": "plaid_txn_agency_00160",
+      "date": "2025-10-10",
+      "amount": 13999.99,
+      "description": "MERIDIAN HEALTH MKTG RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00161",
+      "plaid_transaction_id": "plaid_txn_agency_00161",
+      "date": "2025-10-11",
+      "amount": -149,
+      "description": "ZOOM US PRO",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00162",
+      "plaid_transaction_id": "plaid_txn_agency_00162",
+      "date": "2025-10-12",
+      "amount": -312,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00163",
+      "plaid_transaction_id": "plaid_txn_agency_00163",
+      "date": "2025-10-13",
+      "amount": -189,
+      "description": "VERIZON BUSINESS FIBER",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00164",
+      "plaid_transaction_id": "plaid_txn_agency_00164",
+      "date": "2025-10-14",
+      "amount": -228,
+      "description": "SLACK MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00165",
+      "plaid_transaction_id": "plaid_txn_agency_00165",
+      "date": "2025-10-14",
+      "amount": 2601.67,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00166",
+      "plaid_transaction_id": "plaid_txn_agency_00166",
+      "date": "2025-10-15",
+      "amount": 9500.17,
+      "description": "CEDAR HARBOR LAW MO RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00167",
+      "plaid_transaction_id": "plaid_txn_agency_00167",
+      "date": "2025-10-15",
+      "amount": -144,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00168",
+      "plaid_transaction_id": "plaid_txn_agency_00168",
+      "date": "2025-10-15",
+      "amount": -1500,
+      "description": "FIDELITY 401K CONTRIB",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.88
+    },
+    {
+      "id": "txn_agency_00169",
+      "plaid_transaction_id": "plaid_txn_agency_00169",
+      "date": "2025-10-17",
+      "amount": -22399.95,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00170",
+      "plaid_transaction_id": "plaid_txn_agency_00170",
+      "date": "2025-10-18",
+      "amount": -96,
+      "description": "NOTION TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00171",
+      "plaid_transaction_id": "plaid_txn_agency_00171",
+      "date": "2025-10-20",
+      "amount": -420,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00172",
+      "plaid_transaction_id": "plaid_txn_agency_00172",
+      "date": "2025-10-21",
+      "amount": 2599.28,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00173",
+      "plaid_transaction_id": "plaid_txn_agency_00173",
+      "date": "2025-10-22",
+      "amount": -260,
+      "description": "LINEAR APP TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00174",
+      "plaid_transaction_id": "plaid_txn_agency_00174",
+      "date": "2025-10-25",
+      "amount": -75,
+      "description": "GITHUB TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00175",
+      "plaid_transaction_id": "plaid_txn_agency_00175",
+      "date": "2025-10-28",
+      "amount": 2596.71,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00176",
+      "plaid_transaction_id": "plaid_txn_agency_00176",
+      "date": "2025-10-31",
+      "amount": -22400,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00177",
+      "plaid_transaction_id": "plaid_txn_agency_00177",
+      "date": "2025-11-01",
+      "amount": 28000.14,
+      "description": "ATLAS PARTNERS RETAINER MONTHLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00178",
+      "plaid_transaction_id": "plaid_txn_agency_00178",
+      "date": "2025-11-01",
+      "amount": -6500,
+      "description": "WESTLAKE PROPERTIES RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_agency_00179",
+      "plaid_transaction_id": "plaid_txn_agency_00179",
+      "date": "2025-11-02",
+      "amount": -4800,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00180",
+      "plaid_transaction_id": "plaid_txn_agency_00180",
+      "date": "2025-11-03",
+      "amount": -385,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00181",
+      "plaid_transaction_id": "plaid_txn_agency_00181",
+      "date": "2025-11-04",
+      "amount": -2150,
+      "description": "CHASE SBL LOAN PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00182",
+      "plaid_transaction_id": "plaid_txn_agency_00182",
+      "date": "2025-11-04",
+      "amount": 2601.21,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00183",
+      "plaid_transaction_id": "plaid_txn_agency_00183",
+      "date": "2025-11-05",
+      "amount": 17999.9,
+      "description": "NEXUS BRANDS RETAINER ACH",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00184",
+      "plaid_transaction_id": "plaid_txn_agency_00184",
+      "date": "2025-11-07",
+      "amount": -890,
+      "description": "HUBSPOT MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00185",
+      "plaid_transaction_id": "plaid_txn_agency_00185",
+      "date": "2025-11-08",
+      "amount": -620,
+      "description": "AWS MONTHLY USAGE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00186",
+      "plaid_transaction_id": "plaid_txn_agency_00186",
+      "date": "2025-11-09",
+      "amount": -480,
+      "description": "FIGMA TEAM SUBSCRIPTION",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00187",
+      "plaid_transaction_id": "plaid_txn_agency_00187",
+      "date": "2025-11-10",
+      "amount": 14000.14,
+      "description": "MERIDIAN HEALTH MKTG RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00188",
+      "plaid_transaction_id": "plaid_txn_agency_00188",
+      "date": "2025-11-11",
+      "amount": -149,
+      "description": "ZOOM US PRO",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00189",
+      "plaid_transaction_id": "plaid_txn_agency_00189",
+      "date": "2025-11-11",
+      "amount": 2601.04,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00190",
+      "plaid_transaction_id": "plaid_txn_agency_00190",
+      "date": "2025-11-12",
+      "amount": -312,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00191",
+      "plaid_transaction_id": "plaid_txn_agency_00191",
+      "date": "2025-11-13",
+      "amount": -189,
+      "description": "VERIZON BUSINESS FIBER",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00192",
+      "plaid_transaction_id": "plaid_txn_agency_00192",
+      "date": "2025-11-14",
+      "amount": -228,
+      "description": "SLACK MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00193",
+      "plaid_transaction_id": "plaid_txn_agency_00193",
+      "date": "2025-11-14",
+      "amount": -22400.27,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00194",
+      "plaid_transaction_id": "plaid_txn_agency_00194",
+      "date": "2025-11-15",
+      "amount": 9500.15,
+      "description": "CEDAR HARBOR LAW MO RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00195",
+      "plaid_transaction_id": "plaid_txn_agency_00195",
+      "date": "2025-11-15",
+      "amount": -144,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00196",
+      "plaid_transaction_id": "plaid_txn_agency_00196",
+      "date": "2025-11-15",
+      "amount": -1500,
+      "description": "FIDELITY 401K CONTRIB",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.88
+    },
+    {
+      "id": "txn_agency_00197",
+      "plaid_transaction_id": "plaid_txn_agency_00197",
+      "date": "2025-11-18",
+      "amount": -96,
+      "description": "NOTION TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00198",
+      "plaid_transaction_id": "plaid_txn_agency_00198",
+      "date": "2025-11-18",
+      "amount": 2596.56,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00199",
+      "plaid_transaction_id": "plaid_txn_agency_00199",
+      "date": "2025-11-20",
+      "amount": -420,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00200",
+      "plaid_transaction_id": "plaid_txn_agency_00200",
+      "date": "2025-11-20",
+      "amount": 14750,
+      "description": "PINEHURST DESIGN SPRINT INV-2188",
+      "category": "customer_payment",
+      "is_recurring": false,
+      "confidence": 0.86
+    },
+    {
+      "id": "txn_agency_00201",
+      "plaid_transaction_id": "plaid_txn_agency_00201",
+      "date": "2025-11-22",
+      "amount": -260,
+      "description": "LINEAR APP TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00202",
+      "plaid_transaction_id": "plaid_txn_agency_00202",
+      "date": "2025-11-25",
+      "amount": -75,
+      "description": "GITHUB TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00203",
+      "plaid_transaction_id": "plaid_txn_agency_00203",
+      "date": "2025-11-25",
+      "amount": 2596.17,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00204",
+      "plaid_transaction_id": "plaid_txn_agency_00204",
+      "date": "2025-11-28",
+      "amount": -22400.11,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00205",
+      "plaid_transaction_id": "plaid_txn_agency_00205",
+      "date": "2025-12-01",
+      "amount": 27999.96,
+      "description": "ATLAS PARTNERS RETAINER MONTHLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00206",
+      "plaid_transaction_id": "plaid_txn_agency_00206",
+      "date": "2025-12-01",
+      "amount": -6500,
+      "description": "WESTLAKE PROPERTIES RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_agency_00207",
+      "plaid_transaction_id": "plaid_txn_agency_00207",
+      "date": "2025-12-01",
+      "amount": -4200,
+      "description": "NYS SALES TAX QTR",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_agency_00208",
+      "plaid_transaction_id": "plaid_txn_agency_00208",
+      "date": "2025-12-02",
+      "amount": -4800,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00209",
+      "plaid_transaction_id": "plaid_txn_agency_00209",
+      "date": "2025-12-02",
+      "amount": 2598.53,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00210",
+      "plaid_transaction_id": "plaid_txn_agency_00210",
+      "date": "2025-12-03",
+      "amount": -385,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00211",
+      "plaid_transaction_id": "plaid_txn_agency_00211",
+      "date": "2025-12-04",
+      "amount": -2150,
+      "description": "CHASE SBL LOAN PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00212",
+      "plaid_transaction_id": "plaid_txn_agency_00212",
+      "date": "2025-12-05",
+      "amount": 18000.01,
+      "description": "NEXUS BRANDS RETAINER ACH",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00213",
+      "plaid_transaction_id": "plaid_txn_agency_00213",
+      "date": "2025-12-05",
+      "amount": -5640,
+      "description": "ADOBE CC ANNUAL CONTRACT QTR",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00214",
+      "plaid_transaction_id": "plaid_txn_agency_00214",
+      "date": "2025-12-07",
+      "amount": -890,
+      "description": "HUBSPOT MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00215",
+      "plaid_transaction_id": "plaid_txn_agency_00215",
+      "date": "2025-12-08",
+      "amount": -620,
+      "description": "AWS MONTHLY USAGE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00216",
+      "plaid_transaction_id": "plaid_txn_agency_00216",
+      "date": "2025-12-09",
+      "amount": -480,
+      "description": "FIGMA TEAM SUBSCRIPTION",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00217",
+      "plaid_transaction_id": "plaid_txn_agency_00217",
+      "date": "2025-12-09",
+      "amount": 2597.65,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00218",
+      "plaid_transaction_id": "plaid_txn_agency_00218",
+      "date": "2025-12-10",
+      "amount": 14000.19,
+      "description": "MERIDIAN HEALTH MKTG RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00219",
+      "plaid_transaction_id": "plaid_txn_agency_00219",
+      "date": "2025-12-11",
+      "amount": -149,
+      "description": "ZOOM US PRO",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00220",
+      "plaid_transaction_id": "plaid_txn_agency_00220",
+      "date": "2025-12-12",
+      "amount": -312,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00221",
+      "plaid_transaction_id": "plaid_txn_agency_00221",
+      "date": "2025-12-12",
+      "amount": -22400.24,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00222",
+      "plaid_transaction_id": "plaid_txn_agency_00222",
+      "date": "2025-12-13",
+      "amount": -189,
+      "description": "VERIZON BUSINESS FIBER",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00223",
+      "plaid_transaction_id": "plaid_txn_agency_00223",
+      "date": "2025-12-14",
+      "amount": -228,
+      "description": "SLACK MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00224",
+      "plaid_transaction_id": "plaid_txn_agency_00224",
+      "date": "2025-12-15",
+      "amount": 9499.92,
+      "description": "CEDAR HARBOR LAW MO RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00225",
+      "plaid_transaction_id": "plaid_txn_agency_00225",
+      "date": "2025-12-15",
+      "amount": -144,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00226",
+      "plaid_transaction_id": "plaid_txn_agency_00226",
+      "date": "2025-12-15",
+      "amount": -1500,
+      "description": "FIDELITY 401K CONTRIB",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.88
+    },
+    {
+      "id": "txn_agency_00227",
+      "plaid_transaction_id": "plaid_txn_agency_00227",
+      "date": "2025-12-16",
+      "amount": 2600.28,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00228",
+      "plaid_transaction_id": "plaid_txn_agency_00228",
+      "date": "2025-12-18",
+      "amount": -96,
+      "description": "NOTION TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00229",
+      "plaid_transaction_id": "plaid_txn_agency_00229",
+      "date": "2025-12-20",
+      "amount": -420,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00230",
+      "plaid_transaction_id": "plaid_txn_agency_00230",
+      "date": "2025-12-22",
+      "amount": -260,
+      "description": "LINEAR APP TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00231",
+      "plaid_transaction_id": "plaid_txn_agency_00231",
+      "date": "2025-12-23",
+      "amount": 2603.2,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00232",
+      "plaid_transaction_id": "plaid_txn_agency_00232",
+      "date": "2025-12-25",
+      "amount": -75,
+      "description": "GITHUB TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00233",
+      "plaid_transaction_id": "plaid_txn_agency_00233",
+      "date": "2025-12-26",
+      "amount": -22400.26,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00234",
+      "plaid_transaction_id": "plaid_txn_agency_00234",
+      "date": "2025-12-30",
+      "amount": 2603.16,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00235",
+      "plaid_transaction_id": "plaid_txn_agency_00235",
+      "date": "2026-01-01",
+      "amount": 28000.15,
+      "description": "ATLAS PARTNERS RETAINER MONTHLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00236",
+      "plaid_transaction_id": "plaid_txn_agency_00236",
+      "date": "2026-01-01",
+      "amount": -6500,
+      "description": "WESTLAKE PROPERTIES RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_agency_00237",
+      "plaid_transaction_id": "plaid_txn_agency_00237",
+      "date": "2026-01-02",
+      "amount": -4800,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00238",
+      "plaid_transaction_id": "plaid_txn_agency_00238",
+      "date": "2026-01-03",
+      "amount": -385,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00239",
+      "plaid_transaction_id": "plaid_txn_agency_00239",
+      "date": "2026-01-04",
+      "amount": -2150,
+      "description": "CHASE SBL LOAN PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00240",
+      "plaid_transaction_id": "plaid_txn_agency_00240",
+      "date": "2026-01-05",
+      "amount": 18000.09,
+      "description": "NEXUS BRANDS RETAINER ACH",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00241",
+      "plaid_transaction_id": "plaid_txn_agency_00241",
+      "date": "2026-01-06",
+      "amount": 2599.31,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00242",
+      "plaid_transaction_id": "plaid_txn_agency_00242",
+      "date": "2026-01-07",
+      "amount": -890,
+      "description": "HUBSPOT MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00243",
+      "plaid_transaction_id": "plaid_txn_agency_00243",
+      "date": "2026-01-08",
+      "amount": -620,
+      "description": "AWS MONTHLY USAGE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00244",
+      "plaid_transaction_id": "plaid_txn_agency_00244",
+      "date": "2026-01-09",
+      "amount": -480,
+      "description": "FIGMA TEAM SUBSCRIPTION",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00245",
+      "plaid_transaction_id": "plaid_txn_agency_00245",
+      "date": "2026-01-09",
+      "amount": -22400.15,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00246",
+      "plaid_transaction_id": "plaid_txn_agency_00246",
+      "date": "2026-01-10",
+      "amount": 14000.18,
+      "description": "MERIDIAN HEALTH MKTG RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00247",
+      "plaid_transaction_id": "plaid_txn_agency_00247",
+      "date": "2026-01-11",
+      "amount": -149,
+      "description": "ZOOM US PRO",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00248",
+      "plaid_transaction_id": "plaid_txn_agency_00248",
+      "date": "2026-01-12",
+      "amount": -312,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00249",
+      "plaid_transaction_id": "plaid_txn_agency_00249",
+      "date": "2026-01-13",
+      "amount": -189,
+      "description": "VERIZON BUSINESS FIBER",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00250",
+      "plaid_transaction_id": "plaid_txn_agency_00250",
+      "date": "2026-01-13",
+      "amount": 2597.95,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00251",
+      "plaid_transaction_id": "plaid_txn_agency_00251",
+      "date": "2026-01-14",
+      "amount": -228,
+      "description": "SLACK MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00252",
+      "plaid_transaction_id": "plaid_txn_agency_00252",
+      "date": "2026-01-15",
+      "amount": 9499.9,
+      "description": "CEDAR HARBOR LAW MO RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00253",
+      "plaid_transaction_id": "plaid_txn_agency_00253",
+      "date": "2026-01-15",
+      "amount": -144,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00254",
+      "plaid_transaction_id": "plaid_txn_agency_00254",
+      "date": "2026-01-15",
+      "amount": -1500,
+      "description": "FIDELITY 401K CONTRIB",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.88
+    },
+    {
+      "id": "txn_agency_00255",
+      "plaid_transaction_id": "plaid_txn_agency_00255",
+      "date": "2026-01-15",
+      "amount": -24500,
+      "description": "IRS USATAXPYMT EST Q",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_agency_00256",
+      "plaid_transaction_id": "plaid_txn_agency_00256",
+      "date": "2026-01-18",
+      "amount": -96,
+      "description": "NOTION TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00257",
+      "plaid_transaction_id": "plaid_txn_agency_00257",
+      "date": "2026-01-20",
+      "amount": -420,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00258",
+      "plaid_transaction_id": "plaid_txn_agency_00258",
+      "date": "2026-01-20",
+      "amount": 2597.24,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00259",
+      "plaid_transaction_id": "plaid_txn_agency_00259",
+      "date": "2026-01-22",
+      "amount": -260,
+      "description": "LINEAR APP TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00260",
+      "plaid_transaction_id": "plaid_txn_agency_00260",
+      "date": "2026-01-23",
+      "amount": -22400.03,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00261",
+      "plaid_transaction_id": "plaid_txn_agency_00261",
+      "date": "2026-01-25",
+      "amount": -75,
+      "description": "GITHUB TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00262",
+      "plaid_transaction_id": "plaid_txn_agency_00262",
+      "date": "2026-01-27",
+      "amount": 2602.36,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00263",
+      "plaid_transaction_id": "plaid_txn_agency_00263",
+      "date": "2026-02-01",
+      "amount": 28000,
+      "description": "ATLAS PARTNERS RETAINER MONTHLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00264",
+      "plaid_transaction_id": "plaid_txn_agency_00264",
+      "date": "2026-02-01",
+      "amount": -6500,
+      "description": "WESTLAKE PROPERTIES RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_agency_00265",
+      "plaid_transaction_id": "plaid_txn_agency_00265",
+      "date": "2026-02-02",
+      "amount": -4800,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00266",
+      "plaid_transaction_id": "plaid_txn_agency_00266",
+      "date": "2026-02-03",
+      "amount": -385,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00267",
+      "plaid_transaction_id": "plaid_txn_agency_00267",
+      "date": "2026-02-03",
+      "amount": 2602.75,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00268",
+      "plaid_transaction_id": "plaid_txn_agency_00268",
+      "date": "2026-02-04",
+      "amount": -2150,
+      "description": "CHASE SBL LOAN PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00269",
+      "plaid_transaction_id": "plaid_txn_agency_00269",
+      "date": "2026-02-05",
+      "amount": 17999.84,
+      "description": "NEXUS BRANDS RETAINER ACH",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00270",
+      "plaid_transaction_id": "plaid_txn_agency_00270",
+      "date": "2026-02-06",
+      "amount": -22399.97,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00271",
+      "plaid_transaction_id": "plaid_txn_agency_00271",
+      "date": "2026-02-07",
+      "amount": -890,
+      "description": "HUBSPOT MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00272",
+      "plaid_transaction_id": "plaid_txn_agency_00272",
+      "date": "2026-02-08",
+      "amount": -620,
+      "description": "AWS MONTHLY USAGE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00273",
+      "plaid_transaction_id": "plaid_txn_agency_00273",
+      "date": "2026-02-09",
+      "amount": -480,
+      "description": "FIGMA TEAM SUBSCRIPTION",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00274",
+      "plaid_transaction_id": "plaid_txn_agency_00274",
+      "date": "2026-02-10",
+      "amount": 13999.91,
+      "description": "MERIDIAN HEALTH MKTG RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00275",
+      "plaid_transaction_id": "plaid_txn_agency_00275",
+      "date": "2026-02-10",
+      "amount": 2596.23,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00276",
+      "plaid_transaction_id": "plaid_txn_agency_00276",
+      "date": "2026-02-11",
+      "amount": -149,
+      "description": "ZOOM US PRO",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00277",
+      "plaid_transaction_id": "plaid_txn_agency_00277",
+      "date": "2026-02-12",
+      "amount": -312,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00278",
+      "plaid_transaction_id": "plaid_txn_agency_00278",
+      "date": "2026-02-13",
+      "amount": -189,
+      "description": "VERIZON BUSINESS FIBER",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00279",
+      "plaid_transaction_id": "plaid_txn_agency_00279",
+      "date": "2026-02-14",
+      "amount": -228,
+      "description": "SLACK MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00280",
+      "plaid_transaction_id": "plaid_txn_agency_00280",
+      "date": "2026-02-15",
+      "amount": 9499.84,
+      "description": "CEDAR HARBOR LAW MO RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00281",
+      "plaid_transaction_id": "plaid_txn_agency_00281",
+      "date": "2026-02-15",
+      "amount": -144,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00282",
+      "plaid_transaction_id": "plaid_txn_agency_00282",
+      "date": "2026-02-15",
+      "amount": -1500,
+      "description": "FIDELITY 401K CONTRIB",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.88
+    },
+    {
+      "id": "txn_agency_00283",
+      "plaid_transaction_id": "plaid_txn_agency_00283",
+      "date": "2026-02-17",
+      "amount": 2598.23,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00284",
+      "plaid_transaction_id": "plaid_txn_agency_00284",
+      "date": "2026-02-18",
+      "amount": -96,
+      "description": "NOTION TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00285",
+      "plaid_transaction_id": "plaid_txn_agency_00285",
+      "date": "2026-02-18",
+      "amount": 28400,
+      "description": "VALOR CO PHASE 2 INV-2274",
+      "category": "customer_payment",
+      "is_recurring": false,
+      "confidence": 0.86
+    },
+    {
+      "id": "txn_agency_00286",
+      "plaid_transaction_id": "plaid_txn_agency_00286",
+      "date": "2026-02-20",
+      "amount": -420,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00287",
+      "plaid_transaction_id": "plaid_txn_agency_00287",
+      "date": "2026-02-20",
+      "amount": -22400.14,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00288",
+      "plaid_transaction_id": "plaid_txn_agency_00288",
+      "date": "2026-02-22",
+      "amount": -260,
+      "description": "LINEAR APP TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00289",
+      "plaid_transaction_id": "plaid_txn_agency_00289",
+      "date": "2026-02-24",
+      "amount": 2601.75,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00290",
+      "plaid_transaction_id": "plaid_txn_agency_00290",
+      "date": "2026-02-25",
+      "amount": -75,
+      "description": "GITHUB TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00291",
+      "plaid_transaction_id": "plaid_txn_agency_00291",
+      "date": "2026-03-01",
+      "amount": 28000.13,
+      "description": "ATLAS PARTNERS RETAINER MONTHLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00292",
+      "plaid_transaction_id": "plaid_txn_agency_00292",
+      "date": "2026-03-01",
+      "amount": -6500,
+      "description": "WESTLAKE PROPERTIES RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_agency_00293",
+      "plaid_transaction_id": "plaid_txn_agency_00293",
+      "date": "2026-03-01",
+      "amount": -4200,
+      "description": "NYS SALES TAX QTR",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_agency_00294",
+      "plaid_transaction_id": "plaid_txn_agency_00294",
+      "date": "2026-03-02",
+      "amount": -4800,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00295",
+      "plaid_transaction_id": "plaid_txn_agency_00295",
+      "date": "2026-03-03",
+      "amount": -385,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00296",
+      "plaid_transaction_id": "plaid_txn_agency_00296",
+      "date": "2026-03-03",
+      "amount": 2596.99,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00297",
+      "plaid_transaction_id": "plaid_txn_agency_00297",
+      "date": "2026-03-04",
+      "amount": -2150,
+      "description": "CHASE SBL LOAN PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00298",
+      "plaid_transaction_id": "plaid_txn_agency_00298",
+      "date": "2026-03-05",
+      "amount": 18000.12,
+      "description": "NEXUS BRANDS RETAINER ACH",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00299",
+      "plaid_transaction_id": "plaid_txn_agency_00299",
+      "date": "2026-03-05",
+      "amount": -5640,
+      "description": "ADOBE CC ANNUAL CONTRACT QTR",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00300",
+      "plaid_transaction_id": "plaid_txn_agency_00300",
+      "date": "2026-03-06",
+      "amount": -22399.85,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00301",
+      "plaid_transaction_id": "plaid_txn_agency_00301",
+      "date": "2026-03-07",
+      "amount": -890,
+      "description": "HUBSPOT MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00302",
+      "plaid_transaction_id": "plaid_txn_agency_00302",
+      "date": "2026-03-08",
+      "amount": -620,
+      "description": "AWS MONTHLY USAGE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00303",
+      "plaid_transaction_id": "plaid_txn_agency_00303",
+      "date": "2026-03-09",
+      "amount": -480,
+      "description": "FIGMA TEAM SUBSCRIPTION",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00304",
+      "plaid_transaction_id": "plaid_txn_agency_00304",
+      "date": "2026-03-10",
+      "amount": 14000.13,
+      "description": "MERIDIAN HEALTH MKTG RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00305",
+      "plaid_transaction_id": "plaid_txn_agency_00305",
+      "date": "2026-03-10",
+      "amount": 2603.24,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00306",
+      "plaid_transaction_id": "plaid_txn_agency_00306",
+      "date": "2026-03-11",
+      "amount": -149,
+      "description": "ZOOM US PRO",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00307",
+      "plaid_transaction_id": "plaid_txn_agency_00307",
+      "date": "2026-03-12",
+      "amount": -312,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00308",
+      "plaid_transaction_id": "plaid_txn_agency_00308",
+      "date": "2026-03-13",
+      "amount": -189,
+      "description": "VERIZON BUSINESS FIBER",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00309",
+      "plaid_transaction_id": "plaid_txn_agency_00309",
+      "date": "2026-03-14",
+      "amount": -228,
+      "description": "SLACK MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00310",
+      "plaid_transaction_id": "plaid_txn_agency_00310",
+      "date": "2026-03-15",
+      "amount": 9499.93,
+      "description": "CEDAR HARBOR LAW MO RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00311",
+      "plaid_transaction_id": "plaid_txn_agency_00311",
+      "date": "2026-03-15",
+      "amount": -144,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00312",
+      "plaid_transaction_id": "plaid_txn_agency_00312",
+      "date": "2026-03-15",
+      "amount": -1500,
+      "description": "FIDELITY 401K CONTRIB",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.88
+    },
+    {
+      "id": "txn_agency_00313",
+      "plaid_transaction_id": "plaid_txn_agency_00313",
+      "date": "2026-03-17",
+      "amount": 2598.25,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00314",
+      "plaid_transaction_id": "plaid_txn_agency_00314",
+      "date": "2026-03-18",
+      "amount": -96,
+      "description": "NOTION TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00315",
+      "plaid_transaction_id": "plaid_txn_agency_00315",
+      "date": "2026-03-20",
+      "amount": -420,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00316",
+      "plaid_transaction_id": "plaid_txn_agency_00316",
+      "date": "2026-03-20",
+      "amount": -22399.75,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00317",
+      "plaid_transaction_id": "plaid_txn_agency_00317",
+      "date": "2026-03-22",
+      "amount": -260,
+      "description": "LINEAR APP TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00318",
+      "plaid_transaction_id": "plaid_txn_agency_00318",
+      "date": "2026-03-24",
+      "amount": 2599.86,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00319",
+      "plaid_transaction_id": "plaid_txn_agency_00319",
+      "date": "2026-03-25",
+      "amount": -75,
+      "description": "GITHUB TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00320",
+      "plaid_transaction_id": "plaid_txn_agency_00320",
+      "date": "2026-03-25",
+      "amount": 11200,
+      "description": "OAKMONT CONSULTING INV-2310",
+      "category": "customer_payment",
+      "is_recurring": false,
+      "confidence": 0.86
+    },
+    {
+      "id": "txn_agency_00321",
+      "plaid_transaction_id": "plaid_txn_agency_00321",
+      "date": "2026-03-31",
+      "amount": 2603.82,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00322",
+      "plaid_transaction_id": "plaid_txn_agency_00322",
+      "date": "2026-04-01",
+      "amount": 28000.03,
+      "description": "ATLAS PARTNERS RETAINER MONTHLY",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00323",
+      "plaid_transaction_id": "plaid_txn_agency_00323",
+      "date": "2026-04-01",
+      "amount": -6500,
+      "description": "WESTLAKE PROPERTIES RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_agency_00324",
+      "plaid_transaction_id": "plaid_txn_agency_00324",
+      "date": "2026-04-02",
+      "amount": -4800,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00325",
+      "plaid_transaction_id": "plaid_txn_agency_00325",
+      "date": "2026-04-03",
+      "amount": -385,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_agency_00326",
+      "plaid_transaction_id": "plaid_txn_agency_00326",
+      "date": "2026-04-03",
+      "amount": -22399.99,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00327",
+      "plaid_transaction_id": "plaid_txn_agency_00327",
+      "date": "2026-04-04",
+      "amount": -2150,
+      "description": "CHASE SBL LOAN PMT",
+      "category": "loan_payment",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00328",
+      "plaid_transaction_id": "plaid_txn_agency_00328",
+      "date": "2026-04-05",
+      "amount": 18000.16,
+      "description": "NEXUS BRANDS RETAINER ACH",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00329",
+      "plaid_transaction_id": "plaid_txn_agency_00329",
+      "date": "2026-04-07",
+      "amount": -890,
+      "description": "HUBSPOT MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00330",
+      "plaid_transaction_id": "plaid_txn_agency_00330",
+      "date": "2026-04-07",
+      "amount": 2601.2,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00331",
+      "plaid_transaction_id": "plaid_txn_agency_00331",
+      "date": "2026-04-08",
+      "amount": -620,
+      "description": "AWS MONTHLY USAGE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00332",
+      "plaid_transaction_id": "plaid_txn_agency_00332",
+      "date": "2026-04-09",
+      "amount": -480,
+      "description": "FIGMA TEAM SUBSCRIPTION",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00333",
+      "plaid_transaction_id": "plaid_txn_agency_00333",
+      "date": "2026-04-10",
+      "amount": 14000.03,
+      "description": "MERIDIAN HEALTH MKTG RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00334",
+      "plaid_transaction_id": "plaid_txn_agency_00334",
+      "date": "2026-04-11",
+      "amount": -149,
+      "description": "ZOOM US PRO",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00335",
+      "plaid_transaction_id": "plaid_txn_agency_00335",
+      "date": "2026-04-12",
+      "amount": -312,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00336",
+      "plaid_transaction_id": "plaid_txn_agency_00336",
+      "date": "2026-04-13",
+      "amount": -189,
+      "description": "VERIZON BUSINESS FIBER",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00337",
+      "plaid_transaction_id": "plaid_txn_agency_00337",
+      "date": "2026-04-14",
+      "amount": -228,
+      "description": "SLACK MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00338",
+      "plaid_transaction_id": "plaid_txn_agency_00338",
+      "date": "2026-04-14",
+      "amount": 2603.61,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00339",
+      "plaid_transaction_id": "plaid_txn_agency_00339",
+      "date": "2026-04-15",
+      "amount": 9499.91,
+      "description": "CEDAR HARBOR LAW MO RETAINER",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.97
+    },
+    {
+      "id": "txn_agency_00340",
+      "plaid_transaction_id": "plaid_txn_agency_00340",
+      "date": "2026-04-15",
+      "amount": -144,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00341",
+      "plaid_transaction_id": "plaid_txn_agency_00341",
+      "date": "2026-04-15",
+      "amount": -1500,
+      "description": "FIDELITY 401K CONTRIB",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.88
+    },
+    {
+      "id": "txn_agency_00342",
+      "plaid_transaction_id": "plaid_txn_agency_00342",
+      "date": "2026-04-15",
+      "amount": -24500,
+      "description": "IRS USATAXPYMT EST Q",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_agency_00343",
+      "plaid_transaction_id": "plaid_txn_agency_00343",
+      "date": "2026-04-17",
+      "amount": -22400.22,
+      "description": "GUSTO PAYROLL BIWEEKLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_agency_00344",
+      "plaid_transaction_id": "plaid_txn_agency_00344",
+      "date": "2026-04-18",
+      "amount": -96,
+      "description": "NOTION TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00345",
+      "plaid_transaction_id": "plaid_txn_agency_00345",
+      "date": "2026-04-20",
+      "amount": -420,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_agency_00346",
+      "plaid_transaction_id": "plaid_txn_agency_00346",
+      "date": "2026-04-21",
+      "amount": 2603.87,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_agency_00347",
+      "plaid_transaction_id": "plaid_txn_agency_00347",
+      "date": "2026-04-22",
+      "amount": -260,
+      "description": "LINEAR APP TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_agency_00348",
+      "plaid_transaction_id": "plaid_txn_agency_00348",
+      "date": "2026-04-25",
+      "amount": -75,
+      "description": "GITHUB TEAM",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    }
+  ],
+  "forecast": {
+    "generated_at": "2026-04-28T13:40:37.149Z",
+    "business_name": "Brightline Studio LLC",
+    "starting_balance": 7550,
+    "threshold_dollars": 5000,
+    "scenarios": {
+      "optimistic": {
+        "scenario": "optimistic",
+        "starting_balance": 7550,
+        "weeks": [
+          {
+            "week_index": 1,
+            "week_start": "2026-04-27",
+            "week_end": "2026-05-03",
+            "inflow_total": 33660.12,
+            "outflow_total": 32380.79,
+            "projected_balance": 8829.33,
+            "top_inflows": [
+              {
+                "description": "ATLAS PARTNERS RETAINER MONTHLY",
+                "amount": 30800.01
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -21280.04
+              },
+              {
+                "description": "WESTLAKE PROPERTIES RENT",
+                "amount": -6175
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -4560
+              },
+              {
+                "description": "HISCOX BUSINESS INSURANCE",
+                "amount": -365.75
+              }
+            ]
+          },
+          {
+            "week_index": 2,
+            "week_start": "2026-05-04",
+            "week_end": "2026-05-10",
+            "inflow_total": 38060.23,
+            "outflow_total": 3933,
+            "projected_balance": 42956.56,
+            "top_inflows": [
+              {
+                "description": "NEXUS BRANDS RETAINER ACH",
+                "amount": 19800.06
+              },
+              {
+                "description": "MERIDIAN HEALTH MKTG RETAINER",
+                "amount": 15400.06
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CHASE SBL LOAN PMT",
+                "amount": -2042.5
+              },
+              {
+                "description": "HUBSPOT MONTHLY",
+                "amount": -845.5
+              },
+              {
+                "description": "AWS MONTHLY USAGE",
+                "amount": -589
+              },
+              {
+                "description": "FIGMA TEAM SUBSCRIPTION",
+                "amount": -456
+              }
+            ]
+          },
+          {
+            "week_index": 3,
+            "week_start": "2026-05-11",
+            "week_end": "2026-05-17",
+            "inflow_total": 13310.1,
+            "outflow_total": 23675.94,
+            "projected_balance": 32590.72,
+            "top_inflows": [
+              {
+                "description": "CEDAR HARBOR LAW MO RETAINER",
+                "amount": 10449.99
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -21280.04
+              },
+              {
+                "description": "FIDELITY 401K CONTRIB",
+                "amount": -1425
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -296.4
+              },
+              {
+                "description": "SLACK MONTHLY",
+                "amount": -216.6
+              }
+            ]
+          },
+          {
+            "week_index": 4,
+            "week_start": "2026-05-18",
+            "week_end": "2026-05-24",
+            "inflow_total": 2860.11,
+            "outflow_total": 737.2,
+            "projected_balance": 34713.63,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -399
+              },
+              {
+                "description": "LINEAR APP TEAM",
+                "amount": -247
+              },
+              {
+                "description": "NOTION TEAM",
+                "amount": -91.2
+              }
+            ]
+          },
+          {
+            "week_index": 5,
+            "week_start": "2026-05-25",
+            "week_end": "2026-05-31",
+            "inflow_total": 33660.12,
+            "outflow_total": 31516.29,
+            "projected_balance": 36857.46,
+            "top_inflows": [
+              {
+                "description": "ATLAS PARTNERS RETAINER MONTHLY",
+                "amount": 30800.01
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -21280.04
+              },
+              {
+                "description": "WESTLAKE PROPERTIES RENT",
+                "amount": -6175
+              },
+              {
+                "description": "NYS SALES TAX QTR",
+                "amount": -3990
+              },
+              {
+                "description": "GITHUB TEAM",
+                "amount": -71.25
+              }
+            ]
+          },
+          {
+            "week_index": 6,
+            "week_start": "2026-06-01",
+            "week_end": "2026-06-07",
+            "inflow_total": 22660.17,
+            "outflow_total": 13760.75,
+            "projected_balance": 45756.88,
+            "top_inflows": [
+              {
+                "description": "NEXUS BRANDS RETAINER ACH",
+                "amount": 19800.06
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADOBE CC ANNUAL CONTRACT QTR",
+                "amount": -5358
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -4560
+              },
+              {
+                "description": "CHASE SBL LOAN PMT",
+                "amount": -2042.5
+              },
+              {
+                "description": "HUBSPOT MONTHLY",
+                "amount": -845.5
+              }
+            ]
+          },
+          {
+            "week_index": 7,
+            "week_start": "2026-06-08",
+            "week_end": "2026-06-14",
+            "inflow_total": 28710.16,
+            "outflow_total": 24131.94,
+            "projected_balance": 50335.1,
+            "top_inflows": [
+              {
+                "description": "MERIDIAN HEALTH MKTG RETAINER",
+                "amount": 15400.06
+              },
+              {
+                "description": "CEDAR HARBOR LAW MO RETAINER",
+                "amount": 10449.99
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -21280.04
+              },
+              {
+                "description": "FIDELITY 401K CONTRIB",
+                "amount": -1425
+              },
+              {
+                "description": "FIGMA TEAM SUBSCRIPTION",
+                "amount": -456
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -296.4
+              }
+            ]
+          },
+          {
+            "week_index": 8,
+            "week_start": "2026-06-15",
+            "week_end": "2026-06-21",
+            "inflow_total": 2860.11,
+            "outflow_total": 737.2,
+            "projected_balance": 52458.01,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -399
+              },
+              {
+                "description": "LINEAR APP TEAM",
+                "amount": -247
+              },
+              {
+                "description": "NOTION TEAM",
+                "amount": -91.2
+              }
+            ]
+          },
+          {
+            "week_index": 9,
+            "week_start": "2026-06-22",
+            "week_end": "2026-06-28",
+            "inflow_total": 2860.11,
+            "outflow_total": 21351.29,
+            "projected_balance": 33966.83,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -21280.04
+              },
+              {
+                "description": "GITHUB TEAM",
+                "amount": -71.25
+              }
+            ]
+          },
+          {
+            "week_index": 10,
+            "week_start": "2026-06-29",
+            "week_end": "2026-07-05",
+            "inflow_total": 53460.18,
+            "outflow_total": 13143.25,
+            "projected_balance": 74283.76,
+            "top_inflows": [
+              {
+                "description": "ATLAS PARTNERS RETAINER MONTHLY",
+                "amount": 30800.01
+              },
+              {
+                "description": "NEXUS BRANDS RETAINER ACH",
+                "amount": 19800.06
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "WESTLAKE PROPERTIES RENT",
+                "amount": -6175
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -4560
+              },
+              {
+                "description": "CHASE SBL LOAN PMT",
+                "amount": -2042.5
+              },
+              {
+                "description": "HISCOX BUSINESS INSURANCE",
+                "amount": -365.75
+              }
+            ]
+          },
+          {
+            "week_index": 11,
+            "week_start": "2026-07-06",
+            "week_end": "2026-07-12",
+            "inflow_total": 18260.17,
+            "outflow_total": 23788.04,
+            "projected_balance": 68755.89,
+            "top_inflows": [
+              {
+                "description": "MERIDIAN HEALTH MKTG RETAINER",
+                "amount": 15400.06
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -21280.04
+              },
+              {
+                "description": "HUBSPOT MONTHLY",
+                "amount": -845.5
+              },
+              {
+                "description": "AWS MONTHLY USAGE",
+                "amount": -589
+              },
+              {
+                "description": "FIGMA TEAM SUBSCRIPTION",
+                "amount": -456
+              }
+            ]
+          },
+          {
+            "week_index": 12,
+            "week_start": "2026-07-13",
+            "week_end": "2026-07-19",
+            "inflow_total": 13310.1,
+            "outflow_total": 25543.6,
+            "projected_balance": 56522.39,
+            "top_inflows": [
+              {
+                "description": "CEDAR HARBOR LAW MO RETAINER",
+                "amount": 10449.99
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "IRS USATAXPYMT EST Q",
+                "amount": -23275
+              },
+              {
+                "description": "FIDELITY 401K CONTRIB",
+                "amount": -1425
+              },
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -399
+              },
+              {
+                "description": "SLACK MONTHLY",
+                "amount": -216.6
+              }
+            ]
+          },
+          {
+            "week_index": 13,
+            "week_start": "2026-07-20",
+            "week_end": "2026-07-26",
+            "inflow_total": 2860.11,
+            "outflow_total": 21598.29,
+            "projected_balance": 37784.21,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2860.11
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -21280.04
+              },
+              {
+                "description": "LINEAR APP TEAM",
+                "amount": -247
+              },
+              {
+                "description": "GITHUB TEAM",
+                "amount": -71.25
+              }
+            ]
+          }
+        ]
+      },
+      "base": {
+        "scenario": "base",
+        "starting_balance": 7550,
+        "weeks": [
+          {
+            "week_index": 1,
+            "week_start": "2026-04-27",
+            "week_end": "2026-05-03",
+            "inflow_total": 30600.11,
+            "outflow_total": 34085.04,
+            "projected_balance": 4065.07,
+            "top_inflows": [
+              {
+                "description": "ATLAS PARTNERS RETAINER MONTHLY",
+                "amount": 28000.01
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -22400.04
+              },
+              {
+                "description": "WESTLAKE PROPERTIES RENT",
+                "amount": -6500
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -4800
+              },
+              {
+                "description": "HISCOX BUSINESS INSURANCE",
+                "amount": -385
+              }
+            ]
+          },
+          {
+            "week_index": 2,
+            "week_start": "2026-05-04",
+            "week_end": "2026-05-10",
+            "inflow_total": 34600.2,
+            "outflow_total": 4140,
+            "projected_balance": 34525.27,
+            "top_inflows": [
+              {
+                "description": "NEXUS BRANDS RETAINER ACH",
+                "amount": 18000.05
+              },
+              {
+                "description": "MERIDIAN HEALTH MKTG RETAINER",
+                "amount": 14000.05
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CHASE SBL LOAN PMT",
+                "amount": -2150
+              },
+              {
+                "description": "HUBSPOT MONTHLY",
+                "amount": -890
+              },
+              {
+                "description": "AWS MONTHLY USAGE",
+                "amount": -620
+              },
+              {
+                "description": "FIGMA TEAM SUBSCRIPTION",
+                "amount": -480
+              }
+            ]
+          },
+          {
+            "week_index": 3,
+            "week_start": "2026-05-11",
+            "week_end": "2026-05-17",
+            "inflow_total": 12100.09,
+            "outflow_total": 24922.04,
+            "projected_balance": 21703.32,
+            "top_inflows": [
+              {
+                "description": "CEDAR HARBOR LAW MO RETAINER",
+                "amount": 9499.99
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -22400.04
+              },
+              {
+                "description": "FIDELITY 401K CONTRIB",
+                "amount": -1500
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -312
+              },
+              {
+                "description": "SLACK MONTHLY",
+                "amount": -228
+              }
+            ]
+          },
+          {
+            "week_index": 4,
+            "week_start": "2026-05-18",
+            "week_end": "2026-05-24",
+            "inflow_total": 2600.1,
+            "outflow_total": 776,
+            "projected_balance": 23527.42,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -420
+              },
+              {
+                "description": "LINEAR APP TEAM",
+                "amount": -260
+              },
+              {
+                "description": "NOTION TEAM",
+                "amount": -96
+              }
+            ]
+          },
+          {
+            "week_index": 5,
+            "week_start": "2026-05-25",
+            "week_end": "2026-05-31",
+            "inflow_total": 30600.11,
+            "outflow_total": 33175.04,
+            "projected_balance": 20952.49,
+            "top_inflows": [
+              {
+                "description": "ATLAS PARTNERS RETAINER MONTHLY",
+                "amount": 28000.01
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -22400.04
+              },
+              {
+                "description": "WESTLAKE PROPERTIES RENT",
+                "amount": -6500
+              },
+              {
+                "description": "NYS SALES TAX QTR",
+                "amount": -4200
+              },
+              {
+                "description": "GITHUB TEAM",
+                "amount": -75
+              }
+            ]
+          },
+          {
+            "week_index": 6,
+            "week_start": "2026-06-01",
+            "week_end": "2026-06-07",
+            "inflow_total": 20600.15,
+            "outflow_total": 14485,
+            "projected_balance": 27067.64,
+            "top_inflows": [
+              {
+                "description": "NEXUS BRANDS RETAINER ACH",
+                "amount": 18000.05
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADOBE CC ANNUAL CONTRACT QTR",
+                "amount": -5640
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -4800
+              },
+              {
+                "description": "CHASE SBL LOAN PMT",
+                "amount": -2150
+              },
+              {
+                "description": "HUBSPOT MONTHLY",
+                "amount": -890
+              }
+            ]
+          },
+          {
+            "week_index": 7,
+            "week_start": "2026-06-08",
+            "week_end": "2026-06-14",
+            "inflow_total": 26100.14,
+            "outflow_total": 25402.04,
+            "projected_balance": 27765.74,
+            "top_inflows": [
+              {
+                "description": "MERIDIAN HEALTH MKTG RETAINER",
+                "amount": 14000.05
+              },
+              {
+                "description": "CEDAR HARBOR LAW MO RETAINER",
+                "amount": 9499.99
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -22400.04
+              },
+              {
+                "description": "FIDELITY 401K CONTRIB",
+                "amount": -1500
+              },
+              {
+                "description": "FIGMA TEAM SUBSCRIPTION",
+                "amount": -480
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -312
+              }
+            ]
+          },
+          {
+            "week_index": 8,
+            "week_start": "2026-06-15",
+            "week_end": "2026-06-21",
+            "inflow_total": 2600.1,
+            "outflow_total": 776,
+            "projected_balance": 29589.84,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -420
+              },
+              {
+                "description": "LINEAR APP TEAM",
+                "amount": -260
+              },
+              {
+                "description": "NOTION TEAM",
+                "amount": -96
+              }
+            ]
+          },
+          {
+            "week_index": 9,
+            "week_start": "2026-06-22",
+            "week_end": "2026-06-28",
+            "inflow_total": 2600.1,
+            "outflow_total": 22475.04,
+            "projected_balance": 9714.9,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -22400.04
+              },
+              {
+                "description": "GITHUB TEAM",
+                "amount": -75
+              }
+            ]
+          },
+          {
+            "week_index": 10,
+            "week_start": "2026-06-29",
+            "week_end": "2026-07-05",
+            "inflow_total": 48600.16,
+            "outflow_total": 13835,
+            "projected_balance": 44480.06,
+            "top_inflows": [
+              {
+                "description": "ATLAS PARTNERS RETAINER MONTHLY",
+                "amount": 28000.01
+              },
+              {
+                "description": "NEXUS BRANDS RETAINER ACH",
+                "amount": 18000.05
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "WESTLAKE PROPERTIES RENT",
+                "amount": -6500
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -4800
+              },
+              {
+                "description": "CHASE SBL LOAN PMT",
+                "amount": -2150
+              },
+              {
+                "description": "HISCOX BUSINESS INSURANCE",
+                "amount": -385
+              }
+            ]
+          },
+          {
+            "week_index": 11,
+            "week_start": "2026-07-06",
+            "week_end": "2026-07-12",
+            "inflow_total": 16600.15,
+            "outflow_total": 25040.04,
+            "projected_balance": 36040.17,
+            "top_inflows": [
+              {
+                "description": "MERIDIAN HEALTH MKTG RETAINER",
+                "amount": 14000.05
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -22400.04
+              },
+              {
+                "description": "HUBSPOT MONTHLY",
+                "amount": -890
+              },
+              {
+                "description": "AWS MONTHLY USAGE",
+                "amount": -620
+              },
+              {
+                "description": "FIGMA TEAM SUBSCRIPTION",
+                "amount": -480
+              }
+            ]
+          },
+          {
+            "week_index": 12,
+            "week_start": "2026-07-13",
+            "week_end": "2026-07-19",
+            "inflow_total": 12100.09,
+            "outflow_total": 26888,
+            "projected_balance": 21252.26,
+            "top_inflows": [
+              {
+                "description": "CEDAR HARBOR LAW MO RETAINER",
+                "amount": 9499.99
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "IRS USATAXPYMT EST Q",
+                "amount": -24500
+              },
+              {
+                "description": "FIDELITY 401K CONTRIB",
+                "amount": -1500
+              },
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -420
+              },
+              {
+                "description": "SLACK MONTHLY",
+                "amount": -228
+              }
+            ]
+          },
+          {
+            "week_index": 13,
+            "week_start": "2026-07-20",
+            "week_end": "2026-07-26",
+            "inflow_total": 2600.1,
+            "outflow_total": 22735.04,
+            "projected_balance": 1117.32,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2600.1
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -22400.04
+              },
+              {
+                "description": "LINEAR APP TEAM",
+                "amount": -260
+              },
+              {
+                "description": "GITHUB TEAM",
+                "amount": -75
+              }
+            ]
+          }
+        ]
+      },
+      "pessimistic": {
+        "scenario": "pessimistic",
+        "starting_balance": 7550,
+        "weeks": [
+          {
+            "week_index": 1,
+            "week_start": "2026-04-27",
+            "week_end": "2026-05-03",
+            "inflow_total": 27540.1,
+            "outflow_total": 37493.54,
+            "projected_balance": -2403.44,
+            "top_inflows": [
+              {
+                "description": "ATLAS PARTNERS RETAINER MONTHLY",
+                "amount": 25200.01
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -24640.04
+              },
+              {
+                "description": "WESTLAKE PROPERTIES RENT",
+                "amount": -7150
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -5280
+              },
+              {
+                "description": "HISCOX BUSINESS INSURANCE",
+                "amount": -423.5
+              }
+            ]
+          },
+          {
+            "week_index": 2,
+            "week_start": "2026-05-04",
+            "week_end": "2026-05-10",
+            "inflow_total": 31140.19,
+            "outflow_total": 4554,
+            "projected_balance": 24182.75,
+            "top_inflows": [
+              {
+                "description": "NEXUS BRANDS RETAINER ACH",
+                "amount": 16200.05
+              },
+              {
+                "description": "MERIDIAN HEALTH MKTG RETAINER",
+                "amount": 12600.05
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CHASE SBL LOAN PMT",
+                "amount": -2365
+              },
+              {
+                "description": "HUBSPOT MONTHLY",
+                "amount": -979
+              },
+              {
+                "description": "AWS MONTHLY USAGE",
+                "amount": -682
+              },
+              {
+                "description": "FIGMA TEAM SUBSCRIPTION",
+                "amount": -528
+              }
+            ]
+          },
+          {
+            "week_index": 3,
+            "week_start": "2026-05-11",
+            "week_end": "2026-05-17",
+            "inflow_total": 10890.08,
+            "outflow_total": 27414.24,
+            "projected_balance": 7658.59,
+            "top_inflows": [
+              {
+                "description": "CEDAR HARBOR LAW MO RETAINER",
+                "amount": 8549.99
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -24640.04
+              },
+              {
+                "description": "FIDELITY 401K CONTRIB",
+                "amount": -1650
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -343.2
+              },
+              {
+                "description": "SLACK MONTHLY",
+                "amount": -250.8
+              }
+            ]
+          },
+          {
+            "week_index": 4,
+            "week_start": "2026-05-18",
+            "week_end": "2026-05-24",
+            "inflow_total": 2340.09,
+            "outflow_total": 853.6,
+            "projected_balance": 9145.08,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -462
+              },
+              {
+                "description": "LINEAR APP TEAM",
+                "amount": -286
+              },
+              {
+                "description": "NOTION TEAM",
+                "amount": -105.6
+              }
+            ]
+          },
+          {
+            "week_index": 5,
+            "week_start": "2026-05-25",
+            "week_end": "2026-05-31",
+            "inflow_total": 27540.1,
+            "outflow_total": 36492.54,
+            "projected_balance": 192.64,
+            "top_inflows": [
+              {
+                "description": "ATLAS PARTNERS RETAINER MONTHLY",
+                "amount": 25200.01
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -24640.04
+              },
+              {
+                "description": "WESTLAKE PROPERTIES RENT",
+                "amount": -7150
+              },
+              {
+                "description": "NYS SALES TAX QTR",
+                "amount": -4620
+              },
+              {
+                "description": "GITHUB TEAM",
+                "amount": -82.5
+              }
+            ]
+          },
+          {
+            "week_index": 6,
+            "week_start": "2026-06-01",
+            "week_end": "2026-06-07",
+            "inflow_total": 18540.14,
+            "outflow_total": 15933.5,
+            "projected_balance": 2799.28,
+            "top_inflows": [
+              {
+                "description": "NEXUS BRANDS RETAINER ACH",
+                "amount": 16200.05
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADOBE CC ANNUAL CONTRACT QTR",
+                "amount": -6204
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -5280
+              },
+              {
+                "description": "CHASE SBL LOAN PMT",
+                "amount": -2365
+              },
+              {
+                "description": "HUBSPOT MONTHLY",
+                "amount": -979
+              }
+            ]
+          },
+          {
+            "week_index": 7,
+            "week_start": "2026-06-08",
+            "week_end": "2026-06-14",
+            "inflow_total": 23490.13,
+            "outflow_total": 27942.24,
+            "projected_balance": -1652.83,
+            "top_inflows": [
+              {
+                "description": "MERIDIAN HEALTH MKTG RETAINER",
+                "amount": 12600.05
+              },
+              {
+                "description": "CEDAR HARBOR LAW MO RETAINER",
+                "amount": 8549.99
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -24640.04
+              },
+              {
+                "description": "FIDELITY 401K CONTRIB",
+                "amount": -1650
+              },
+              {
+                "description": "FIGMA TEAM SUBSCRIPTION",
+                "amount": -528
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -343.2
+              }
+            ]
+          },
+          {
+            "week_index": 8,
+            "week_start": "2026-06-15",
+            "week_end": "2026-06-21",
+            "inflow_total": 2340.09,
+            "outflow_total": 853.6,
+            "projected_balance": -166.34,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -462
+              },
+              {
+                "description": "LINEAR APP TEAM",
+                "amount": -286
+              },
+              {
+                "description": "NOTION TEAM",
+                "amount": -105.6
+              }
+            ]
+          },
+          {
+            "week_index": 9,
+            "week_start": "2026-06-22",
+            "week_end": "2026-06-28",
+            "inflow_total": 2340.09,
+            "outflow_total": 24722.54,
+            "projected_balance": -22548.79,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -24640.04
+              },
+              {
+                "description": "GITHUB TEAM",
+                "amount": -82.5
+              }
+            ]
+          },
+          {
+            "week_index": 10,
+            "week_start": "2026-06-29",
+            "week_end": "2026-07-05",
+            "inflow_total": 43740.15,
+            "outflow_total": 15218.5,
+            "projected_balance": 5972.86,
+            "top_inflows": [
+              {
+                "description": "ATLAS PARTNERS RETAINER MONTHLY",
+                "amount": 25200.01
+              },
+              {
+                "description": "NEXUS BRANDS RETAINER ACH",
+                "amount": 16200.05
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "WESTLAKE PROPERTIES RENT",
+                "amount": -7150
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -5280
+              },
+              {
+                "description": "CHASE SBL LOAN PMT",
+                "amount": -2365
+              },
+              {
+                "description": "HISCOX BUSINESS INSURANCE",
+                "amount": -423.5
+              }
+            ]
+          },
+          {
+            "week_index": 11,
+            "week_start": "2026-07-06",
+            "week_end": "2026-07-12",
+            "inflow_total": 14940.14,
+            "outflow_total": 27544.04,
+            "projected_balance": -6631.04,
+            "top_inflows": [
+              {
+                "description": "MERIDIAN HEALTH MKTG RETAINER",
+                "amount": 12600.05
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -24640.04
+              },
+              {
+                "description": "HUBSPOT MONTHLY",
+                "amount": -979
+              },
+              {
+                "description": "AWS MONTHLY USAGE",
+                "amount": -682
+              },
+              {
+                "description": "FIGMA TEAM SUBSCRIPTION",
+                "amount": -528
+              }
+            ]
+          },
+          {
+            "week_index": 12,
+            "week_start": "2026-07-13",
+            "week_end": "2026-07-19",
+            "inflow_total": 10890.08,
+            "outflow_total": 29576.8,
+            "projected_balance": -25317.76,
+            "top_inflows": [
+              {
+                "description": "CEDAR HARBOR LAW MO RETAINER",
+                "amount": 8549.99
+              },
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "IRS USATAXPYMT EST Q",
+                "amount": -26950
+              },
+              {
+                "description": "FIDELITY 401K CONTRIB",
+                "amount": -1650
+              },
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -462
+              },
+              {
+                "description": "SLACK MONTHLY",
+                "amount": -250.8
+              }
+            ]
+          },
+          {
+            "week_index": 13,
+            "week_start": "2026-07-20",
+            "week_end": "2026-07-26",
+            "inflow_total": 2340.09,
+            "outflow_total": 25008.54,
+            "projected_balance": -47986.21,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 2340.09
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "GUSTO PAYROLL BIWEEKLY",
+                "amount": -24640.04
+              },
+              {
+                "description": "LINEAR APP TEAM",
+                "amount": -286
+              },
+              {
+                "description": "GITHUB TEAM",
+                "amount": -82.5
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "at_risk_weeks": [
+      {
+        "week_index": 1,
+        "week_start": "2026-04-27",
+        "week_end": "2026-05-03",
+        "projected_balance": 4065.07,
+        "shortfall": 934.93,
+        "drivers": [
+          {
+            "transaction_id": "txn_agency_00343",
+            "description": "GUSTO PAYROLL BIWEEKLY",
+            "amount": -22400.04,
+            "category": "payroll"
+          },
+          {
+            "transaction_id": "txn_agency_00323",
+            "description": "WESTLAKE PROPERTIES RENT",
+            "amount": -6500,
+            "category": "rent_or_mortgage"
+          },
+          {
+            "transaction_id": "txn_agency_00324",
+            "description": "ANTHEM BCBS GROUP HEALTH",
+            "amount": -4800,
+            "category": "subscriptions"
+          }
+        ]
+      },
+      {
+        "week_index": 13,
+        "week_start": "2026-07-20",
+        "week_end": "2026-07-26",
+        "projected_balance": 1117.32,
+        "shortfall": 3882.68,
+        "drivers": [
+          {
+            "transaction_id": "txn_agency_00343",
+            "description": "GUSTO PAYROLL BIWEEKLY",
+            "amount": -22400.04,
+            "category": "payroll"
+          },
+          {
+            "transaction_id": "txn_agency_00347",
+            "description": "LINEAR APP TEAM",
+            "amount": -260,
+            "category": "subscriptions"
+          },
+          {
+            "transaction_id": "txn_agency_00348",
+            "description": "GITHUB TEAM",
+            "amount": -75,
+            "category": "subscriptions"
+          }
+        ]
+      }
+    ]
+  },
+  "explanations": [
+    {
+      "week_index": 1,
+      "explanation": "By the week of April 27, your projected balance falls to about $4,065 — about $935 below your $5,000 floor. The biggest hits this week are GUSTO PAYROLL BIWEEKLY (~$22,400), WESTLAKE PROPERTIES RENT (~$6,500), ANTHEM BCBS GROUP HEALTH (~$4,800). One concrete lever: consider asking a top customer to settle a few days earlier so cash lands before payday, or move payroll to the day after the largest retainer hits.",
+      "cited_transaction_ids": [
+        "txn_agency_00343",
+        "txn_agency_00323",
+        "txn_agency_00324"
+      ]
+    },
+    {
+      "week_index": 13,
+      "explanation": "By the week of July 20, your projected balance falls to about $1,117 — about $3,883 below your $5,000 floor. The biggest hits this week are GUSTO PAYROLL BIWEEKLY (~$22,400), LINEAR APP TEAM (~$260), GITHUB TEAM (~$75). One concrete lever: consider asking a top customer to settle a few days earlier so cash lands before payday, or move payroll to the day after the largest retainer hits.",
+      "cited_transaction_ids": [
+        "txn_agency_00343",
+        "txn_agency_00347",
+        "txn_agency_00348"
+      ]
+    }
+  ]
+}

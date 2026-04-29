@@ -1,0 +1,6713 @@
+{
+  "meta": {
+    "id": "retail",
+    "label": "Retail",
+    "description": "Goldenwave Goods — high-volume online + brick-and-mortar gift shop. Daily Stripe + Square payouts, weekly inventory burn, tight margins.",
+    "business_name": "Goldenwave Goods Co.",
+    "bank_account_mask": "*** 8821 (Mercury Business Checking)",
+    "starting_balance": 2400,
+    "today": "2026-04-26",
+    "threshold_dollars": 5000,
+    "generated_at": "2026-04-28T13:40:37.164Z"
+  },
+  "transactions": [
+    {
+      "id": "txn_retail_00001",
+      "plaid_transaction_id": "plaid_txn_retail_00001",
+      "date": "2025-04-28",
+      "amount": -310,
+      "description": "STRIPE FEE MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00002",
+      "plaid_transaction_id": "plaid_txn_retail_00002",
+      "date": "2025-04-29",
+      "amount": -3597.98,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00003",
+      "plaid_transaction_id": "plaid_txn_retail_00003",
+      "date": "2025-04-30",
+      "amount": 2803.16,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00004",
+      "plaid_transaction_id": "plaid_txn_retail_00004",
+      "date": "2025-05-01",
+      "amount": -4200,
+      "description": "SOUTHPORT RETAIL RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_retail_00005",
+      "plaid_transaction_id": "plaid_txn_retail_00005",
+      "date": "2025-05-01",
+      "amount": 720.88,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00006",
+      "plaid_transaction_id": "plaid_txn_retail_00006",
+      "date": "2025-05-01",
+      "amount": -2399.7,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00007",
+      "plaid_transaction_id": "plaid_txn_retail_00007",
+      "date": "2025-05-01",
+      "amount": -380.15,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00008",
+      "plaid_transaction_id": "plaid_txn_retail_00008",
+      "date": "2025-05-02",
+      "amount": -3100,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00009",
+      "plaid_transaction_id": "plaid_txn_retail_00009",
+      "date": "2025-05-02",
+      "amount": 7391.34,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00010",
+      "plaid_transaction_id": "plaid_txn_retail_00010",
+      "date": "2025-05-03",
+      "amount": -399,
+      "description": "SHOPIFY ADVANCED PLAN",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00011",
+      "plaid_transaction_id": "plaid_txn_retail_00011",
+      "date": "2025-05-04",
+      "amount": -540,
+      "description": "KLAVIYO MARKETING",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00012",
+      "plaid_transaction_id": "plaid_txn_retail_00012",
+      "date": "2025-05-05",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00013",
+      "plaid_transaction_id": "plaid_txn_retail_00013",
+      "date": "2025-05-06",
+      "amount": -245,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00014",
+      "plaid_transaction_id": "plaid_txn_retail_00014",
+      "date": "2025-05-06",
+      "amount": -3600.51,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00015",
+      "plaid_transaction_id": "plaid_txn_retail_00015",
+      "date": "2025-05-07",
+      "amount": 2796.8,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00016",
+      "plaid_transaction_id": "plaid_txn_retail_00016",
+      "date": "2025-05-08",
+      "amount": 720.54,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00017",
+      "plaid_transaction_id": "plaid_txn_retail_00017",
+      "date": "2025-05-08",
+      "amount": -2402.91,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00018",
+      "plaid_transaction_id": "plaid_txn_retail_00018",
+      "date": "2025-05-08",
+      "amount": -379.76,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00019",
+      "plaid_transaction_id": "plaid_txn_retail_00019",
+      "date": "2025-05-09",
+      "amount": -279,
+      "description": "COMCAST BUSINESS INTERNET",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00020",
+      "plaid_transaction_id": "plaid_txn_retail_00020",
+      "date": "2025-05-09",
+      "amount": 7389.28,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00021",
+      "plaid_transaction_id": "plaid_txn_retail_00021",
+      "date": "2025-05-09",
+      "amount": -13399.96,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00022",
+      "plaid_transaction_id": "plaid_txn_retail_00022",
+      "date": "2025-05-12",
+      "amount": -680,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00023",
+      "plaid_transaction_id": "plaid_txn_retail_00023",
+      "date": "2025-05-13",
+      "amount": -180,
+      "description": "ADP RUN PAYROLL FEE",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00024",
+      "plaid_transaction_id": "plaid_txn_retail_00024",
+      "date": "2025-05-13",
+      "amount": -3595.65,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00025",
+      "plaid_transaction_id": "plaid_txn_retail_00025",
+      "date": "2025-05-14",
+      "amount": -149,
+      "description": "MAILCHIMP",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00026",
+      "plaid_transaction_id": "plaid_txn_retail_00026",
+      "date": "2025-05-14",
+      "amount": 2801.01,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00027",
+      "plaid_transaction_id": "plaid_txn_retail_00027",
+      "date": "2025-05-15",
+      "amount": 720.28,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00028",
+      "plaid_transaction_id": "plaid_txn_retail_00028",
+      "date": "2025-05-15",
+      "amount": -2399.79,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00029",
+      "plaid_transaction_id": "plaid_txn_retail_00029",
+      "date": "2025-05-15",
+      "amount": -380.41,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00030",
+      "plaid_transaction_id": "plaid_txn_retail_00030",
+      "date": "2025-05-16",
+      "amount": 7404.66,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00031",
+      "plaid_transaction_id": "plaid_txn_retail_00031",
+      "date": "2025-05-17",
+      "amount": -240,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00032",
+      "plaid_transaction_id": "plaid_txn_retail_00032",
+      "date": "2025-05-18",
+      "amount": -72,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00033",
+      "plaid_transaction_id": "plaid_txn_retail_00033",
+      "date": "2025-05-20",
+      "amount": -3596.77,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00034",
+      "plaid_transaction_id": "plaid_txn_retail_00034",
+      "date": "2025-05-21",
+      "amount": 2798.5,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00035",
+      "plaid_transaction_id": "plaid_txn_retail_00035",
+      "date": "2025-05-22",
+      "amount": -89,
+      "description": "SQUARE TERMINAL LEASE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00036",
+      "plaid_transaction_id": "plaid_txn_retail_00036",
+      "date": "2025-05-22",
+      "amount": 719.33,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00037",
+      "plaid_transaction_id": "plaid_txn_retail_00037",
+      "date": "2025-05-22",
+      "amount": -2397.64,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00038",
+      "plaid_transaction_id": "plaid_txn_retail_00038",
+      "date": "2025-05-22",
+      "amount": -379.69,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00039",
+      "plaid_transaction_id": "plaid_txn_retail_00039",
+      "date": "2025-05-23",
+      "amount": 7411,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00040",
+      "plaid_transaction_id": "plaid_txn_retail_00040",
+      "date": "2025-05-23",
+      "amount": -13399.96,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00041",
+      "plaid_transaction_id": "plaid_txn_retail_00041",
+      "date": "2025-05-27",
+      "amount": -3604.16,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00042",
+      "plaid_transaction_id": "plaid_txn_retail_00042",
+      "date": "2025-05-28",
+      "amount": -310,
+      "description": "STRIPE FEE MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00043",
+      "plaid_transaction_id": "plaid_txn_retail_00043",
+      "date": "2025-05-28",
+      "amount": 2799.48,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00044",
+      "plaid_transaction_id": "plaid_txn_retail_00044",
+      "date": "2025-05-29",
+      "amount": 720.47,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00045",
+      "plaid_transaction_id": "plaid_txn_retail_00045",
+      "date": "2025-05-29",
+      "amount": -2400.56,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00046",
+      "plaid_transaction_id": "plaid_txn_retail_00046",
+      "date": "2025-05-29",
+      "amount": -379.82,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00047",
+      "plaid_transaction_id": "plaid_txn_retail_00047",
+      "date": "2025-05-30",
+      "amount": 7390.56,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00048",
+      "plaid_transaction_id": "plaid_txn_retail_00048",
+      "date": "2025-06-01",
+      "amount": -4200,
+      "description": "SOUTHPORT RETAIL RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_retail_00049",
+      "plaid_transaction_id": "plaid_txn_retail_00049",
+      "date": "2025-06-01",
+      "amount": -7200,
+      "description": "NYS SALES TAX QTR",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_retail_00050",
+      "plaid_transaction_id": "plaid_txn_retail_00050",
+      "date": "2025-06-02",
+      "amount": -3100,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00051",
+      "plaid_transaction_id": "plaid_txn_retail_00051",
+      "date": "2025-06-03",
+      "amount": -399,
+      "description": "SHOPIFY ADVANCED PLAN",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00052",
+      "plaid_transaction_id": "plaid_txn_retail_00052",
+      "date": "2025-06-03",
+      "amount": -3595.81,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00053",
+      "plaid_transaction_id": "plaid_txn_retail_00053",
+      "date": "2025-06-04",
+      "amount": -540,
+      "description": "KLAVIYO MARKETING",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00054",
+      "plaid_transaction_id": "plaid_txn_retail_00054",
+      "date": "2025-06-04",
+      "amount": 2800.57,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00055",
+      "plaid_transaction_id": "plaid_txn_retail_00055",
+      "date": "2025-06-05",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00056",
+      "plaid_transaction_id": "plaid_txn_retail_00056",
+      "date": "2025-06-05",
+      "amount": 719.72,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00057",
+      "plaid_transaction_id": "plaid_txn_retail_00057",
+      "date": "2025-06-05",
+      "amount": -2400.85,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00058",
+      "plaid_transaction_id": "plaid_txn_retail_00058",
+      "date": "2025-06-05",
+      "amount": -379.88,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00059",
+      "plaid_transaction_id": "plaid_txn_retail_00059",
+      "date": "2025-06-06",
+      "amount": -245,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00060",
+      "plaid_transaction_id": "plaid_txn_retail_00060",
+      "date": "2025-06-06",
+      "amount": 7406.02,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00061",
+      "plaid_transaction_id": "plaid_txn_retail_00061",
+      "date": "2025-06-06",
+      "amount": -13399.81,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00062",
+      "plaid_transaction_id": "plaid_txn_retail_00062",
+      "date": "2025-06-09",
+      "amount": -279,
+      "description": "COMCAST BUSINESS INTERNET",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00063",
+      "plaid_transaction_id": "plaid_txn_retail_00063",
+      "date": "2025-06-10",
+      "amount": -3597.03,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00064",
+      "plaid_transaction_id": "plaid_txn_retail_00064",
+      "date": "2025-06-11",
+      "amount": 2799.97,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00065",
+      "plaid_transaction_id": "plaid_txn_retail_00065",
+      "date": "2025-06-12",
+      "amount": -680,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00066",
+      "plaid_transaction_id": "plaid_txn_retail_00066",
+      "date": "2025-06-12",
+      "amount": 719.86,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00067",
+      "plaid_transaction_id": "plaid_txn_retail_00067",
+      "date": "2025-06-12",
+      "amount": -2399.3,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00068",
+      "plaid_transaction_id": "plaid_txn_retail_00068",
+      "date": "2025-06-12",
+      "amount": -380.16,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00069",
+      "plaid_transaction_id": "plaid_txn_retail_00069",
+      "date": "2025-06-13",
+      "amount": -180,
+      "description": "ADP RUN PAYROLL FEE",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00070",
+      "plaid_transaction_id": "plaid_txn_retail_00070",
+      "date": "2025-06-13",
+      "amount": 7391.88,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00071",
+      "plaid_transaction_id": "plaid_txn_retail_00071",
+      "date": "2025-06-14",
+      "amount": -149,
+      "description": "MAILCHIMP",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00072",
+      "plaid_transaction_id": "plaid_txn_retail_00072",
+      "date": "2025-06-15",
+      "amount": -800,
+      "description": "FRANCHISE TAX BOARD",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_retail_00073",
+      "plaid_transaction_id": "plaid_txn_retail_00073",
+      "date": "2025-06-17",
+      "amount": -240,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00074",
+      "plaid_transaction_id": "plaid_txn_retail_00074",
+      "date": "2025-06-17",
+      "amount": -3599.86,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00075",
+      "plaid_transaction_id": "plaid_txn_retail_00075",
+      "date": "2025-06-18",
+      "amount": -72,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00076",
+      "plaid_transaction_id": "plaid_txn_retail_00076",
+      "date": "2025-06-18",
+      "amount": 2802.03,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00077",
+      "plaid_transaction_id": "plaid_txn_retail_00077",
+      "date": "2025-06-19",
+      "amount": 720.58,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00078",
+      "plaid_transaction_id": "plaid_txn_retail_00078",
+      "date": "2025-06-19",
+      "amount": -2400.78,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00079",
+      "plaid_transaction_id": "plaid_txn_retail_00079",
+      "date": "2025-06-19",
+      "amount": -380.27,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00080",
+      "plaid_transaction_id": "plaid_txn_retail_00080",
+      "date": "2025-06-20",
+      "amount": 7406.94,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00081",
+      "plaid_transaction_id": "plaid_txn_retail_00081",
+      "date": "2025-06-20",
+      "amount": -13399.8,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00082",
+      "plaid_transaction_id": "plaid_txn_retail_00082",
+      "date": "2025-06-22",
+      "amount": -89,
+      "description": "SQUARE TERMINAL LEASE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00083",
+      "plaid_transaction_id": "plaid_txn_retail_00083",
+      "date": "2025-06-24",
+      "amount": -3601.37,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00084",
+      "plaid_transaction_id": "plaid_txn_retail_00084",
+      "date": "2025-06-25",
+      "amount": 2803.07,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00085",
+      "plaid_transaction_id": "plaid_txn_retail_00085",
+      "date": "2025-06-26",
+      "amount": 720.83,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00086",
+      "plaid_transaction_id": "plaid_txn_retail_00086",
+      "date": "2025-06-26",
+      "amount": -2401.28,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00087",
+      "plaid_transaction_id": "plaid_txn_retail_00087",
+      "date": "2025-06-26",
+      "amount": -379.89,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00088",
+      "plaid_transaction_id": "plaid_txn_retail_00088",
+      "date": "2025-06-27",
+      "amount": 7390.67,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00089",
+      "plaid_transaction_id": "plaid_txn_retail_00089",
+      "date": "2025-06-28",
+      "amount": -310,
+      "description": "STRIPE FEE MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00090",
+      "plaid_transaction_id": "plaid_txn_retail_00090",
+      "date": "2025-07-01",
+      "amount": -4200,
+      "description": "SOUTHPORT RETAIL RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_retail_00091",
+      "plaid_transaction_id": "plaid_txn_retail_00091",
+      "date": "2025-07-01",
+      "amount": -3600.48,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00092",
+      "plaid_transaction_id": "plaid_txn_retail_00092",
+      "date": "2025-07-02",
+      "amount": -3100,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00093",
+      "plaid_transaction_id": "plaid_txn_retail_00093",
+      "date": "2025-07-02",
+      "amount": 2796.56,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00094",
+      "plaid_transaction_id": "plaid_txn_retail_00094",
+      "date": "2025-07-03",
+      "amount": -399,
+      "description": "SHOPIFY ADVANCED PLAN",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00095",
+      "plaid_transaction_id": "plaid_txn_retail_00095",
+      "date": "2025-07-03",
+      "amount": 719.52,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00096",
+      "plaid_transaction_id": "plaid_txn_retail_00096",
+      "date": "2025-07-03",
+      "amount": -2400.38,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00097",
+      "plaid_transaction_id": "plaid_txn_retail_00097",
+      "date": "2025-07-03",
+      "amount": -379.86,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00098",
+      "plaid_transaction_id": "plaid_txn_retail_00098",
+      "date": "2025-07-04",
+      "amount": -540,
+      "description": "KLAVIYO MARKETING",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00099",
+      "plaid_transaction_id": "plaid_txn_retail_00099",
+      "date": "2025-07-04",
+      "amount": 7393.45,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00100",
+      "plaid_transaction_id": "plaid_txn_retail_00100",
+      "date": "2025-07-04",
+      "amount": -13399.91,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00101",
+      "plaid_transaction_id": "plaid_txn_retail_00101",
+      "date": "2025-07-05",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00102",
+      "plaid_transaction_id": "plaid_txn_retail_00102",
+      "date": "2025-07-06",
+      "amount": -245,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00103",
+      "plaid_transaction_id": "plaid_txn_retail_00103",
+      "date": "2025-07-08",
+      "amount": -3601.8,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00104",
+      "plaid_transaction_id": "plaid_txn_retail_00104",
+      "date": "2025-07-09",
+      "amount": -279,
+      "description": "COMCAST BUSINESS INTERNET",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00105",
+      "plaid_transaction_id": "plaid_txn_retail_00105",
+      "date": "2025-07-09",
+      "amount": 2799.36,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00106",
+      "plaid_transaction_id": "plaid_txn_retail_00106",
+      "date": "2025-07-10",
+      "amount": 719.87,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00107",
+      "plaid_transaction_id": "plaid_txn_retail_00107",
+      "date": "2025-07-10",
+      "amount": -2403.59,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00108",
+      "plaid_transaction_id": "plaid_txn_retail_00108",
+      "date": "2025-07-10",
+      "amount": -379.8,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00109",
+      "plaid_transaction_id": "plaid_txn_retail_00109",
+      "date": "2025-07-11",
+      "amount": 7389.92,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00110",
+      "plaid_transaction_id": "plaid_txn_retail_00110",
+      "date": "2025-07-12",
+      "amount": -680,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00111",
+      "plaid_transaction_id": "plaid_txn_retail_00111",
+      "date": "2025-07-13",
+      "amount": -180,
+      "description": "ADP RUN PAYROLL FEE",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00112",
+      "plaid_transaction_id": "plaid_txn_retail_00112",
+      "date": "2025-07-14",
+      "amount": -149,
+      "description": "MAILCHIMP",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00113",
+      "plaid_transaction_id": "plaid_txn_retail_00113",
+      "date": "2025-07-15",
+      "amount": -3600.93,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00114",
+      "plaid_transaction_id": "plaid_txn_retail_00114",
+      "date": "2025-07-16",
+      "amount": 2796.89,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00115",
+      "plaid_transaction_id": "plaid_txn_retail_00115",
+      "date": "2025-07-17",
+      "amount": -240,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00116",
+      "plaid_transaction_id": "plaid_txn_retail_00116",
+      "date": "2025-07-17",
+      "amount": 720.4,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00117",
+      "plaid_transaction_id": "plaid_txn_retail_00117",
+      "date": "2025-07-17",
+      "amount": -2401.55,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00118",
+      "plaid_transaction_id": "plaid_txn_retail_00118",
+      "date": "2025-07-17",
+      "amount": -380.05,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00119",
+      "plaid_transaction_id": "plaid_txn_retail_00119",
+      "date": "2025-07-18",
+      "amount": -72,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00120",
+      "plaid_transaction_id": "plaid_txn_retail_00120",
+      "date": "2025-07-18",
+      "amount": 7394.26,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00121",
+      "plaid_transaction_id": "plaid_txn_retail_00121",
+      "date": "2025-07-18",
+      "amount": -13400.16,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00122",
+      "plaid_transaction_id": "plaid_txn_retail_00122",
+      "date": "2025-07-22",
+      "amount": -89,
+      "description": "SQUARE TERMINAL LEASE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00123",
+      "plaid_transaction_id": "plaid_txn_retail_00123",
+      "date": "2025-07-22",
+      "amount": -3597.97,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00124",
+      "plaid_transaction_id": "plaid_txn_retail_00124",
+      "date": "2025-07-23",
+      "amount": 2797.56,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00125",
+      "plaid_transaction_id": "plaid_txn_retail_00125",
+      "date": "2025-07-24",
+      "amount": 720.93,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00126",
+      "plaid_transaction_id": "plaid_txn_retail_00126",
+      "date": "2025-07-24",
+      "amount": -2402.69,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00127",
+      "plaid_transaction_id": "plaid_txn_retail_00127",
+      "date": "2025-07-24",
+      "amount": -380.48,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00128",
+      "plaid_transaction_id": "plaid_txn_retail_00128",
+      "date": "2025-07-25",
+      "amount": 7408.22,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00129",
+      "plaid_transaction_id": "plaid_txn_retail_00129",
+      "date": "2025-07-28",
+      "amount": -310,
+      "description": "STRIPE FEE MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00130",
+      "plaid_transaction_id": "plaid_txn_retail_00130",
+      "date": "2025-07-29",
+      "amount": -3600.28,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00131",
+      "plaid_transaction_id": "plaid_txn_retail_00131",
+      "date": "2025-07-30",
+      "amount": 2796.23,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00132",
+      "plaid_transaction_id": "plaid_txn_retail_00132",
+      "date": "2025-07-31",
+      "amount": 718.94,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00133",
+      "plaid_transaction_id": "plaid_txn_retail_00133",
+      "date": "2025-07-31",
+      "amount": -2402.48,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00134",
+      "plaid_transaction_id": "plaid_txn_retail_00134",
+      "date": "2025-07-31",
+      "amount": -379.47,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00135",
+      "plaid_transaction_id": "plaid_txn_retail_00135",
+      "date": "2025-08-01",
+      "amount": -4200,
+      "description": "SOUTHPORT RETAIL RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_retail_00136",
+      "plaid_transaction_id": "plaid_txn_retail_00136",
+      "date": "2025-08-01",
+      "amount": 7401.4,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00137",
+      "plaid_transaction_id": "plaid_txn_retail_00137",
+      "date": "2025-08-01",
+      "amount": -13400.28,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00138",
+      "plaid_transaction_id": "plaid_txn_retail_00138",
+      "date": "2025-08-02",
+      "amount": -3100,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00139",
+      "plaid_transaction_id": "plaid_txn_retail_00139",
+      "date": "2025-08-03",
+      "amount": -399,
+      "description": "SHOPIFY ADVANCED PLAN",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00140",
+      "plaid_transaction_id": "plaid_txn_retail_00140",
+      "date": "2025-08-04",
+      "amount": -540,
+      "description": "KLAVIYO MARKETING",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00141",
+      "plaid_transaction_id": "plaid_txn_retail_00141",
+      "date": "2025-08-05",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00142",
+      "plaid_transaction_id": "plaid_txn_retail_00142",
+      "date": "2025-08-05",
+      "amount": -3597.12,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00143",
+      "plaid_transaction_id": "plaid_txn_retail_00143",
+      "date": "2025-08-06",
+      "amount": -245,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00144",
+      "plaid_transaction_id": "plaid_txn_retail_00144",
+      "date": "2025-08-06",
+      "amount": 2804.08,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00145",
+      "plaid_transaction_id": "plaid_txn_retail_00145",
+      "date": "2025-08-07",
+      "amount": 719.35,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00146",
+      "plaid_transaction_id": "plaid_txn_retail_00146",
+      "date": "2025-08-07",
+      "amount": -2401.52,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00147",
+      "plaid_transaction_id": "plaid_txn_retail_00147",
+      "date": "2025-08-07",
+      "amount": -379.61,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00148",
+      "plaid_transaction_id": "plaid_txn_retail_00148",
+      "date": "2025-08-08",
+      "amount": 7403.46,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00149",
+      "plaid_transaction_id": "plaid_txn_retail_00149",
+      "date": "2025-08-09",
+      "amount": -279,
+      "description": "COMCAST BUSINESS INTERNET",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00150",
+      "plaid_transaction_id": "plaid_txn_retail_00150",
+      "date": "2025-08-12",
+      "amount": -680,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00151",
+      "plaid_transaction_id": "plaid_txn_retail_00151",
+      "date": "2025-08-12",
+      "amount": -3597.94,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00152",
+      "plaid_transaction_id": "plaid_txn_retail_00152",
+      "date": "2025-08-13",
+      "amount": -180,
+      "description": "ADP RUN PAYROLL FEE",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00153",
+      "plaid_transaction_id": "plaid_txn_retail_00153",
+      "date": "2025-08-13",
+      "amount": 2796.37,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00154",
+      "plaid_transaction_id": "plaid_txn_retail_00154",
+      "date": "2025-08-14",
+      "amount": -149,
+      "description": "MAILCHIMP",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00155",
+      "plaid_transaction_id": "plaid_txn_retail_00155",
+      "date": "2025-08-14",
+      "amount": 719.48,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00156",
+      "plaid_transaction_id": "plaid_txn_retail_00156",
+      "date": "2025-08-14",
+      "amount": -2399.78,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00157",
+      "plaid_transaction_id": "plaid_txn_retail_00157",
+      "date": "2025-08-14",
+      "amount": -380.27,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00158",
+      "plaid_transaction_id": "plaid_txn_retail_00158",
+      "date": "2025-08-14",
+      "amount": -2900,
+      "description": "POS HARDWARE UPGRADE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00159",
+      "plaid_transaction_id": "plaid_txn_retail_00159",
+      "date": "2025-08-15",
+      "amount": 7392.3,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00160",
+      "plaid_transaction_id": "plaid_txn_retail_00160",
+      "date": "2025-08-15",
+      "amount": -13400.25,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00161",
+      "plaid_transaction_id": "plaid_txn_retail_00161",
+      "date": "2025-08-17",
+      "amount": -240,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00162",
+      "plaid_transaction_id": "plaid_txn_retail_00162",
+      "date": "2025-08-18",
+      "amount": -72,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00163",
+      "plaid_transaction_id": "plaid_txn_retail_00163",
+      "date": "2025-08-19",
+      "amount": -3595.47,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00164",
+      "plaid_transaction_id": "plaid_txn_retail_00164",
+      "date": "2025-08-20",
+      "amount": 2802.68,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00165",
+      "plaid_transaction_id": "plaid_txn_retail_00165",
+      "date": "2025-08-21",
+      "amount": 719.53,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00166",
+      "plaid_transaction_id": "plaid_txn_retail_00166",
+      "date": "2025-08-21",
+      "amount": -2401.29,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00167",
+      "plaid_transaction_id": "plaid_txn_retail_00167",
+      "date": "2025-08-21",
+      "amount": -379.74,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00168",
+      "plaid_transaction_id": "plaid_txn_retail_00168",
+      "date": "2025-08-22",
+      "amount": -89,
+      "description": "SQUARE TERMINAL LEASE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00169",
+      "plaid_transaction_id": "plaid_txn_retail_00169",
+      "date": "2025-08-22",
+      "amount": 7402.58,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00170",
+      "plaid_transaction_id": "plaid_txn_retail_00170",
+      "date": "2025-08-26",
+      "amount": -3598.95,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00171",
+      "plaid_transaction_id": "plaid_txn_retail_00171",
+      "date": "2025-08-27",
+      "amount": 2798.73,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00172",
+      "plaid_transaction_id": "plaid_txn_retail_00172",
+      "date": "2025-08-28",
+      "amount": -310,
+      "description": "STRIPE FEE MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00173",
+      "plaid_transaction_id": "plaid_txn_retail_00173",
+      "date": "2025-08-28",
+      "amount": 719.32,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00174",
+      "plaid_transaction_id": "plaid_txn_retail_00174",
+      "date": "2025-08-28",
+      "amount": -2403.32,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00175",
+      "plaid_transaction_id": "plaid_txn_retail_00175",
+      "date": "2025-08-28",
+      "amount": -380.19,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00176",
+      "plaid_transaction_id": "plaid_txn_retail_00176",
+      "date": "2025-08-29",
+      "amount": 7389.03,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00177",
+      "plaid_transaction_id": "plaid_txn_retail_00177",
+      "date": "2025-08-29",
+      "amount": -13399.86,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00178",
+      "plaid_transaction_id": "plaid_txn_retail_00178",
+      "date": "2025-09-01",
+      "amount": -4200,
+      "description": "SOUTHPORT RETAIL RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_retail_00179",
+      "plaid_transaction_id": "plaid_txn_retail_00179",
+      "date": "2025-09-01",
+      "amount": -7400,
+      "description": "NYS SALES TAX QTR",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_retail_00180",
+      "plaid_transaction_id": "plaid_txn_retail_00180",
+      "date": "2025-09-02",
+      "amount": -3100,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00181",
+      "plaid_transaction_id": "plaid_txn_retail_00181",
+      "date": "2025-09-02",
+      "amount": -3596.96,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00182",
+      "plaid_transaction_id": "plaid_txn_retail_00182",
+      "date": "2025-09-03",
+      "amount": -399,
+      "description": "SHOPIFY ADVANCED PLAN",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00183",
+      "plaid_transaction_id": "plaid_txn_retail_00183",
+      "date": "2025-09-03",
+      "amount": 2803.05,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00184",
+      "plaid_transaction_id": "plaid_txn_retail_00184",
+      "date": "2025-09-04",
+      "amount": -540,
+      "description": "KLAVIYO MARKETING",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00185",
+      "plaid_transaction_id": "plaid_txn_retail_00185",
+      "date": "2025-09-04",
+      "amount": 720.76,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00186",
+      "plaid_transaction_id": "plaid_txn_retail_00186",
+      "date": "2025-09-04",
+      "amount": -2396.58,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00187",
+      "plaid_transaction_id": "plaid_txn_retail_00187",
+      "date": "2025-09-04",
+      "amount": -380.5,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00188",
+      "plaid_transaction_id": "plaid_txn_retail_00188",
+      "date": "2025-09-05",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00189",
+      "plaid_transaction_id": "plaid_txn_retail_00189",
+      "date": "2025-09-05",
+      "amount": 7405.27,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00190",
+      "plaid_transaction_id": "plaid_txn_retail_00190",
+      "date": "2025-09-06",
+      "amount": -245,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00191",
+      "plaid_transaction_id": "plaid_txn_retail_00191",
+      "date": "2025-09-09",
+      "amount": -279,
+      "description": "COMCAST BUSINESS INTERNET",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00192",
+      "plaid_transaction_id": "plaid_txn_retail_00192",
+      "date": "2025-09-09",
+      "amount": -3604.16,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00193",
+      "plaid_transaction_id": "plaid_txn_retail_00193",
+      "date": "2025-09-10",
+      "amount": 2803.08,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00194",
+      "plaid_transaction_id": "plaid_txn_retail_00194",
+      "date": "2025-09-11",
+      "amount": 720.31,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00195",
+      "plaid_transaction_id": "plaid_txn_retail_00195",
+      "date": "2025-09-11",
+      "amount": -2401.66,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00196",
+      "plaid_transaction_id": "plaid_txn_retail_00196",
+      "date": "2025-09-11",
+      "amount": -379.97,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00197",
+      "plaid_transaction_id": "plaid_txn_retail_00197",
+      "date": "2025-09-12",
+      "amount": -680,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00198",
+      "plaid_transaction_id": "plaid_txn_retail_00198",
+      "date": "2025-09-12",
+      "amount": 7396.16,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00199",
+      "plaid_transaction_id": "plaid_txn_retail_00199",
+      "date": "2025-09-12",
+      "amount": -13400.06,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00200",
+      "plaid_transaction_id": "plaid_txn_retail_00200",
+      "date": "2025-09-13",
+      "amount": -180,
+      "description": "ADP RUN PAYROLL FEE",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00201",
+      "plaid_transaction_id": "plaid_txn_retail_00201",
+      "date": "2025-09-14",
+      "amount": -149,
+      "description": "MAILCHIMP",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00202",
+      "plaid_transaction_id": "plaid_txn_retail_00202",
+      "date": "2025-09-15",
+      "amount": -800,
+      "description": "FRANCHISE TAX BOARD",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_retail_00203",
+      "plaid_transaction_id": "plaid_txn_retail_00203",
+      "date": "2025-09-16",
+      "amount": -3598.67,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00204",
+      "plaid_transaction_id": "plaid_txn_retail_00204",
+      "date": "2025-09-17",
+      "amount": -240,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00205",
+      "plaid_transaction_id": "plaid_txn_retail_00205",
+      "date": "2025-09-17",
+      "amount": 2801.89,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00206",
+      "plaid_transaction_id": "plaid_txn_retail_00206",
+      "date": "2025-09-18",
+      "amount": -72,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00207",
+      "plaid_transaction_id": "plaid_txn_retail_00207",
+      "date": "2025-09-18",
+      "amount": 720.81,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00208",
+      "plaid_transaction_id": "plaid_txn_retail_00208",
+      "date": "2025-09-18",
+      "amount": -2400.6,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00209",
+      "plaid_transaction_id": "plaid_txn_retail_00209",
+      "date": "2025-09-18",
+      "amount": -379.99,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00210",
+      "plaid_transaction_id": "plaid_txn_retail_00210",
+      "date": "2025-09-19",
+      "amount": 7395.73,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00211",
+      "plaid_transaction_id": "plaid_txn_retail_00211",
+      "date": "2025-09-22",
+      "amount": -89,
+      "description": "SQUARE TERMINAL LEASE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00212",
+      "plaid_transaction_id": "plaid_txn_retail_00212",
+      "date": "2025-09-23",
+      "amount": -3603.83,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00213",
+      "plaid_transaction_id": "plaid_txn_retail_00213",
+      "date": "2025-09-24",
+      "amount": 2799.32,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00214",
+      "plaid_transaction_id": "plaid_txn_retail_00214",
+      "date": "2025-09-25",
+      "amount": 720.04,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00215",
+      "plaid_transaction_id": "plaid_txn_retail_00215",
+      "date": "2025-09-25",
+      "amount": -2403.33,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00216",
+      "plaid_transaction_id": "plaid_txn_retail_00216",
+      "date": "2025-09-25",
+      "amount": -380.47,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00217",
+      "plaid_transaction_id": "plaid_txn_retail_00217",
+      "date": "2025-09-26",
+      "amount": 7399.22,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00218",
+      "plaid_transaction_id": "plaid_txn_retail_00218",
+      "date": "2025-09-26",
+      "amount": -13399.77,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00219",
+      "plaid_transaction_id": "plaid_txn_retail_00219",
+      "date": "2025-09-28",
+      "amount": -310,
+      "description": "STRIPE FEE MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00220",
+      "plaid_transaction_id": "plaid_txn_retail_00220",
+      "date": "2025-09-30",
+      "amount": -3599.64,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00221",
+      "plaid_transaction_id": "plaid_txn_retail_00221",
+      "date": "2025-10-01",
+      "amount": -4200,
+      "description": "SOUTHPORT RETAIL RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_retail_00222",
+      "plaid_transaction_id": "plaid_txn_retail_00222",
+      "date": "2025-10-01",
+      "amount": 2797.86,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00223",
+      "plaid_transaction_id": "plaid_txn_retail_00223",
+      "date": "2025-10-02",
+      "amount": -3100,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00224",
+      "plaid_transaction_id": "plaid_txn_retail_00224",
+      "date": "2025-10-02",
+      "amount": 720.37,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00225",
+      "plaid_transaction_id": "plaid_txn_retail_00225",
+      "date": "2025-10-02",
+      "amount": -2397.96,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00226",
+      "plaid_transaction_id": "plaid_txn_retail_00226",
+      "date": "2025-10-02",
+      "amount": -379.95,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00227",
+      "plaid_transaction_id": "plaid_txn_retail_00227",
+      "date": "2025-10-03",
+      "amount": -399,
+      "description": "SHOPIFY ADVANCED PLAN",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00228",
+      "plaid_transaction_id": "plaid_txn_retail_00228",
+      "date": "2025-10-03",
+      "amount": 7406.29,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00229",
+      "plaid_transaction_id": "plaid_txn_retail_00229",
+      "date": "2025-10-04",
+      "amount": -540,
+      "description": "KLAVIYO MARKETING",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00230",
+      "plaid_transaction_id": "plaid_txn_retail_00230",
+      "date": "2025-10-05",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00231",
+      "plaid_transaction_id": "plaid_txn_retail_00231",
+      "date": "2025-10-06",
+      "amount": -245,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00232",
+      "plaid_transaction_id": "plaid_txn_retail_00232",
+      "date": "2025-10-07",
+      "amount": -3599.29,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00233",
+      "plaid_transaction_id": "plaid_txn_retail_00233",
+      "date": "2025-10-08",
+      "amount": 2797.53,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00234",
+      "plaid_transaction_id": "plaid_txn_retail_00234",
+      "date": "2025-10-09",
+      "amount": -279,
+      "description": "COMCAST BUSINESS INTERNET",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00235",
+      "plaid_transaction_id": "plaid_txn_retail_00235",
+      "date": "2025-10-09",
+      "amount": 719.33,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00236",
+      "plaid_transaction_id": "plaid_txn_retail_00236",
+      "date": "2025-10-09",
+      "amount": -2398.07,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00237",
+      "plaid_transaction_id": "plaid_txn_retail_00237",
+      "date": "2025-10-09",
+      "amount": -380.11,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00238",
+      "plaid_transaction_id": "plaid_txn_retail_00238",
+      "date": "2025-10-10",
+      "amount": 7395.01,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00239",
+      "plaid_transaction_id": "plaid_txn_retail_00239",
+      "date": "2025-10-10",
+      "amount": -13399.94,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00240",
+      "plaid_transaction_id": "plaid_txn_retail_00240",
+      "date": "2025-10-12",
+      "amount": -680,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00241",
+      "plaid_transaction_id": "plaid_txn_retail_00241",
+      "date": "2025-10-13",
+      "amount": -180,
+      "description": "ADP RUN PAYROLL FEE",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00242",
+      "plaid_transaction_id": "plaid_txn_retail_00242",
+      "date": "2025-10-14",
+      "amount": -149,
+      "description": "MAILCHIMP",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00243",
+      "plaid_transaction_id": "plaid_txn_retail_00243",
+      "date": "2025-10-14",
+      "amount": -3595.31,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00244",
+      "plaid_transaction_id": "plaid_txn_retail_00244",
+      "date": "2025-10-15",
+      "amount": 2801.35,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00245",
+      "plaid_transaction_id": "plaid_txn_retail_00245",
+      "date": "2025-10-16",
+      "amount": 720.17,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00246",
+      "plaid_transaction_id": "plaid_txn_retail_00246",
+      "date": "2025-10-16",
+      "amount": -2398.44,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00247",
+      "plaid_transaction_id": "plaid_txn_retail_00247",
+      "date": "2025-10-16",
+      "amount": -379.45,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00248",
+      "plaid_transaction_id": "plaid_txn_retail_00248",
+      "date": "2025-10-17",
+      "amount": -240,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00249",
+      "plaid_transaction_id": "plaid_txn_retail_00249",
+      "date": "2025-10-17",
+      "amount": 7410.94,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00250",
+      "plaid_transaction_id": "plaid_txn_retail_00250",
+      "date": "2025-10-18",
+      "amount": -72,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00251",
+      "plaid_transaction_id": "plaid_txn_retail_00251",
+      "date": "2025-10-21",
+      "amount": -3594.82,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00252",
+      "plaid_transaction_id": "plaid_txn_retail_00252",
+      "date": "2025-10-22",
+      "amount": -89,
+      "description": "SQUARE TERMINAL LEASE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00253",
+      "plaid_transaction_id": "plaid_txn_retail_00253",
+      "date": "2025-10-22",
+      "amount": 2804.19,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00254",
+      "plaid_transaction_id": "plaid_txn_retail_00254",
+      "date": "2025-10-22",
+      "amount": -6400,
+      "description": "SHOP RENOVATION CONTRACTOR",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00255",
+      "plaid_transaction_id": "plaid_txn_retail_00255",
+      "date": "2025-10-23",
+      "amount": 720.32,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00256",
+      "plaid_transaction_id": "plaid_txn_retail_00256",
+      "date": "2025-10-23",
+      "amount": -2399.1,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00257",
+      "plaid_transaction_id": "plaid_txn_retail_00257",
+      "date": "2025-10-23",
+      "amount": -380.24,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00258",
+      "plaid_transaction_id": "plaid_txn_retail_00258",
+      "date": "2025-10-24",
+      "amount": 7399.26,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00259",
+      "plaid_transaction_id": "plaid_txn_retail_00259",
+      "date": "2025-10-24",
+      "amount": -13400.01,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00260",
+      "plaid_transaction_id": "plaid_txn_retail_00260",
+      "date": "2025-10-28",
+      "amount": -310,
+      "description": "STRIPE FEE MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00261",
+      "plaid_transaction_id": "plaid_txn_retail_00261",
+      "date": "2025-10-28",
+      "amount": -3604.13,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00262",
+      "plaid_transaction_id": "plaid_txn_retail_00262",
+      "date": "2025-10-29",
+      "amount": 2800.83,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00263",
+      "plaid_transaction_id": "plaid_txn_retail_00263",
+      "date": "2025-10-30",
+      "amount": 719.4,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00264",
+      "plaid_transaction_id": "plaid_txn_retail_00264",
+      "date": "2025-10-30",
+      "amount": -2402.43,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00265",
+      "plaid_transaction_id": "plaid_txn_retail_00265",
+      "date": "2025-10-30",
+      "amount": -380.54,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00266",
+      "plaid_transaction_id": "plaid_txn_retail_00266",
+      "date": "2025-10-31",
+      "amount": 7393.98,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00267",
+      "plaid_transaction_id": "plaid_txn_retail_00267",
+      "date": "2025-11-01",
+      "amount": -4200,
+      "description": "SOUTHPORT RETAIL RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_retail_00268",
+      "plaid_transaction_id": "plaid_txn_retail_00268",
+      "date": "2025-11-02",
+      "amount": -3100,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00269",
+      "plaid_transaction_id": "plaid_txn_retail_00269",
+      "date": "2025-11-03",
+      "amount": -399,
+      "description": "SHOPIFY ADVANCED PLAN",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00270",
+      "plaid_transaction_id": "plaid_txn_retail_00270",
+      "date": "2025-11-04",
+      "amount": -540,
+      "description": "KLAVIYO MARKETING",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00271",
+      "plaid_transaction_id": "plaid_txn_retail_00271",
+      "date": "2025-11-04",
+      "amount": -3594.92,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00272",
+      "plaid_transaction_id": "plaid_txn_retail_00272",
+      "date": "2025-11-05",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00273",
+      "plaid_transaction_id": "plaid_txn_retail_00273",
+      "date": "2025-11-05",
+      "amount": 2796.01,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00274",
+      "plaid_transaction_id": "plaid_txn_retail_00274",
+      "date": "2025-11-06",
+      "amount": -245,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00275",
+      "plaid_transaction_id": "plaid_txn_retail_00275",
+      "date": "2025-11-06",
+      "amount": 720.07,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00276",
+      "plaid_transaction_id": "plaid_txn_retail_00276",
+      "date": "2025-11-06",
+      "amount": -2401.95,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00277",
+      "plaid_transaction_id": "plaid_txn_retail_00277",
+      "date": "2025-11-06",
+      "amount": -380.37,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00278",
+      "plaid_transaction_id": "plaid_txn_retail_00278",
+      "date": "2025-11-07",
+      "amount": 7402.48,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00279",
+      "plaid_transaction_id": "plaid_txn_retail_00279",
+      "date": "2025-11-07",
+      "amount": -13400.22,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00280",
+      "plaid_transaction_id": "plaid_txn_retail_00280",
+      "date": "2025-11-09",
+      "amount": -279,
+      "description": "COMCAST BUSINESS INTERNET",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00281",
+      "plaid_transaction_id": "plaid_txn_retail_00281",
+      "date": "2025-11-11",
+      "amount": -3596.2,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00282",
+      "plaid_transaction_id": "plaid_txn_retail_00282",
+      "date": "2025-11-12",
+      "amount": -680,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00283",
+      "plaid_transaction_id": "plaid_txn_retail_00283",
+      "date": "2025-11-12",
+      "amount": 2802.03,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00284",
+      "plaid_transaction_id": "plaid_txn_retail_00284",
+      "date": "2025-11-13",
+      "amount": -180,
+      "description": "ADP RUN PAYROLL FEE",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00285",
+      "plaid_transaction_id": "plaid_txn_retail_00285",
+      "date": "2025-11-13",
+      "amount": 719.63,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00286",
+      "plaid_transaction_id": "plaid_txn_retail_00286",
+      "date": "2025-11-13",
+      "amount": -2400.58,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00287",
+      "plaid_transaction_id": "plaid_txn_retail_00287",
+      "date": "2025-11-13",
+      "amount": -380.22,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00288",
+      "plaid_transaction_id": "plaid_txn_retail_00288",
+      "date": "2025-11-14",
+      "amount": -149,
+      "description": "MAILCHIMP",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00289",
+      "plaid_transaction_id": "plaid_txn_retail_00289",
+      "date": "2025-11-14",
+      "amount": 7391.93,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00290",
+      "plaid_transaction_id": "plaid_txn_retail_00290",
+      "date": "2025-11-17",
+      "amount": -240,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00291",
+      "plaid_transaction_id": "plaid_txn_retail_00291",
+      "date": "2025-11-18",
+      "amount": -72,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00292",
+      "plaid_transaction_id": "plaid_txn_retail_00292",
+      "date": "2025-11-18",
+      "amount": -3595.27,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00293",
+      "plaid_transaction_id": "plaid_txn_retail_00293",
+      "date": "2025-11-19",
+      "amount": 2796.69,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00294",
+      "plaid_transaction_id": "plaid_txn_retail_00294",
+      "date": "2025-11-20",
+      "amount": 720.6,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00295",
+      "plaid_transaction_id": "plaid_txn_retail_00295",
+      "date": "2025-11-20",
+      "amount": -2397.66,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00296",
+      "plaid_transaction_id": "plaid_txn_retail_00296",
+      "date": "2025-11-20",
+      "amount": -380.48,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00297",
+      "plaid_transaction_id": "plaid_txn_retail_00297",
+      "date": "2025-11-21",
+      "amount": 7403.63,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00298",
+      "plaid_transaction_id": "plaid_txn_retail_00298",
+      "date": "2025-11-21",
+      "amount": -13400.17,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00299",
+      "plaid_transaction_id": "plaid_txn_retail_00299",
+      "date": "2025-11-22",
+      "amount": -89,
+      "description": "SQUARE TERMINAL LEASE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00300",
+      "plaid_transaction_id": "plaid_txn_retail_00300",
+      "date": "2025-11-25",
+      "amount": -3597.04,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00301",
+      "plaid_transaction_id": "plaid_txn_retail_00301",
+      "date": "2025-11-26",
+      "amount": 2796.37,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00302",
+      "plaid_transaction_id": "plaid_txn_retail_00302",
+      "date": "2025-11-27",
+      "amount": 719.21,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00303",
+      "plaid_transaction_id": "plaid_txn_retail_00303",
+      "date": "2025-11-27",
+      "amount": -2396.78,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00304",
+      "plaid_transaction_id": "plaid_txn_retail_00304",
+      "date": "2025-11-27",
+      "amount": -379.92,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00305",
+      "plaid_transaction_id": "plaid_txn_retail_00305",
+      "date": "2025-11-28",
+      "amount": -310,
+      "description": "STRIPE FEE MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00306",
+      "plaid_transaction_id": "plaid_txn_retail_00306",
+      "date": "2025-11-28",
+      "amount": 7403.29,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00307",
+      "plaid_transaction_id": "plaid_txn_retail_00307",
+      "date": "2025-12-01",
+      "amount": -4200,
+      "description": "SOUTHPORT RETAIL RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_retail_00308",
+      "plaid_transaction_id": "plaid_txn_retail_00308",
+      "date": "2025-12-01",
+      "amount": -8100,
+      "description": "NYS SALES TAX QTR",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_retail_00309",
+      "plaid_transaction_id": "plaid_txn_retail_00309",
+      "date": "2025-12-02",
+      "amount": -3100,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00310",
+      "plaid_transaction_id": "plaid_txn_retail_00310",
+      "date": "2025-12-02",
+      "amount": -3598.65,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00311",
+      "plaid_transaction_id": "plaid_txn_retail_00311",
+      "date": "2025-12-03",
+      "amount": -399,
+      "description": "SHOPIFY ADVANCED PLAN",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00312",
+      "plaid_transaction_id": "plaid_txn_retail_00312",
+      "date": "2025-12-03",
+      "amount": 2799.49,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00313",
+      "plaid_transaction_id": "plaid_txn_retail_00313",
+      "date": "2025-12-04",
+      "amount": -540,
+      "description": "KLAVIYO MARKETING",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00314",
+      "plaid_transaction_id": "plaid_txn_retail_00314",
+      "date": "2025-12-04",
+      "amount": 719.23,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00315",
+      "plaid_transaction_id": "plaid_txn_retail_00315",
+      "date": "2025-12-04",
+      "amount": -2398.99,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00316",
+      "plaid_transaction_id": "plaid_txn_retail_00316",
+      "date": "2025-12-04",
+      "amount": -379.92,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00317",
+      "plaid_transaction_id": "plaid_txn_retail_00317",
+      "date": "2025-12-05",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00318",
+      "plaid_transaction_id": "plaid_txn_retail_00318",
+      "date": "2025-12-05",
+      "amount": 7391.74,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00319",
+      "plaid_transaction_id": "plaid_txn_retail_00319",
+      "date": "2025-12-05",
+      "amount": -13400.02,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00320",
+      "plaid_transaction_id": "plaid_txn_retail_00320",
+      "date": "2025-12-06",
+      "amount": -245,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00321",
+      "plaid_transaction_id": "plaid_txn_retail_00321",
+      "date": "2025-12-09",
+      "amount": -279,
+      "description": "COMCAST BUSINESS INTERNET",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00322",
+      "plaid_transaction_id": "plaid_txn_retail_00322",
+      "date": "2025-12-09",
+      "amount": -3598.8,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00323",
+      "plaid_transaction_id": "plaid_txn_retail_00323",
+      "date": "2025-12-10",
+      "amount": 2797.94,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00324",
+      "plaid_transaction_id": "plaid_txn_retail_00324",
+      "date": "2025-12-11",
+      "amount": 721.07,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00325",
+      "plaid_transaction_id": "plaid_txn_retail_00325",
+      "date": "2025-12-11",
+      "amount": -2397.56,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00326",
+      "plaid_transaction_id": "plaid_txn_retail_00326",
+      "date": "2025-12-11",
+      "amount": -380.52,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00327",
+      "plaid_transaction_id": "plaid_txn_retail_00327",
+      "date": "2025-12-12",
+      "amount": -680,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00328",
+      "plaid_transaction_id": "plaid_txn_retail_00328",
+      "date": "2025-12-12",
+      "amount": 7400.74,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00329",
+      "plaid_transaction_id": "plaid_txn_retail_00329",
+      "date": "2025-12-13",
+      "amount": -180,
+      "description": "ADP RUN PAYROLL FEE",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00330",
+      "plaid_transaction_id": "plaid_txn_retail_00330",
+      "date": "2025-12-14",
+      "amount": -149,
+      "description": "MAILCHIMP",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00331",
+      "plaid_transaction_id": "plaid_txn_retail_00331",
+      "date": "2025-12-16",
+      "amount": -3600.09,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00332",
+      "plaid_transaction_id": "plaid_txn_retail_00332",
+      "date": "2025-12-17",
+      "amount": -240,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00333",
+      "plaid_transaction_id": "plaid_txn_retail_00333",
+      "date": "2025-12-17",
+      "amount": 2799.6,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00334",
+      "plaid_transaction_id": "plaid_txn_retail_00334",
+      "date": "2025-12-18",
+      "amount": -72,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00335",
+      "plaid_transaction_id": "plaid_txn_retail_00335",
+      "date": "2025-12-18",
+      "amount": 721.06,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00336",
+      "plaid_transaction_id": "plaid_txn_retail_00336",
+      "date": "2025-12-18",
+      "amount": -2400.78,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00337",
+      "plaid_transaction_id": "plaid_txn_retail_00337",
+      "date": "2025-12-18",
+      "amount": -380.56,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00338",
+      "plaid_transaction_id": "plaid_txn_retail_00338",
+      "date": "2025-12-19",
+      "amount": 7402.2,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00339",
+      "plaid_transaction_id": "plaid_txn_retail_00339",
+      "date": "2025-12-19",
+      "amount": -13400.14,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00340",
+      "plaid_transaction_id": "plaid_txn_retail_00340",
+      "date": "2025-12-22",
+      "amount": -89,
+      "description": "SQUARE TERMINAL LEASE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00341",
+      "plaid_transaction_id": "plaid_txn_retail_00341",
+      "date": "2025-12-23",
+      "amount": -3602.38,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00342",
+      "plaid_transaction_id": "plaid_txn_retail_00342",
+      "date": "2025-12-24",
+      "amount": 2799.71,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00343",
+      "plaid_transaction_id": "plaid_txn_retail_00343",
+      "date": "2025-12-25",
+      "amount": 720.04,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00344",
+      "plaid_transaction_id": "plaid_txn_retail_00344",
+      "date": "2025-12-25",
+      "amount": -2400.23,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00345",
+      "plaid_transaction_id": "plaid_txn_retail_00345",
+      "date": "2025-12-25",
+      "amount": -380.21,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00346",
+      "plaid_transaction_id": "plaid_txn_retail_00346",
+      "date": "2025-12-26",
+      "amount": 7408.62,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00347",
+      "plaid_transaction_id": "plaid_txn_retail_00347",
+      "date": "2025-12-28",
+      "amount": -310,
+      "description": "STRIPE FEE MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00348",
+      "plaid_transaction_id": "plaid_txn_retail_00348",
+      "date": "2025-12-30",
+      "amount": -3600.27,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00349",
+      "plaid_transaction_id": "plaid_txn_retail_00349",
+      "date": "2025-12-30",
+      "amount": 4200,
+      "description": "HOLIDAY POP-UP DEPOSIT REFUND",
+      "category": "customer_payment",
+      "is_recurring": false,
+      "confidence": 0.86
+    },
+    {
+      "id": "txn_retail_00350",
+      "plaid_transaction_id": "plaid_txn_retail_00350",
+      "date": "2025-12-31",
+      "amount": 2803.61,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00351",
+      "plaid_transaction_id": "plaid_txn_retail_00351",
+      "date": "2026-01-01",
+      "amount": -4200,
+      "description": "SOUTHPORT RETAIL RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_retail_00352",
+      "plaid_transaction_id": "plaid_txn_retail_00352",
+      "date": "2026-01-01",
+      "amount": 719.66,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00353",
+      "plaid_transaction_id": "plaid_txn_retail_00353",
+      "date": "2026-01-01",
+      "amount": -2402.9,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00354",
+      "plaid_transaction_id": "plaid_txn_retail_00354",
+      "date": "2026-01-01",
+      "amount": -380.27,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00355",
+      "plaid_transaction_id": "plaid_txn_retail_00355",
+      "date": "2026-01-02",
+      "amount": -3100,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00356",
+      "plaid_transaction_id": "plaid_txn_retail_00356",
+      "date": "2026-01-02",
+      "amount": 7407.37,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00357",
+      "plaid_transaction_id": "plaid_txn_retail_00357",
+      "date": "2026-01-02",
+      "amount": -13399.98,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00358",
+      "plaid_transaction_id": "plaid_txn_retail_00358",
+      "date": "2026-01-03",
+      "amount": -399,
+      "description": "SHOPIFY ADVANCED PLAN",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00359",
+      "plaid_transaction_id": "plaid_txn_retail_00359",
+      "date": "2026-01-04",
+      "amount": -540,
+      "description": "KLAVIYO MARKETING",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00360",
+      "plaid_transaction_id": "plaid_txn_retail_00360",
+      "date": "2026-01-05",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00361",
+      "plaid_transaction_id": "plaid_txn_retail_00361",
+      "date": "2026-01-06",
+      "amount": -245,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00362",
+      "plaid_transaction_id": "plaid_txn_retail_00362",
+      "date": "2026-01-06",
+      "amount": -3602.11,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00363",
+      "plaid_transaction_id": "plaid_txn_retail_00363",
+      "date": "2026-01-07",
+      "amount": 2798.77,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00364",
+      "plaid_transaction_id": "plaid_txn_retail_00364",
+      "date": "2026-01-08",
+      "amount": 719.95,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00365",
+      "plaid_transaction_id": "plaid_txn_retail_00365",
+      "date": "2026-01-08",
+      "amount": -2397.2,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00366",
+      "plaid_transaction_id": "plaid_txn_retail_00366",
+      "date": "2026-01-08",
+      "amount": -379.66,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00367",
+      "plaid_transaction_id": "plaid_txn_retail_00367",
+      "date": "2026-01-09",
+      "amount": -279,
+      "description": "COMCAST BUSINESS INTERNET",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00368",
+      "plaid_transaction_id": "plaid_txn_retail_00368",
+      "date": "2026-01-09",
+      "amount": 7400.31,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00369",
+      "plaid_transaction_id": "plaid_txn_retail_00369",
+      "date": "2026-01-12",
+      "amount": -680,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00370",
+      "plaid_transaction_id": "plaid_txn_retail_00370",
+      "date": "2026-01-13",
+      "amount": -180,
+      "description": "ADP RUN PAYROLL FEE",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00371",
+      "plaid_transaction_id": "plaid_txn_retail_00371",
+      "date": "2026-01-13",
+      "amount": -3601.68,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00372",
+      "plaid_transaction_id": "plaid_txn_retail_00372",
+      "date": "2026-01-14",
+      "amount": -149,
+      "description": "MAILCHIMP",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00373",
+      "plaid_transaction_id": "plaid_txn_retail_00373",
+      "date": "2026-01-14",
+      "amount": 2801.2,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00374",
+      "plaid_transaction_id": "plaid_txn_retail_00374",
+      "date": "2026-01-15",
+      "amount": 720.75,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00375",
+      "plaid_transaction_id": "plaid_txn_retail_00375",
+      "date": "2026-01-15",
+      "amount": -2398.83,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00376",
+      "plaid_transaction_id": "plaid_txn_retail_00376",
+      "date": "2026-01-15",
+      "amount": -379.5,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00377",
+      "plaid_transaction_id": "plaid_txn_retail_00377",
+      "date": "2026-01-15",
+      "amount": -800,
+      "description": "FRANCHISE TAX BOARD",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_retail_00378",
+      "plaid_transaction_id": "plaid_txn_retail_00378",
+      "date": "2026-01-16",
+      "amount": 7407.25,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00379",
+      "plaid_transaction_id": "plaid_txn_retail_00379",
+      "date": "2026-01-16",
+      "amount": -13400.23,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00380",
+      "plaid_transaction_id": "plaid_txn_retail_00380",
+      "date": "2026-01-17",
+      "amount": -240,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00381",
+      "plaid_transaction_id": "plaid_txn_retail_00381",
+      "date": "2026-01-18",
+      "amount": -72,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00382",
+      "plaid_transaction_id": "plaid_txn_retail_00382",
+      "date": "2026-01-20",
+      "amount": -3597.99,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00383",
+      "plaid_transaction_id": "plaid_txn_retail_00383",
+      "date": "2026-01-21",
+      "amount": 2795.98,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00384",
+      "plaid_transaction_id": "plaid_txn_retail_00384",
+      "date": "2026-01-22",
+      "amount": -89,
+      "description": "SQUARE TERMINAL LEASE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00385",
+      "plaid_transaction_id": "plaid_txn_retail_00385",
+      "date": "2026-01-22",
+      "amount": 720.81,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00386",
+      "plaid_transaction_id": "plaid_txn_retail_00386",
+      "date": "2026-01-22",
+      "amount": -2400.87,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00387",
+      "plaid_transaction_id": "plaid_txn_retail_00387",
+      "date": "2026-01-22",
+      "amount": -380.56,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00388",
+      "plaid_transaction_id": "plaid_txn_retail_00388",
+      "date": "2026-01-23",
+      "amount": 7398.43,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00389",
+      "plaid_transaction_id": "plaid_txn_retail_00389",
+      "date": "2026-01-27",
+      "amount": -3597.88,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00390",
+      "plaid_transaction_id": "plaid_txn_retail_00390",
+      "date": "2026-01-28",
+      "amount": -310,
+      "description": "STRIPE FEE MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00391",
+      "plaid_transaction_id": "plaid_txn_retail_00391",
+      "date": "2026-01-28",
+      "amount": 2796.11,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00392",
+      "plaid_transaction_id": "plaid_txn_retail_00392",
+      "date": "2026-01-29",
+      "amount": 720.05,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00393",
+      "plaid_transaction_id": "plaid_txn_retail_00393",
+      "date": "2026-01-29",
+      "amount": -2399.52,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00394",
+      "plaid_transaction_id": "plaid_txn_retail_00394",
+      "date": "2026-01-29",
+      "amount": -379.98,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00395",
+      "plaid_transaction_id": "plaid_txn_retail_00395",
+      "date": "2026-01-30",
+      "amount": 7409.95,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00396",
+      "plaid_transaction_id": "plaid_txn_retail_00396",
+      "date": "2026-01-30",
+      "amount": -13399.92,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00397",
+      "plaid_transaction_id": "plaid_txn_retail_00397",
+      "date": "2026-02-01",
+      "amount": -4200,
+      "description": "SOUTHPORT RETAIL RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_retail_00398",
+      "plaid_transaction_id": "plaid_txn_retail_00398",
+      "date": "2026-02-02",
+      "amount": -3100,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00399",
+      "plaid_transaction_id": "plaid_txn_retail_00399",
+      "date": "2026-02-03",
+      "amount": -399,
+      "description": "SHOPIFY ADVANCED PLAN",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00400",
+      "plaid_transaction_id": "plaid_txn_retail_00400",
+      "date": "2026-02-03",
+      "amount": -3602.29,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00401",
+      "plaid_transaction_id": "plaid_txn_retail_00401",
+      "date": "2026-02-04",
+      "amount": -540,
+      "description": "KLAVIYO MARKETING",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00402",
+      "plaid_transaction_id": "plaid_txn_retail_00402",
+      "date": "2026-02-04",
+      "amount": 2797.81,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00403",
+      "plaid_transaction_id": "plaid_txn_retail_00403",
+      "date": "2026-02-05",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00404",
+      "plaid_transaction_id": "plaid_txn_retail_00404",
+      "date": "2026-02-05",
+      "amount": 719.91,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00405",
+      "plaid_transaction_id": "plaid_txn_retail_00405",
+      "date": "2026-02-05",
+      "amount": -2397.21,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00406",
+      "plaid_transaction_id": "plaid_txn_retail_00406",
+      "date": "2026-02-05",
+      "amount": -379.97,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00407",
+      "plaid_transaction_id": "plaid_txn_retail_00407",
+      "date": "2026-02-06",
+      "amount": -245,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00408",
+      "plaid_transaction_id": "plaid_txn_retail_00408",
+      "date": "2026-02-06",
+      "amount": 7402.63,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00409",
+      "plaid_transaction_id": "plaid_txn_retail_00409",
+      "date": "2026-02-09",
+      "amount": -279,
+      "description": "COMCAST BUSINESS INTERNET",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00410",
+      "plaid_transaction_id": "plaid_txn_retail_00410",
+      "date": "2026-02-10",
+      "amount": -3600.31,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00411",
+      "plaid_transaction_id": "plaid_txn_retail_00411",
+      "date": "2026-02-11",
+      "amount": 2798.13,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00412",
+      "plaid_transaction_id": "plaid_txn_retail_00412",
+      "date": "2026-02-12",
+      "amount": -680,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00413",
+      "plaid_transaction_id": "plaid_txn_retail_00413",
+      "date": "2026-02-12",
+      "amount": 719.49,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00414",
+      "plaid_transaction_id": "plaid_txn_retail_00414",
+      "date": "2026-02-12",
+      "amount": -2403.59,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00415",
+      "plaid_transaction_id": "plaid_txn_retail_00415",
+      "date": "2026-02-12",
+      "amount": -380.01,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00416",
+      "plaid_transaction_id": "plaid_txn_retail_00416",
+      "date": "2026-02-13",
+      "amount": -180,
+      "description": "ADP RUN PAYROLL FEE",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00417",
+      "plaid_transaction_id": "plaid_txn_retail_00417",
+      "date": "2026-02-13",
+      "amount": 7410.69,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00418",
+      "plaid_transaction_id": "plaid_txn_retail_00418",
+      "date": "2026-02-13",
+      "amount": -13400.25,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00419",
+      "plaid_transaction_id": "plaid_txn_retail_00419",
+      "date": "2026-02-14",
+      "amount": -149,
+      "description": "MAILCHIMP",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00420",
+      "plaid_transaction_id": "plaid_txn_retail_00420",
+      "date": "2026-02-17",
+      "amount": -240,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00421",
+      "plaid_transaction_id": "plaid_txn_retail_00421",
+      "date": "2026-02-17",
+      "amount": -3601.94,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00422",
+      "plaid_transaction_id": "plaid_txn_retail_00422",
+      "date": "2026-02-18",
+      "amount": -72,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00423",
+      "plaid_transaction_id": "plaid_txn_retail_00423",
+      "date": "2026-02-18",
+      "amount": 2803.59,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00424",
+      "plaid_transaction_id": "plaid_txn_retail_00424",
+      "date": "2026-02-19",
+      "amount": 719.86,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00425",
+      "plaid_transaction_id": "plaid_txn_retail_00425",
+      "date": "2026-02-19",
+      "amount": -2401.96,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00426",
+      "plaid_transaction_id": "plaid_txn_retail_00426",
+      "date": "2026-02-19",
+      "amount": -379.46,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00427",
+      "plaid_transaction_id": "plaid_txn_retail_00427",
+      "date": "2026-02-20",
+      "amount": 7399.12,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00428",
+      "plaid_transaction_id": "plaid_txn_retail_00428",
+      "date": "2026-02-22",
+      "amount": -89,
+      "description": "SQUARE TERMINAL LEASE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00429",
+      "plaid_transaction_id": "plaid_txn_retail_00429",
+      "date": "2026-02-24",
+      "amount": -3601.85,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00430",
+      "plaid_transaction_id": "plaid_txn_retail_00430",
+      "date": "2026-02-25",
+      "amount": 2801.07,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00431",
+      "plaid_transaction_id": "plaid_txn_retail_00431",
+      "date": "2026-02-26",
+      "amount": 718.96,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00432",
+      "plaid_transaction_id": "plaid_txn_retail_00432",
+      "date": "2026-02-26",
+      "amount": -2400.53,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00433",
+      "plaid_transaction_id": "plaid_txn_retail_00433",
+      "date": "2026-02-26",
+      "amount": -379.83,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00434",
+      "plaid_transaction_id": "plaid_txn_retail_00434",
+      "date": "2026-02-27",
+      "amount": 7409.9,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00435",
+      "plaid_transaction_id": "plaid_txn_retail_00435",
+      "date": "2026-02-27",
+      "amount": -13400.09,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00436",
+      "plaid_transaction_id": "plaid_txn_retail_00436",
+      "date": "2026-02-28",
+      "amount": -310,
+      "description": "STRIPE FEE MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00437",
+      "plaid_transaction_id": "plaid_txn_retail_00437",
+      "date": "2026-03-01",
+      "amount": -4200,
+      "description": "SOUTHPORT RETAIL RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_retail_00438",
+      "plaid_transaction_id": "plaid_txn_retail_00438",
+      "date": "2026-03-01",
+      "amount": -7900,
+      "description": "NYS SALES TAX QTR",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_retail_00439",
+      "plaid_transaction_id": "plaid_txn_retail_00439",
+      "date": "2026-03-02",
+      "amount": -3100,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00440",
+      "plaid_transaction_id": "plaid_txn_retail_00440",
+      "date": "2026-03-03",
+      "amount": -399,
+      "description": "SHOPIFY ADVANCED PLAN",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00441",
+      "plaid_transaction_id": "plaid_txn_retail_00441",
+      "date": "2026-03-03",
+      "amount": -3596.8,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00442",
+      "plaid_transaction_id": "plaid_txn_retail_00442",
+      "date": "2026-03-04",
+      "amount": -540,
+      "description": "KLAVIYO MARKETING",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00443",
+      "plaid_transaction_id": "plaid_txn_retail_00443",
+      "date": "2026-03-04",
+      "amount": 2801.28,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00444",
+      "plaid_transaction_id": "plaid_txn_retail_00444",
+      "date": "2026-03-05",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00445",
+      "plaid_transaction_id": "plaid_txn_retail_00445",
+      "date": "2026-03-05",
+      "amount": 719.33,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00446",
+      "plaid_transaction_id": "plaid_txn_retail_00446",
+      "date": "2026-03-05",
+      "amount": -2402.22,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00447",
+      "plaid_transaction_id": "plaid_txn_retail_00447",
+      "date": "2026-03-05",
+      "amount": -380.14,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00448",
+      "plaid_transaction_id": "plaid_txn_retail_00448",
+      "date": "2026-03-06",
+      "amount": -245,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00449",
+      "plaid_transaction_id": "plaid_txn_retail_00449",
+      "date": "2026-03-06",
+      "amount": 7390.3,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00450",
+      "plaid_transaction_id": "plaid_txn_retail_00450",
+      "date": "2026-03-09",
+      "amount": -279,
+      "description": "COMCAST BUSINESS INTERNET",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00451",
+      "plaid_transaction_id": "plaid_txn_retail_00451",
+      "date": "2026-03-10",
+      "amount": -3597.96,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00452",
+      "plaid_transaction_id": "plaid_txn_retail_00452",
+      "date": "2026-03-11",
+      "amount": 2802.3,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00453",
+      "plaid_transaction_id": "plaid_txn_retail_00453",
+      "date": "2026-03-12",
+      "amount": -680,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00454",
+      "plaid_transaction_id": "plaid_txn_retail_00454",
+      "date": "2026-03-12",
+      "amount": 719.96,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00455",
+      "plaid_transaction_id": "plaid_txn_retail_00455",
+      "date": "2026-03-12",
+      "amount": -2396.6,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00456",
+      "plaid_transaction_id": "plaid_txn_retail_00456",
+      "date": "2026-03-12",
+      "amount": -379.57,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00457",
+      "plaid_transaction_id": "plaid_txn_retail_00457",
+      "date": "2026-03-13",
+      "amount": -180,
+      "description": "ADP RUN PAYROLL FEE",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00458",
+      "plaid_transaction_id": "plaid_txn_retail_00458",
+      "date": "2026-03-13",
+      "amount": 7396.04,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00459",
+      "plaid_transaction_id": "plaid_txn_retail_00459",
+      "date": "2026-03-13",
+      "amount": -13400.13,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00460",
+      "plaid_transaction_id": "plaid_txn_retail_00460",
+      "date": "2026-03-14",
+      "amount": -149,
+      "description": "MAILCHIMP",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00461",
+      "plaid_transaction_id": "plaid_txn_retail_00461",
+      "date": "2026-03-15",
+      "amount": -1650,
+      "description": "TAX CPA YEAR-END FILING",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_retail_00462",
+      "plaid_transaction_id": "plaid_txn_retail_00462",
+      "date": "2026-03-17",
+      "amount": -240,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00463",
+      "plaid_transaction_id": "plaid_txn_retail_00463",
+      "date": "2026-03-17",
+      "amount": -3595.54,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00464",
+      "plaid_transaction_id": "plaid_txn_retail_00464",
+      "date": "2026-03-18",
+      "amount": -72,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00465",
+      "plaid_transaction_id": "plaid_txn_retail_00465",
+      "date": "2026-03-18",
+      "amount": 2796.23,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00466",
+      "plaid_transaction_id": "plaid_txn_retail_00466",
+      "date": "2026-03-19",
+      "amount": 719.33,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00467",
+      "plaid_transaction_id": "plaid_txn_retail_00467",
+      "date": "2026-03-19",
+      "amount": -2402.16,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00468",
+      "plaid_transaction_id": "plaid_txn_retail_00468",
+      "date": "2026-03-19",
+      "amount": -379.61,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00469",
+      "plaid_transaction_id": "plaid_txn_retail_00469",
+      "date": "2026-03-20",
+      "amount": 7397.61,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00470",
+      "plaid_transaction_id": "plaid_txn_retail_00470",
+      "date": "2026-03-22",
+      "amount": -89,
+      "description": "SQUARE TERMINAL LEASE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00471",
+      "plaid_transaction_id": "plaid_txn_retail_00471",
+      "date": "2026-03-24",
+      "amount": -3598.77,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00472",
+      "plaid_transaction_id": "plaid_txn_retail_00472",
+      "date": "2026-03-25",
+      "amount": 2799.57,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00473",
+      "plaid_transaction_id": "plaid_txn_retail_00473",
+      "date": "2026-03-26",
+      "amount": 719.65,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00474",
+      "plaid_transaction_id": "plaid_txn_retail_00474",
+      "date": "2026-03-26",
+      "amount": -2399.06,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00475",
+      "plaid_transaction_id": "plaid_txn_retail_00475",
+      "date": "2026-03-26",
+      "amount": -380.48,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00476",
+      "plaid_transaction_id": "plaid_txn_retail_00476",
+      "date": "2026-03-27",
+      "amount": 7395.77,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00477",
+      "plaid_transaction_id": "plaid_txn_retail_00477",
+      "date": "2026-03-27",
+      "amount": -13399.8,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00478",
+      "plaid_transaction_id": "plaid_txn_retail_00478",
+      "date": "2026-03-28",
+      "amount": -310,
+      "description": "STRIPE FEE MONTHLY",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00479",
+      "plaid_transaction_id": "plaid_txn_retail_00479",
+      "date": "2026-03-31",
+      "amount": -3600.16,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00480",
+      "plaid_transaction_id": "plaid_txn_retail_00480",
+      "date": "2026-04-01",
+      "amount": -4200,
+      "description": "SOUTHPORT RETAIL RENT",
+      "category": "rent_or_mortgage",
+      "is_recurring": true,
+      "confidence": 0.98
+    },
+    {
+      "id": "txn_retail_00481",
+      "plaid_transaction_id": "plaid_txn_retail_00481",
+      "date": "2026-04-01",
+      "amount": 2795.94,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00482",
+      "plaid_transaction_id": "plaid_txn_retail_00482",
+      "date": "2026-04-02",
+      "amount": -3100,
+      "description": "ANTHEM BCBS GROUP HEALTH",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00483",
+      "plaid_transaction_id": "plaid_txn_retail_00483",
+      "date": "2026-04-02",
+      "amount": 720.84,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00484",
+      "plaid_transaction_id": "plaid_txn_retail_00484",
+      "date": "2026-04-02",
+      "amount": -2401.02,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00485",
+      "plaid_transaction_id": "plaid_txn_retail_00485",
+      "date": "2026-04-02",
+      "amount": -379.87,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00486",
+      "plaid_transaction_id": "plaid_txn_retail_00486",
+      "date": "2026-04-03",
+      "amount": -399,
+      "description": "SHOPIFY ADVANCED PLAN",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00487",
+      "plaid_transaction_id": "plaid_txn_retail_00487",
+      "date": "2026-04-03",
+      "amount": 7401.86,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00488",
+      "plaid_transaction_id": "plaid_txn_retail_00488",
+      "date": "2026-04-04",
+      "amount": -540,
+      "description": "KLAVIYO MARKETING",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00489",
+      "plaid_transaction_id": "plaid_txn_retail_00489",
+      "date": "2026-04-05",
+      "amount": -90,
+      "description": "QUICKBOOKS ONLINE PLUS",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00490",
+      "plaid_transaction_id": "plaid_txn_retail_00490",
+      "date": "2026-04-06",
+      "amount": -245,
+      "description": "HISCOX BUSINESS INSURANCE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.9
+    },
+    {
+      "id": "txn_retail_00491",
+      "plaid_transaction_id": "plaid_txn_retail_00491",
+      "date": "2026-04-07",
+      "amount": -3596.37,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00492",
+      "plaid_transaction_id": "plaid_txn_retail_00492",
+      "date": "2026-04-08",
+      "amount": 2801.64,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00493",
+      "plaid_transaction_id": "plaid_txn_retail_00493",
+      "date": "2026-04-09",
+      "amount": -279,
+      "description": "COMCAST BUSINESS INTERNET",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00494",
+      "plaid_transaction_id": "plaid_txn_retail_00494",
+      "date": "2026-04-09",
+      "amount": 719.5,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00495",
+      "plaid_transaction_id": "plaid_txn_retail_00495",
+      "date": "2026-04-09",
+      "amount": -2396.99,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00496",
+      "plaid_transaction_id": "plaid_txn_retail_00496",
+      "date": "2026-04-09",
+      "amount": -379.95,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00497",
+      "plaid_transaction_id": "plaid_txn_retail_00497",
+      "date": "2026-04-10",
+      "amount": 7392.36,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00498",
+      "plaid_transaction_id": "plaid_txn_retail_00498",
+      "date": "2026-04-10",
+      "amount": -13400.27,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00499",
+      "plaid_transaction_id": "plaid_txn_retail_00499",
+      "date": "2026-04-12",
+      "amount": -680,
+      "description": "CON ED ELECTRIC",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00500",
+      "plaid_transaction_id": "plaid_txn_retail_00500",
+      "date": "2026-04-13",
+      "amount": -180,
+      "description": "ADP RUN PAYROLL FEE",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    },
+    {
+      "id": "txn_retail_00501",
+      "plaid_transaction_id": "plaid_txn_retail_00501",
+      "date": "2026-04-14",
+      "amount": -149,
+      "description": "MAILCHIMP",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00502",
+      "plaid_transaction_id": "plaid_txn_retail_00502",
+      "date": "2026-04-14",
+      "amount": -3605.25,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00503",
+      "plaid_transaction_id": "plaid_txn_retail_00503",
+      "date": "2026-04-15",
+      "amount": 2799.7,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00504",
+      "plaid_transaction_id": "plaid_txn_retail_00504",
+      "date": "2026-04-15",
+      "amount": -800,
+      "description": "FRANCHISE TAX BOARD",
+      "category": "tax",
+      "is_recurring": true,
+      "confidence": 0.93
+    },
+    {
+      "id": "txn_retail_00505",
+      "plaid_transaction_id": "plaid_txn_retail_00505",
+      "date": "2026-04-16",
+      "amount": 719.04,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00506",
+      "plaid_transaction_id": "plaid_txn_retail_00506",
+      "date": "2026-04-16",
+      "amount": -2399.4,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00507",
+      "plaid_transaction_id": "plaid_txn_retail_00507",
+      "date": "2026-04-16",
+      "amount": -379.46,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00508",
+      "plaid_transaction_id": "plaid_txn_retail_00508",
+      "date": "2026-04-17",
+      "amount": -240,
+      "description": "AT&T BUSINESS WIRELESS",
+      "category": "utilities",
+      "is_recurring": true,
+      "confidence": 0.94
+    },
+    {
+      "id": "txn_retail_00509",
+      "plaid_transaction_id": "plaid_txn_retail_00509",
+      "date": "2026-04-17",
+      "amount": 7406.33,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00510",
+      "plaid_transaction_id": "plaid_txn_retail_00510",
+      "date": "2026-04-18",
+      "amount": -72,
+      "description": "GOOGLE WORKSPACE",
+      "category": "subscriptions",
+      "is_recurring": true,
+      "confidence": 0.95
+    },
+    {
+      "id": "txn_retail_00511",
+      "plaid_transaction_id": "plaid_txn_retail_00511",
+      "date": "2026-04-21",
+      "amount": -3603.6,
+      "description": "FAIRE WHOLESALE INVENTORY",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00512",
+      "plaid_transaction_id": "plaid_txn_retail_00512",
+      "date": "2026-04-22",
+      "amount": -89,
+      "description": "SQUARE TERMINAL LEASE",
+      "category": "other",
+      "is_recurring": false,
+      "confidence": 0.4
+    },
+    {
+      "id": "txn_retail_00513",
+      "plaid_transaction_id": "plaid_txn_retail_00513",
+      "date": "2026-04-22",
+      "amount": 2801.32,
+      "description": "SQUARE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00514",
+      "plaid_transaction_id": "plaid_txn_retail_00514",
+      "date": "2026-04-23",
+      "amount": 720.9,
+      "description": "SHOPIFY PAYOUTS",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00515",
+      "plaid_transaction_id": "plaid_txn_retail_00515",
+      "date": "2026-04-23",
+      "amount": -2402.02,
+      "description": "ALIBABA SUPPLIER WIRE",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00516",
+      "plaid_transaction_id": "plaid_txn_retail_00516",
+      "date": "2026-04-23",
+      "amount": -379.82,
+      "description": "UPS FREIGHT INBOUND",
+      "category": "vendor_payment",
+      "is_recurring": false,
+      "confidence": 0.85
+    },
+    {
+      "id": "txn_retail_00517",
+      "plaid_transaction_id": "plaid_txn_retail_00517",
+      "date": "2026-04-24",
+      "amount": 7405.75,
+      "description": "STRIPE PAYOUT",
+      "category": "income",
+      "is_recurring": true,
+      "confidence": 0.92
+    },
+    {
+      "id": "txn_retail_00518",
+      "plaid_transaction_id": "plaid_txn_retail_00518",
+      "date": "2026-04-24",
+      "amount": -13400.05,
+      "description": "ADP PAYROLL HOURLY",
+      "category": "payroll",
+      "is_recurring": true,
+      "confidence": 0.99
+    }
+  ],
+  "forecast": {
+    "generated_at": "2026-04-28T13:40:37.164Z",
+    "business_name": "Goldenwave Goods Co.",
+    "starting_balance": 2400,
+    "threshold_dollars": 5000,
+    "scenarios": {
+      "optimistic": {
+        "scenario": "optimistic",
+        "starting_balance": 2400,
+        "weeks": [
+          {
+            "week_index": 1,
+            "week_start": "2026-04-27",
+            "week_end": "2026-05-03",
+            "inflow_total": 12011.57,
+            "outflow_total": 7229.5,
+            "projected_balance": 7182.07,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "SOUTHPORT RETAIL RENT",
+                "amount": -3990
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -2945
+              },
+              {
+                "description": "STRIPE FEE MONTHLY",
+                "amount": -294.5
+              }
+            ]
+          },
+          {
+            "week_index": 2,
+            "week_start": "2026-05-04",
+            "week_end": "2026-05-10",
+            "inflow_total": 12011.57,
+            "outflow_total": 13826.34,
+            "projected_balance": 5367.3,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -12730.04
+              },
+              {
+                "description": "KLAVIYO MARKETING",
+                "amount": -513
+              },
+              {
+                "description": "COMCAST BUSINESS INTERNET",
+                "amount": -265.05
+              },
+              {
+                "description": "HISCOX BUSINESS INSURANCE",
+                "amount": -232.75
+              }
+            ]
+          },
+          {
+            "week_index": 3,
+            "week_start": "2026-05-11",
+            "week_end": "2026-05-17",
+            "inflow_total": 12011.57,
+            "outflow_total": 1186.55,
+            "projected_balance": 16192.32,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -646
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -228
+              },
+              {
+                "description": "ADP RUN PAYROLL FEE",
+                "amount": -171
+              },
+              {
+                "description": "MAILCHIMP",
+                "amount": -141.55
+              }
+            ]
+          },
+          {
+            "week_index": 4,
+            "week_start": "2026-05-18",
+            "week_end": "2026-05-24",
+            "inflow_total": 12011.57,
+            "outflow_total": 12798.44,
+            "projected_balance": 15405.45,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -12730.04
+              },
+              {
+                "description": "GOOGLE WORKSPACE",
+                "amount": -68.4
+              }
+            ]
+          },
+          {
+            "week_index": 5,
+            "week_start": "2026-05-25",
+            "week_end": "2026-05-31",
+            "inflow_total": 12011.57,
+            "outflow_total": 11552,
+            "projected_balance": 15865.02,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "NYS SALES TAX QTR",
+                "amount": -7267.5
+              },
+              {
+                "description": "SOUTHPORT RETAIL RENT",
+                "amount": -3990
+              },
+              {
+                "description": "STRIPE FEE MONTHLY",
+                "amount": -294.5
+              }
+            ]
+          },
+          {
+            "week_index": 6,
+            "week_start": "2026-06-01",
+            "week_end": "2026-06-07",
+            "inflow_total": 12011.57,
+            "outflow_total": 16506.29,
+            "projected_balance": 11370.3,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -12730.04
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -2945
+              },
+              {
+                "description": "KLAVIYO MARKETING",
+                "amount": -513
+              },
+              {
+                "description": "HISCOX BUSINESS INSURANCE",
+                "amount": -232.75
+              }
+            ]
+          },
+          {
+            "week_index": 7,
+            "week_start": "2026-06-08",
+            "week_end": "2026-06-14",
+            "inflow_total": 12011.57,
+            "outflow_total": 1223.6,
+            "projected_balance": 22158.27,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -646
+              },
+              {
+                "description": "COMCAST BUSINESS INTERNET",
+                "amount": -265.05
+              },
+              {
+                "description": "ADP RUN PAYROLL FEE",
+                "amount": -171
+              },
+              {
+                "description": "MAILCHIMP",
+                "amount": -141.55
+              }
+            ]
+          },
+          {
+            "week_index": 8,
+            "week_start": "2026-06-15",
+            "week_end": "2026-06-21",
+            "inflow_total": 12011.57,
+            "outflow_total": 13026.44,
+            "projected_balance": 21143.4,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -12730.04
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -228
+              },
+              {
+                "description": "GOOGLE WORKSPACE",
+                "amount": -68.4
+              }
+            ]
+          },
+          {
+            "week_index": 9,
+            "week_start": "2026-06-22",
+            "week_end": "2026-06-28",
+            "inflow_total": 12011.57,
+            "outflow_total": 294.5,
+            "projected_balance": 32860.47,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "STRIPE FEE MONTHLY",
+                "amount": -294.5
+              }
+            ]
+          },
+          {
+            "week_index": 10,
+            "week_start": "2026-06-29",
+            "week_end": "2026-07-05",
+            "inflow_total": 12011.57,
+            "outflow_total": 20496.29,
+            "projected_balance": 24375.75,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -12730.04
+              },
+              {
+                "description": "SOUTHPORT RETAIL RENT",
+                "amount": -3990
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -2945
+              },
+              {
+                "description": "KLAVIYO MARKETING",
+                "amount": -513
+              }
+            ]
+          },
+          {
+            "week_index": 11,
+            "week_start": "2026-07-06",
+            "week_end": "2026-07-12",
+            "inflow_total": 12011.57,
+            "outflow_total": 1082.05,
+            "projected_balance": 35305.27,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -646
+              },
+              {
+                "description": "COMCAST BUSINESS INTERNET",
+                "amount": -265.05
+              },
+              {
+                "description": "ADP RUN PAYROLL FEE",
+                "amount": -171
+              }
+            ]
+          },
+          {
+            "week_index": 12,
+            "week_start": "2026-07-13",
+            "week_end": "2026-07-19",
+            "inflow_total": 12011.57,
+            "outflow_total": 13927.99,
+            "projected_balance": 33388.85,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -12730.04
+              },
+              {
+                "description": "FRANCHISE TAX BOARD",
+                "amount": -760
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -228
+              },
+              {
+                "description": "MAILCHIMP",
+                "amount": -141.55
+              }
+            ]
+          },
+          {
+            "week_index": 13,
+            "week_start": "2026-07-20",
+            "week_end": "2026-07-26",
+            "inflow_total": 12011.57,
+            "outflow_total": 294.5,
+            "projected_balance": 45105.92,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 8139.9
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 3079.67
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 792
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "STRIPE FEE MONTHLY",
+                "amount": -294.5
+              }
+            ]
+          }
+        ]
+      },
+      "base": {
+        "scenario": "base",
+        "starting_balance": 2400,
+        "weeks": [
+          {
+            "week_index": 1,
+            "week_start": "2026-04-27",
+            "week_end": "2026-05-03",
+            "inflow_total": 10919.61,
+            "outflow_total": 7610,
+            "projected_balance": 5709.61,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "SOUTHPORT RETAIL RENT",
+                "amount": -4200
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -3100
+              },
+              {
+                "description": "STRIPE FEE MONTHLY",
+                "amount": -310
+              }
+            ]
+          },
+          {
+            "week_index": 2,
+            "week_start": "2026-05-04",
+            "week_end": "2026-05-10",
+            "inflow_total": 10919.61,
+            "outflow_total": 14554.04,
+            "projected_balance": 2075.18,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -13400.04
+              },
+              {
+                "description": "KLAVIYO MARKETING",
+                "amount": -540
+              },
+              {
+                "description": "COMCAST BUSINESS INTERNET",
+                "amount": -279
+              },
+              {
+                "description": "HISCOX BUSINESS INSURANCE",
+                "amount": -245
+              }
+            ]
+          },
+          {
+            "week_index": 3,
+            "week_start": "2026-05-11",
+            "week_end": "2026-05-17",
+            "inflow_total": 10919.61,
+            "outflow_total": 1249,
+            "projected_balance": 11745.79,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -680
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -240
+              },
+              {
+                "description": "ADP RUN PAYROLL FEE",
+                "amount": -180
+              },
+              {
+                "description": "MAILCHIMP",
+                "amount": -149
+              }
+            ]
+          },
+          {
+            "week_index": 4,
+            "week_start": "2026-05-18",
+            "week_end": "2026-05-24",
+            "inflow_total": 10919.61,
+            "outflow_total": 13472.04,
+            "projected_balance": 9193.36,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -13400.04
+              },
+              {
+                "description": "GOOGLE WORKSPACE",
+                "amount": -72
+              }
+            ]
+          },
+          {
+            "week_index": 5,
+            "week_start": "2026-05-25",
+            "week_end": "2026-05-31",
+            "inflow_total": 10919.61,
+            "outflow_total": 12160,
+            "projected_balance": 7952.97,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "NYS SALES TAX QTR",
+                "amount": -7650
+              },
+              {
+                "description": "SOUTHPORT RETAIL RENT",
+                "amount": -4200
+              },
+              {
+                "description": "STRIPE FEE MONTHLY",
+                "amount": -310
+              }
+            ]
+          },
+          {
+            "week_index": 6,
+            "week_start": "2026-06-01",
+            "week_end": "2026-06-07",
+            "inflow_total": 10919.61,
+            "outflow_total": 17375.04,
+            "projected_balance": 1497.54,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -13400.04
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -3100
+              },
+              {
+                "description": "KLAVIYO MARKETING",
+                "amount": -540
+              },
+              {
+                "description": "HISCOX BUSINESS INSURANCE",
+                "amount": -245
+              }
+            ]
+          },
+          {
+            "week_index": 7,
+            "week_start": "2026-06-08",
+            "week_end": "2026-06-14",
+            "inflow_total": 10919.61,
+            "outflow_total": 1288,
+            "projected_balance": 11129.15,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -680
+              },
+              {
+                "description": "COMCAST BUSINESS INTERNET",
+                "amount": -279
+              },
+              {
+                "description": "ADP RUN PAYROLL FEE",
+                "amount": -180
+              },
+              {
+                "description": "MAILCHIMP",
+                "amount": -149
+              }
+            ]
+          },
+          {
+            "week_index": 8,
+            "week_start": "2026-06-15",
+            "week_end": "2026-06-21",
+            "inflow_total": 10919.61,
+            "outflow_total": 13712.04,
+            "projected_balance": 8336.72,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -13400.04
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -240
+              },
+              {
+                "description": "GOOGLE WORKSPACE",
+                "amount": -72
+              }
+            ]
+          },
+          {
+            "week_index": 9,
+            "week_start": "2026-06-22",
+            "week_end": "2026-06-28",
+            "inflow_total": 10919.61,
+            "outflow_total": 310,
+            "projected_balance": 18946.33,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "STRIPE FEE MONTHLY",
+                "amount": -310
+              }
+            ]
+          },
+          {
+            "week_index": 10,
+            "week_start": "2026-06-29",
+            "week_end": "2026-07-05",
+            "inflow_total": 10919.61,
+            "outflow_total": 21575.04,
+            "projected_balance": 8290.9,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -13400.04
+              },
+              {
+                "description": "SOUTHPORT RETAIL RENT",
+                "amount": -4200
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -3100
+              },
+              {
+                "description": "KLAVIYO MARKETING",
+                "amount": -540
+              }
+            ]
+          },
+          {
+            "week_index": 11,
+            "week_start": "2026-07-06",
+            "week_end": "2026-07-12",
+            "inflow_total": 10919.61,
+            "outflow_total": 1139,
+            "projected_balance": 18071.51,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -680
+              },
+              {
+                "description": "COMCAST BUSINESS INTERNET",
+                "amount": -279
+              },
+              {
+                "description": "ADP RUN PAYROLL FEE",
+                "amount": -180
+              }
+            ]
+          },
+          {
+            "week_index": 12,
+            "week_start": "2026-07-13",
+            "week_end": "2026-07-19",
+            "inflow_total": 10919.61,
+            "outflow_total": 14661.04,
+            "projected_balance": 14330.08,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -13400.04
+              },
+              {
+                "description": "FRANCHISE TAX BOARD",
+                "amount": -800
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -240
+              },
+              {
+                "description": "MAILCHIMP",
+                "amount": -149
+              }
+            ]
+          },
+          {
+            "week_index": 13,
+            "week_start": "2026-07-20",
+            "week_end": "2026-07-26",
+            "inflow_total": 10919.61,
+            "outflow_total": 310,
+            "projected_balance": 24939.69,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 7399.91
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2799.7
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 720
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "STRIPE FEE MONTHLY",
+                "amount": -310
+              }
+            ]
+          }
+        ]
+      },
+      "pessimistic": {
+        "scenario": "pessimistic",
+        "starting_balance": 2400,
+        "weeks": [
+          {
+            "week_index": 1,
+            "week_start": "2026-04-27",
+            "week_end": "2026-05-03",
+            "inflow_total": 9827.65,
+            "outflow_total": 8371,
+            "projected_balance": 3856.65,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "SOUTHPORT RETAIL RENT",
+                "amount": -4620
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -3410
+              },
+              {
+                "description": "STRIPE FEE MONTHLY",
+                "amount": -341
+              }
+            ]
+          },
+          {
+            "week_index": 2,
+            "week_start": "2026-05-04",
+            "week_end": "2026-05-10",
+            "inflow_total": 9827.65,
+            "outflow_total": 16009.44,
+            "projected_balance": -2325.14,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -14740.04
+              },
+              {
+                "description": "KLAVIYO MARKETING",
+                "amount": -594
+              },
+              {
+                "description": "COMCAST BUSINESS INTERNET",
+                "amount": -306.9
+              },
+              {
+                "description": "HISCOX BUSINESS INSURANCE",
+                "amount": -269.5
+              }
+            ]
+          },
+          {
+            "week_index": 3,
+            "week_start": "2026-05-11",
+            "week_end": "2026-05-17",
+            "inflow_total": 9827.65,
+            "outflow_total": 1373.9,
+            "projected_balance": 6128.61,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -748
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -264
+              },
+              {
+                "description": "ADP RUN PAYROLL FEE",
+                "amount": -198
+              },
+              {
+                "description": "MAILCHIMP",
+                "amount": -163.9
+              }
+            ]
+          },
+          {
+            "week_index": 4,
+            "week_start": "2026-05-18",
+            "week_end": "2026-05-24",
+            "inflow_total": 9827.65,
+            "outflow_total": 14819.24,
+            "projected_balance": 1137.02,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -14740.04
+              },
+              {
+                "description": "GOOGLE WORKSPACE",
+                "amount": -79.2
+              }
+            ]
+          },
+          {
+            "week_index": 5,
+            "week_start": "2026-05-25",
+            "week_end": "2026-05-31",
+            "inflow_total": 9827.65,
+            "outflow_total": 13376,
+            "projected_balance": -2411.33,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "NYS SALES TAX QTR",
+                "amount": -8415
+              },
+              {
+                "description": "SOUTHPORT RETAIL RENT",
+                "amount": -4620
+              },
+              {
+                "description": "STRIPE FEE MONTHLY",
+                "amount": -341
+              }
+            ]
+          },
+          {
+            "week_index": 6,
+            "week_start": "2026-06-01",
+            "week_end": "2026-06-07",
+            "inflow_total": 9827.65,
+            "outflow_total": 19112.54,
+            "projected_balance": -11696.22,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -14740.04
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -3410
+              },
+              {
+                "description": "KLAVIYO MARKETING",
+                "amount": -594
+              },
+              {
+                "description": "HISCOX BUSINESS INSURANCE",
+                "amount": -269.5
+              }
+            ]
+          },
+          {
+            "week_index": 7,
+            "week_start": "2026-06-08",
+            "week_end": "2026-06-14",
+            "inflow_total": 9827.65,
+            "outflow_total": 1416.8,
+            "projected_balance": -3285.37,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -748
+              },
+              {
+                "description": "COMCAST BUSINESS INTERNET",
+                "amount": -306.9
+              },
+              {
+                "description": "ADP RUN PAYROLL FEE",
+                "amount": -198
+              },
+              {
+                "description": "MAILCHIMP",
+                "amount": -163.9
+              }
+            ]
+          },
+          {
+            "week_index": 8,
+            "week_start": "2026-06-15",
+            "week_end": "2026-06-21",
+            "inflow_total": 9827.65,
+            "outflow_total": 15083.24,
+            "projected_balance": -8540.96,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -14740.04
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -264
+              },
+              {
+                "description": "GOOGLE WORKSPACE",
+                "amount": -79.2
+              }
+            ]
+          },
+          {
+            "week_index": 9,
+            "week_start": "2026-06-22",
+            "week_end": "2026-06-28",
+            "inflow_total": 9827.65,
+            "outflow_total": 341,
+            "projected_balance": 945.69,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "STRIPE FEE MONTHLY",
+                "amount": -341
+              }
+            ]
+          },
+          {
+            "week_index": 10,
+            "week_start": "2026-06-29",
+            "week_end": "2026-07-05",
+            "inflow_total": 9827.65,
+            "outflow_total": 23732.54,
+            "projected_balance": -12959.2,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -14740.04
+              },
+              {
+                "description": "SOUTHPORT RETAIL RENT",
+                "amount": -4620
+              },
+              {
+                "description": "ANTHEM BCBS GROUP HEALTH",
+                "amount": -3410
+              },
+              {
+                "description": "KLAVIYO MARKETING",
+                "amount": -594
+              }
+            ]
+          },
+          {
+            "week_index": 11,
+            "week_start": "2026-07-06",
+            "week_end": "2026-07-12",
+            "inflow_total": 9827.65,
+            "outflow_total": 1252.9,
+            "projected_balance": -4384.45,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "CON ED ELECTRIC",
+                "amount": -748
+              },
+              {
+                "description": "COMCAST BUSINESS INTERNET",
+                "amount": -306.9
+              },
+              {
+                "description": "ADP RUN PAYROLL FEE",
+                "amount": -198
+              }
+            ]
+          },
+          {
+            "week_index": 12,
+            "week_start": "2026-07-13",
+            "week_end": "2026-07-19",
+            "inflow_total": 9827.65,
+            "outflow_total": 16127.14,
+            "projected_balance": -10683.94,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "ADP PAYROLL HOURLY",
+                "amount": -14740.04
+              },
+              {
+                "description": "FRANCHISE TAX BOARD",
+                "amount": -880
+              },
+              {
+                "description": "AT&T BUSINESS WIRELESS",
+                "amount": -264
+              },
+              {
+                "description": "MAILCHIMP",
+                "amount": -163.9
+              }
+            ]
+          },
+          {
+            "week_index": 13,
+            "week_start": "2026-07-20",
+            "week_end": "2026-07-26",
+            "inflow_total": 9827.65,
+            "outflow_total": 341,
+            "projected_balance": -1197.29,
+            "top_inflows": [
+              {
+                "description": "STRIPE PAYOUT",
+                "amount": 6659.92
+              },
+              {
+                "description": "SQUARE PAYOUT",
+                "amount": 2519.73
+              },
+              {
+                "description": "SHOPIFY PAYOUTS",
+                "amount": 648
+              }
+            ],
+            "top_outflows": [
+              {
+                "description": "STRIPE FEE MONTHLY",
+                "amount": -341
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "at_risk_weeks": [
+      {
+        "week_index": 2,
+        "week_start": "2026-05-04",
+        "week_end": "2026-05-10",
+        "projected_balance": 2075.18,
+        "shortfall": 2924.82,
+        "drivers": [
+          {
+            "transaction_id": "txn_retail_00518",
+            "description": "ADP PAYROLL HOURLY",
+            "amount": -13400.04,
+            "category": "payroll"
+          },
+          {
+            "transaction_id": "txn_retail_00488",
+            "description": "KLAVIYO MARKETING",
+            "amount": -540,
+            "category": "subscriptions"
+          },
+          {
+            "transaction_id": "txn_retail_00493",
+            "description": "COMCAST BUSINESS INTERNET",
+            "amount": -279,
+            "category": "utilities"
+          }
+        ]
+      },
+      {
+        "week_index": 6,
+        "week_start": "2026-06-01",
+        "week_end": "2026-06-07",
+        "projected_balance": 1497.54,
+        "shortfall": 3502.46,
+        "drivers": [
+          {
+            "transaction_id": "txn_retail_00518",
+            "description": "ADP PAYROLL HOURLY",
+            "amount": -13400.04,
+            "category": "payroll"
+          },
+          {
+            "transaction_id": "txn_retail_00482",
+            "description": "ANTHEM BCBS GROUP HEALTH",
+            "amount": -3100,
+            "category": "subscriptions"
+          },
+          {
+            "transaction_id": "txn_retail_00488",
+            "description": "KLAVIYO MARKETING",
+            "amount": -540,
+            "category": "subscriptions"
+          }
+        ]
+      }
+    ]
+  },
+  "explanations": [
+    {
+      "week_index": 2,
+      "explanation": "By the week of May 4, your projected balance falls to about $2,075 — about $2,925 below your $5,000 floor. The biggest hits this week are ADP PAYROLL HOURLY (~$13,400), KLAVIYO MARKETING (~$540), COMCAST BUSINESS INTERNET (~$279). One concrete lever: consider asking a top customer to settle a few days earlier so cash lands before payday, or move payroll to the day after the largest retainer hits.",
+      "cited_transaction_ids": [
+        "txn_retail_00518",
+        "txn_retail_00488",
+        "txn_retail_00493"
+      ]
+    },
+    {
+      "week_index": 6,
+      "explanation": "By the week of June 1, your projected balance falls to about $1,498 — about $3,502 below your $5,000 floor. The biggest hits this week are ADP PAYROLL HOURLY (~$13,400), ANTHEM BCBS GROUP HEALTH (~$3,100), KLAVIYO MARKETING (~$540). One concrete lever: consider asking a top customer to settle a few days earlier so cash lands before payday, or move payroll to the day after the largest retainer hits.",
+      "cited_transaction_ids": [
+        "txn_retail_00518",
+        "txn_retail_00482",
+        "txn_retail_00488"
+      ]
+    }
+  ]
+}
