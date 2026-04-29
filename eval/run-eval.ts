@@ -30,7 +30,7 @@ import type {
   CategorizedTransaction,
   WeekSnapshot,
   RecurringStream,
-} from "../lib/types.ts";
+} from "../lib/types";
 
 interface GroundTruthStream {
   description: string;
