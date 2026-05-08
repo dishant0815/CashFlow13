@@ -2,7 +2,7 @@
 
 > A 13-week predictive cash-flow engine for small businesses. Closes the gap between *current bank balance* and *forward visibility* — the gap that kills roughly 30% of small businesses inside their first two years.
 
-**Live demo:** _add Vercel URL_ · **Loom (90s):** _add Loom URL_ · **Deeper reads:** [CASE_STUDY.md](./CASE_STUDY.md) · [OPERATIONS.md](./OPERATIONS.md) · [LOOM_SCRIPT.md](./LOOM_SCRIPT.md)
+**Live demo:** cash-flow13.vercel.app **Deeper reads:** [CASE_STUDY.md](./CASE_STUDY.md) · [OPERATIONS.md](./OPERATIONS.md) · [LOOM_SCRIPT.md](./LOOM_SCRIPT.md)
 
 ---
 
