@@ -1,13 +1,9 @@
 "use client";
 
 // ScenarioSwitcher — header dropdown that swaps the dashboard's data
-// between three pre-calculated demo profiles. Visible when:
-//   • NODE_ENV === "development"  (always on locally), OR
-//   • the URL contains ?scenarios=1  (hidden toggle for prod demos)
-//
-// Hidden in plain production. The keyboard shortcut Shift+S also toggles
-// it on for the current session if the user wants to reveal it during a
-// live demo without changing the URL.
+// between three pre-calculated demo profiles (Agency, Retail, Tax Crisis).
+// Always rendered: the three scenarios are the core demo surface, so the
+// switcher is the primary navigation, not a hidden affordance.
 
 import { useEffect, useState } from "react";
 import { ChevronDown, Building2, Store, Receipt, Beaker } from "lucide-react";
@@ -28,32 +24,6 @@ const ICONS: Record<ScenarioId, React.ComponentType<{ className?: string }>> = {
 
 export function ScenarioSwitcher({ scenarios, current, onChange }: Props) {
   const [open, setOpen] = useState(false);
-  const [forceVisible, setForceVisible] = useState(false);
-
-  // Visibility logic: dev mode always; prod requires ?scenarios=1 OR
-  // a Shift+S key combo that flips a session flag.
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    const sp = new URLSearchParams(window.location.search);
-    if (sp.has("scenarios")) {
-      setForceVisible(true);
-      return;
-    }
-    const stored = window.sessionStorage.getItem("cf13_scenarios_visible");
-    if (stored === "1") setForceVisible(true);
-    const onKey = (e: KeyboardEvent) => {
-      if (e.shiftKey && (e.key === "S" || e.key === "s")) {
-        const target = e.target as HTMLElement | null;
-        // don't fire when typing in inputs
-        if (target && (target.tagName === "INPUT" || target.tagName === "TEXTAREA")) return;
-        const next = !forceVisible;
-        setForceVisible(next);
-        window.sessionStorage.setItem("cf13_scenarios_visible", next ? "1" : "0");
-      }
-    };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [forceVisible]);
 
   // Click-outside to close.
   useEffect(() => {
@@ -66,11 +36,6 @@ export function ScenarioSwitcher({ scenarios, current, onChange }: Props) {
     window.addEventListener("click", onClick);
     return () => window.removeEventListener("click", onClick);
   }, [open]);
-
-  const isDev =
-    typeof process !== "undefined" && process.env.NODE_ENV === "development";
-  const visible = isDev || forceVisible;
-  if (!visible) return null;
 
   const order: ScenarioId[] = ["agency", "retail", "tax-crisis"];
   const currentBundle = scenarios[current];
@@ -140,7 +105,7 @@ export function ScenarioSwitcher({ scenarios, current, onChange }: Props) {
           })}
           <div className="border-t border-white/5 mt-1 pt-2 px-3 pb-1">
             <div className="text-[10px] text-slate-500">
-              Demo only · pre-calculated · Shift+S to toggle
+              Demo only · pre-calculated bundles
             </div>
           </div>
         </div>
