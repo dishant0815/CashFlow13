@@ -76,7 +76,7 @@ This is the single most important PM decision in the build.
 4. A four-stage visual pipeline animates for ~6 seconds (Syncing bank → AI categorizing → Calculating forecast → Drafting explanations) — purely client-side `setTimeout`s.
 5. On completion, the dashboard loads the **Retail scenario bundle** (`data/scenarios/retail.json`) and renders it with "live data" styling — mint pulse on the bank pill, *"Live data via Plaid sandbox"* footer copy.
 
-**The three scenario bundles** (Agency / Retail / Tax Crisis) are pre-computed at build time by `scripts/seed-scenarios.ts`. Each bundle contains the full transaction list, the categorized output, the computed forecast (3 scenarios × 13 weeks), and templated zero-hallucination explanations. They're swappable instantly via the dropdown in the header (visible in dev mode, or in production with `?scenarios=1` or Shift+S). Each tells a distinct cash-flow story — lumpy retainer cycles, tight retail margins, impending tax catastrophe.
+**The three scenario bundles** (Agency / Retail / Tax Crisis) are pre-computed at build time by `scripts/seed-scenarios.ts`. Each bundle contains the full transaction list, the categorized output, the computed forecast (3 scenarios × 13 weeks), and templated zero-hallucination explanations. They're swappable instantly via the **Scenario** dropdown in the header — surfaced in production as primary navigation since the three scenarios are the core demo surface. Each tells a distinct cash-flow story: lumpy retainer cycles (Agency), tight retail margins (Retail), impending tax catastrophe (Tax Crisis).
 
 **Why this is the right PM call:**
 
