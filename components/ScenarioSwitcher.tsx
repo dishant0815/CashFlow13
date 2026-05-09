@@ -6,7 +6,7 @@
 // switcher is the primary navigation, not a hidden affordance.
 
 import { useEffect, useState } from "react";
-import { ChevronDown, Building2, Store, Receipt, Beaker } from "lucide-react";
+import { ChevronDown, Building2, Store, Receipt } from "lucide-react";
 import { classNames } from "@/lib/format";
 import type { ScenarioBundle, ScenarioId } from "@/lib/scenarios";
 
@@ -46,17 +46,18 @@ export function ScenarioSwitcher({ scenarios, current, onChange }: Props) {
       <button
         onClick={() => setOpen((v) => !v)}
         className={classNames(
-          "flex items-center gap-2 px-3 py-1.5 rounded-full text-xs border transition",
-          "border-amber-400/40 bg-amber-400/10 text-amber-200 hover:bg-amber-400/20"
+          "flex items-center gap-2 px-4 py-2 rounded-full text-sm border transition shadow-sm",
+          "border-amber-400/50 bg-amber-400/15 text-amber-100 hover:bg-amber-400/25 hover:border-amber-400/70"
         )}
         aria-haspopup="listbox"
         aria-expanded={open}
       >
-        <Beaker className="w-3.5 h-3.5" />
-        <span className="font-semibold">Demo:</span>
-        <CurrentIcon className="w-3.5 h-3.5" />
-        <span>{currentBundle.meta.label}</span>
-        <ChevronDown className={classNames("w-3.5 h-3.5 transition", open && "rotate-180")} />
+        <span className="font-semibold uppercase tracking-wider text-[10px] text-amber-300/80">
+          Scenario
+        </span>
+        <CurrentIcon className="w-4 h-4" />
+        <span className="font-semibold">{currentBundle.meta.label}</span>
+        <ChevronDown className={classNames("w-4 h-4 transition", open && "rotate-180")} />
       </button>
       {open && (
         <div
