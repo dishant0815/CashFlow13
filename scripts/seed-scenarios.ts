@@ -19,6 +19,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { buildForecast } from "../lib/forecast.ts";
+import { checkCitations, formatFailures } from "../lib/guardrail.ts";
 import type {
   CategorizedTransaction,
   Category,
@@ -252,6 +253,12 @@ function buildScenario(
   const explanations = forecast.at_risk_weeks.map((w) =>
     generateExplanation(w, input.threshold_dollars)
   );
+  // Citation guardrail: refuse to write a bundle whose explanations name a
+  // transaction or vendor phrase that isn't in this scenario's data.
+  const citationFailures = checkCitations(explanations, cats);
+  if (citationFailures.length) {
+    throw new Error(`[${input.id}] ${formatFailures(citationFailures)}`);
+  }
   return {
     meta: {
       id: input.id,

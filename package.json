@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "eval": "tsx eval/run-eval.ts",
-    "seed": "tsx scripts/seed-scenarios.ts"
+    "seed": "tsx scripts/seed-scenarios.ts",
+    "verify:citations": "tsx scripts/verify-citations.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
