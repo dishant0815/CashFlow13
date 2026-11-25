@@ -1,59 +1,50 @@
 # CashFlow13 — Case Study
 
-A 13-week rolling cash-flow forecast for sub-$5M-revenue small businesses, with plain-English explanations of every at-risk week and transaction-level citations.
+A 13-week rolling cash-flow forecast for small businesses, with a plain-English explanation of every at-risk week that cites the transactions behind it.
 
-**Live demo:** _add Vercel URL_
-**Loom (90s):** _add Loom URL_
-**Source:** [README](./README.md)
+**Live demo:** [cash-flow13.vercel.app](https://cash-flow13.vercel.app)
+**Source:** [README](./README.md) · [ROADMAP](./ROADMAP.md)
+
+> Portfolio project on mock data. The businesses, transactions and results below come from generated demo scenarios, not real users.
 
 ---
 
 ## Process
 
-I built CashFlow13 to demonstrate AI Product Management on a problem that actually has a buyer — sub-$5M-revenue service businesses with no CFO and no 13-week forecast. Cash-flow blindness is the cited #1 reason small businesses fail; the standard CFO tool that prevents it is missing for this segment because no off-the-shelf product combines bank-data automation with plain-English explanation. Plaid plus an LLM with citation discipline closes that gap, and that's the wedge.
+I built CashFlow13 to practice product management on a problem with a clear buyer: owner-operated service and retail businesses with no CFO and no forward-looking cash view. The tool larger finance teams use for this — a 13-week rolling forecast — is rarely available in a form a busy owner can read in two minutes.
 
-I treated this as an MVP exercise, not a feature exercise. The most consequential cuts: no auth (single demo user), no multi-bank aggregation, no edit-categorization UI, no notifications, no mobile-responsive polish, no production error handling beyond try/catch. Each of those is a real product decision I'd defend in an interview — adding any of them eats hours that don't move the demo's "is this useful?" question forward. The Plaid Link integration in the demo is a mocked modal that walks through the same four real states (intro / authenticate / fetch / categorize) so a recruiter sees the actual flow without me needing to wire sandbox keys to a public URL. The categorization and explanation calls to Claude are pre-baked into JSON fixtures so the live URL works on first click with zero env vars; the live-mode code paths are still in `scripts/categorize.ts` and `scripts/explain.ts`, with the exact prompts and a hallucination-guardrail that aborts the run if Claude references a transaction not in the input.
+I treated it as an MVP exercise. The cuts I made on purpose: no accounts, no persistence, no multi-bank aggregation, no editing of categories, no notifications, no phone layout (phones get a "view on desktop" screen). Each one would cost time without changing the core question the demo answers: *is a forecast plus a plain-English "why" useful?*
 
-The trade-off I debated longest was aggressive auto-projection vs. conservative. The aggressive version extrapolates everything — one-time spikes, single-occurrence annual premiums, irregular contractor payments — and warns the owner with a higher recall but more false positives. The conservative version only projects streams with ≥3 occurrences (or ≥2 for annual), missing some real obligations but never inventing one. **I shipped conservative.** On a finance tool, trust beats wow. The first time you tell an owner their balance dips below their floor and the bill never shows up, they stop opening the app. Lower recall is recoverable through the "add a known upcoming obligation" flow I'd ship next; lost trust isn't.
+**The biggest scoping call: a real front door with pre-computed data behind it.** The full live pipeline (Plaid transaction sync, then categorization, then explanations) could run past Vercel's free-tier function limit, and a reviewer who hits a timeout in a 90-second scan sees a broken product. So the *Connect bank* button opens the real Plaid sandbox login when keys are set, and then the app loads a pre-computed mock scenario. The UI says so, and so does this document.
 
-The technical decision I'd defend hardest was using Claude for categorization rather than a deterministic rules engine. Vendor descriptions are messy — the same payroll provider shows up as "GUSTO PAYROLL", "GUSTO PYRL 4412", "GUSTO* CO PAY" depending on the routing. Rules don't generalize across the long tail of merchant names, and an in-house ML classifier needs labeled data we don't have. Claude with strict JSON output and a tight prompt gives 90%+ correct categorization on the first batch with no training data. The trade-off is latency and cost — but on a once-per-day forecast refresh, both are negligible (~2¢ per user per day). I used a deterministic rules categorizer as a fallback so the demo doesn't depend on the API; production would call Claude and fall back to rules only on parse error.
+**Projection: conservative over aggressive.** An aggressive engine extrapolates everything — one-time spikes, single annual premiums, irregular contractor payments — and catches more real obligations but also warns about bills that never arrive. A conservative engine only projects streams with enough history. **I shipped conservative.** In a finance tool, a false alarm costs trust that's hard to win back; a missed irregular payment can be covered later by letting the owner add known upcoming bills.
+
+**Explanations: templates first, LLM later.** The worst failure for this product is an explanation that confidently names a bill the owner doesn't have. Today's explanations are generated from a template that copies each at-risk week's top outflows straight from the data, so they can't invent a vendor. A citation guardrail (`lib/guardrail.ts`) enforces the rule anyway, so that a future LLM-written version is held to the same standard. Categorization is a deterministic rule list for the same reason; an LLM categorizer for messy merchant names is on the roadmap.
 
 ## Usage
 
-**Live URL:** _add Vercel URL after deploy_
+1. Open the demo. It loads the **Agency** scenario ("Brightline Studio LLC", a fictional creative agency).
+2. The chart shows three lines (optimistic / base / pessimistic) over 13 weeks; red dots mark weeks below the $5,000 default threshold.
+3. In **At-risk weeks**, click *Why is this happening?* on Week 1. The explanation names GUSTO PAYROLL BIWEEKLY, WESTLAKE PROPERTIES RENT and ANTHEM BCBS GROUP HEALTH, lists their amounts, and suggests one action.
+4. Drag the **Safety threshold** slider up; more weeks turn red and the list updates instantly.
+5. Switch the **Scenario** dropdown to *Retail* or *Tax Crisis* to see different cash-flow patterns.
 
-5-step demo flow:
+Local setup is in the [README](./README.md#5-run-it-locally).
 
-1. Open the URL — the dashboard loads pre-connected to a fictional business ("Brightline Studio LLC", a 12-person creative agency at ~$1.5M ARR).
-2. The chart shows three scenario lines (optimistic / base / pessimistic) over 13 weeks, with red dots on weeks below the $5,000 default threshold.
-3. The right column lists the at-risk weeks. Click "Why is this happening?" on Week 1 — it expands to a 3-sentence explanation that names *specific* transactions (Gusto Payroll, Westlake Rent, Anthem Health) by their actual descriptions in the data.
-4. Drag the threshold slider up to $15,000 — more weeks turn red, the cards re-render in real time.
-5. Toggle off "Optimistic" — the chart re-renders with two lines instead of three.
+## Effects (measured on the eval set and mock data)
 
-Local setup:
+**Forecast accuracy.** `npm run eval` runs six hand-built cases with known ground truth — five covering common cadences, one (`case-06-calendar-anchored-tax-HARD`) built to expose a known weakness. Result: **94.9% of weeks within ±$200** (74/78), weighted MAE $435.90, passing the ≥90% bar. This tests whether the math is right for known patterns, not how accurate the forecast would be against real bank accounts — that needs back-testing on real data.
 
-```bash
-git clone <repo>
-cd cashflow13
-npm install
-npm run dev    # http://localhost:3000
-npm run eval   # runs the 6-case forecast eval
-```
+**Honest negative result — quarterly tax lands a month late.** Case 6 fails on its own: 9/13 weeks within tolerance, MAE $2,615, max error $8,500. IRS estimated taxes are due on fixed calendar dates, but the engine models the stream as "every ~91 days", so it projects the next payment about a month after it's really due. The fix — snap tax streams to their calendar due dates — is the top item in the roadmap. I left the failing case in the eval because hiding it would make the headline number less honest.
 
-## Effects
+**Citation guardrail.** `npm run verify:citations` checks every explanation in the three shipped scenarios: each cited transaction id must exist, and each ALL-CAPS vendor phrase must appear in a real transaction description. All three bundles pass; changing one vendor name in an explanation makes the command fail.
 
-**Forecast accuracy.** The eval suite runs six fixture cases — five with synthetic-cadence streams, one (`case-06-calendar-anchored-tax-HARD`) deliberately built to expose the weakness below. Aggregate result: **94.9% of weeks within ±$200** of ground truth (74/78 weeks), weighted MAE $435.90, PASS against the ≥90% bar.
+**Instrumentation.** A small `track()` shim logs product events (`page_loaded`, `connect_bank_clicked`, `connect_bank_completed`, `forecast_viewed`, `threshold_changed`, `scenario_switched`, `at_risk_explanation_opened`, `feedback_submitted`) to the console and as browser events, ready to forward to an analytics tool. No usage data has been collected.
 
-**Honest negative metric — quarterly tax mis-cadenced.** Case 6 fails on its own: only 9/13 weeks within tolerance, MAE $2,615, max error $8,500. The reason is that the IRS estimated-tax schedule is calendar-anchored (Apr/Jun/Sep/Jan 15) but my cadence detector models the stream as a 91-day median gap, so it projects the next payment ~30 days later than it really lands. This means the seeded demo's Week 12 outflow includes a phantom IRS payment on Jul 15 instead of the real one on Sep 15. The fix is straightforward — detect calendar-anchored cadences for tax-category streams and snap to the actual due date — and is on the next-week roadmap. I left the bug in the eval rather than hiding it because exposing it on the demo data is the most honest way to communicate the limitation.
+## Areas for improvement
 
-**Hallucination guardrail held at 0%.** `scripts/explain.ts` extracts every all-caps phrase of two-or-more tokens from a generated explanation, checks each against the set of transaction descriptions in the input, and aborts the run with a non-zero exit code on any miss. The guardrail runs against both the hand-curated cached explanations and any live Claude output. The seeded demo passes; if a live Claude call ever invented a vendor name, the build would fail before deploy. This is the single most important AI PM property of the product — owners won't trust the explanations otherwise.
+**Next:** fix calendar-anchored tax dates; add unit tests and a CI workflow so the eval and guardrail run on every push; let the owner add a known upcoming bill or invoice.
 
-**Engagement instrumentation.** Six events are tracked (`page_loaded`, `connect_bank_clicked`, `forecast_viewed`, `threshold_changed`, `scenario_switched`, `at_risk_explanation_opened`, `feedback_submitted`) and dispatched as `CustomEvent` so a PostHog/Amplitude shim can pick them up without a code change. The north-star metric is `forecast_viewed` per session (proxy for the Monday-morning ritual that defines the product).
+**Later:** an LLM-written explanation behind the existing citation guardrail; an LLM categorizer for messy merchant descriptions with the rule list as fallback; a weekly digest so the forecast comes to the owner instead of the owner remembering to open it.
 
-## Areas for Improvement
-
-**Ship next week (S):** A Slack digest that posts the at-risk-week summary to the owner's chosen channel every Monday morning. The forecast is already built; the new code is one webhook handler and a cron. This converts the product from "thing I open" to "thing that opens itself" and is the highest-leverage habit unlock.
-
-**Ship next quarter (M, then L):** Multi-bank-account aggregation, so the forecast covers operating + savings + credit-line balances together (M). QuickBooks sync for AR/AP, so the projection includes invoiced-but-not-yet-received receivables and committed-but-not-yet-paid bills (L). The receivables piece is what gets us from "what *will* hit the bank" to "what *should* hit the bank if Acme pays their invoice on time" — and it's where this product starts to differ meaningfully from a glorified balance projection.
-
-**What I'd kill if I rebuilt.** The *optimistic* scenario. In informal feedback, owners ignored the green line and zeroed in on base or pessimistic — they want to know how bad it can get, not how good. The +10% revenue / -5% cost wedge added clutter and consumed a third of the chart's visual budget for negative information value. I'd replace it with a single "what-if I close one more deal worth $X" lever the owner controls directly.
+**A design question I'd test first with real owners:** whether the optimistic line earns its space. My hypothesis is that owners plan around the base and pessimistic cases and that a single "what if I close one more deal worth $X" lever would be more useful than a third line. That's an assumption to validate in interviews, not a finding.

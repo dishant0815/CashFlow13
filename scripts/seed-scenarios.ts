@@ -49,7 +49,7 @@ function isoDate(d: Date) {
   return d.toISOString().slice(0, 10);
 }
 
-// ============== rule-based categorizer (same as scripts/categorize.ts) ==============
+// ============== rule-based categorizer ==============
 type Rule = { test: RegExp; category: Category; recurring: boolean; conf: number };
 const RULES: Rule[] = [
   { test: /RETAINER/i, category: "income", recurring: true, conf: 0.97 },
