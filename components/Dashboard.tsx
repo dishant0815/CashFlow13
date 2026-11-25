@@ -575,13 +575,13 @@ function Footer({ live }: { live: boolean }) {
     <footer className="mt-10 pt-6 border-t border-white/5 text-xs text-slate-500 flex flex-wrap items-center justify-between gap-2">
       <div>
         {live
-          ? "Live data via Plaid sandbox · forecast computed locally."
-          : "Demo scenario · pre-calculated · click Connect bank for the live flow."}
+          ? "Plaid sandbox connected · showing the pre-computed Retail demo scenario (mock data)."
+          : "Demo scenario on mock data · pre-calculated · click Connect bank to see the Plaid sandbox flow."}
       </div>
       <div>
         Built as a portfolio MVP ·{" "}
         <a
-          href="https://github.com/"
+          href="https://github.com/dishant0815/CashFlow13#readme"
           target="_blank"
           rel="noreferrer"
           className="text-violet-300 hover:underline"

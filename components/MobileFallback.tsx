@@ -36,7 +36,7 @@ export function MobileFallback() {
 
       <div className="mt-8 grid gap-2 text-left max-w-xs w-full">
         <Bullet>Connect a sandbox bank in 30 seconds</Bullet>
-        <Bullet>Watch Gemini Flash categorize 365 days of transactions</Bullet>
+        <Bullet>Switch between three mock-data business scenarios</Bullet>
         <Bullet>Drag the threshold slider; chart re-renders live</Bullet>
         <Bullet>Plain-English explanation for every red week</Bullet>
       </div>

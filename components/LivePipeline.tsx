@@ -38,8 +38,8 @@ const STAGES: ReadonlyArray<Stage> = [
     ms: 1500,
   },
   {
-    label: "AI categorizing…",
-    description: "Gemini Flash labeling each transaction",
+    label: "Categorizing…",
+    description: "Labeling each transaction (payroll, rent, tax, vendors…)",
     icon: BrainCircuit,
     ms: 1700,
   },
@@ -51,7 +51,7 @@ const STAGES: ReadonlyArray<Stage> = [
   },
   {
     label: "Drafting explanations…",
-    description: "Plain-English narrative for each at-risk week",
+    description: "Plain-English summary for each at-risk week, citations checked",
     icon: Sparkles,
     ms: 1500,
   },
