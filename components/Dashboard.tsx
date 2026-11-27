@@ -509,7 +509,7 @@ function AtRiskCard({
 function EmptyAtRisk() {
   return (
     <div className="rounded-xl border border-mint/30 bg-mint/5 p-4 text-sm text-mint/90">
-      Nothing flagged. You're projected to stay above your floor across all 13 weeks.
+      Nothing flagged. You&apos;re projected to stay above your floor across all 13 weeks.
     </div>
   );
 }
@@ -536,7 +536,7 @@ function FeedbackButton() {
           ) : (
             <>
               <div className="text-xs text-slate-400 mb-1">
-                What's confusing or wrong?
+                What&apos;s confusing or wrong?
               </div>
               <textarea
                 value={text}

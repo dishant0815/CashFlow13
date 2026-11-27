@@ -53,7 +53,7 @@ export class ErrorBoundary extends Component<Props, State> {
           </h2>
           <p className="text-sm text-slate-400 mt-2">
             We caught an error rendering the dashboard. Your data is safe — the
-            forecast just couldn't draw.
+            forecast just couldn&apos;t draw.
           </p>
           <pre className="text-xs text-coral/80 mt-4 px-3 py-2 rounded-lg bg-coral/5 border border-coral/20 text-left overflow-auto max-h-32">
             {this.state.error.message}

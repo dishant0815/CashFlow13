@@ -1,5 +1,7 @@
 # CashFlow13
 
+[![CI](https://github.com/dishant0815/CashFlow13/actions/workflows/ci.yml/badge.svg)](https://github.com/dishant0815/CashFlow13/actions/workflows/ci.yml)
+
 > A 13-week cash-flow forecast for small businesses: see which weeks dip below your safety floor, and why, in plain English.
 
 **Live demo:** [cash-flow13.vercel.app](https://cash-flow13.vercel.app) · **Deeper reads:** [CASE_STUDY.md](./CASE_STUDY.md) · [OPERATIONS.md](./OPERATIONS.md) · [ROADMAP.md](./ROADMAP.md) · [CHANGELOG.md](./CHANGELOG.md)
@@ -82,6 +84,8 @@ Requires Node 18.17+. No API keys or environment variables are needed.
 ```bash
 npm install
 npm run dev                # http://localhost:3000
+npm test                   # unit tests (forecast engine + citation guardrail)
+npm run lint               # ESLint (next/core-web-vitals)
 npm run eval               # forecast-accuracy harness (6 cases)
 npm run verify:citations   # citation guardrail over the shipped scenario bundles
 npm run seed               # regenerate data/scenarios/*.json (runs the guardrail)
@@ -99,6 +103,8 @@ CITATION GUARDRAIL FAILED:
 ```
 
 The command exits non-zero. Revert the edit with `git checkout data/`.
+
+**Continuous integration.** Every push to `main` runs [`.github/workflows/ci.yml`](./.github/workflows/ci.yml): lint, type-check, unit tests, the forecast-accuracy eval (fails below 90% of weeks within ±$200), the citation guardrail, and a production build.
 
 ---
 
@@ -122,6 +128,7 @@ The command exits non-zero. Revert the edit with `git checkout data/`.
 - `scripts/verify-citations.ts` — runs the guardrail over the committed bundles
 - `data/scenarios/*.json` — pre-computed Agency / Retail / Tax Crisis bundles
 - `eval/` — six-case forecast accuracy harness
+- `tests/` — Vitest unit tests for the forecast engine and guardrail
 - `components/` — dashboard, chart, scenario switcher, Plaid launcher, progress animation
 - [CASE_STUDY.md](./CASE_STUDY.md) · [OPERATIONS.md](./OPERATIONS.md) · [ROADMAP.md](./ROADMAP.md) · [CHANGELOG.md](./CHANGELOG.md) · [LOOM_SCRIPT.md](./LOOM_SCRIPT.md)
 

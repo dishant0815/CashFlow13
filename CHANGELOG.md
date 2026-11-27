@@ -2,6 +2,16 @@
 
 Notable changes to CashFlow13. Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## 2026-11-27
+
+### Added
+- 27 Vitest unit tests (`npm test`) for the forecast engine (cadence detection, stream extraction, projection, weekly roll-forward, scenario ordering, at-risk flagging) and the citation guardrail, including a check that every shipped scenario bundle passes.
+- GitHub Actions CI on every push and pull request: lint, type-check, unit tests, forecast eval, citation guardrail and production build.
+- ESLint config (`next/core-web-vitals`); `npm run lint` previously had no config and prompted interactively.
+
+### Fixed
+- Unescaped apostrophes in dashboard and error-boundary copy flagged by the new lint step.
+
 ## 2026-11-25
 
 ### Added
